@@ -6,8 +6,6 @@ Nesse desafio, você receberá um código com o projeto desenvolvido durante 
 E, novamente, a surpresa ~~(não tão surpresa assim)~~ vem aí... **👀**  
 O código sofreu algumas alterações nos principais pontos abordados nessa fase e, como podemos ver na imagem abaixo, ele não está mais da mesma forma que o Maykão deixou.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b447a15f-34cc-4490-9188-8e640f02e3c4/Untitled.png)
-
 Topa encarar esse desafio e deixar o site com a mesma carinha de antes? **💜**
 Vai ser muito importante para o seu aprendizado rever e aplicar esses novos conceitos.
 
@@ -24,9 +22,7 @@ Abaixo você terá o código ~~(quebrado)~~ do desafio zipado.
 Boa sorte e boooooora codar! **🚀**
 
 <h2 align="center">Tech's que usei 👇</h2>
-
 ###
-
 <div align="center">
 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="52" alt="html5 logo"  />
@@ -35,9 +31,16 @@ Boa sorte e boooooora codar! **🚀**
 </div>
 ###
 
-  <img style="width:20%;" src="https://avatars.githubusercontent.com/u/101990719?v=4"/>
-  ### Feito por <a href="https://www.linkedin.com/in/renan-silva-307733224/" target="_blank">Renan Silva</a> 
- <a href="https://www.linkedin.com/in/renan-silva-307733224/" target="_blank">
+## Contato
+<img align="left" src="https://avatars.githubusercontent.com/renyzeraa?size=100">
+
+Feito por [Renan Silva](https://github.com/renyzeraa)!
+
+<a href="https://www.linkedin.com/in/renan-silva-307733224/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
-  </a>
+  </a>&nbsp;
+
+<br clear="left"/>
+
+ 
 
