@@ -24,6 +24,9 @@ Lembrando: tente se desafiar mas, caso apareça alguma dificuldade, você pode i
 
 Boa sorte e boooooora codar! **🚀**
 
+ # the project... 🤩
+![2022-06-26 19-43-19](https://user-images.githubusercontent.com/101990719/175837483-f11ab846-e084-4047-a56d-2ab48809c38e.gif)
+
 <h2 align="center">Tech's que usei 👇</h2>
 
 <div align="center">
