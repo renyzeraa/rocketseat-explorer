@@ -20,6 +20,9 @@ Abaixo você terá o código ~~(quebrado)~~ do desafio zipado.
 
 Boa sorte e boooooora codar! **🚀**
 
+ # the project... 🤩
+![Screenshot_1](https://user-images.githubusercontent.com/101990719/175836994-9ba77166-940f-4802-90d2-c8adea452d08.png)
+
 <h2 align="center">Tech's que usei 👇</h2>
 
 <div align="center">
