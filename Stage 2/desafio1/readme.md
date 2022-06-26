@@ -6,8 +6,6 @@ Nesse desafio, você receberá um código com o projeto desenvolvido durante 
 Mas, a surpresa vem aí... **👀**  
 O código sofreu algumas alterações e, como podemos ver na imagem abaixo, ele não está mais da mesma forma que o Maykão deixou.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a29a32b1-069e-4e79-af05-d69f772bccb5/Untitled.png)
-
 Topa encarar esse desafio e deixar o site com a mesma carinha de antes? **💜**
 
 Tente se desafiar e não olhar a resposta mas, caso apareça alguma dificuldade, você pode voltar nas aulas e rever a maneira com que foi desenvolvido!
