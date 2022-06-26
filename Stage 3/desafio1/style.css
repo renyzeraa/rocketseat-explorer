@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-one: hsl(228, 15%, 38%);
+  --background-two: hsl(0, 0%, 94%);
+  --button: hsl(348, 100%, 66%);
+  --background-input: hsl(240, 24%, 92%);
+  --text-span: hsl(258, 14%, 77%);
+
+  /*font-family: 'Poppins', sans-serif;
+  font-family: 'Staatliches', cursive;
+  */
+}
+
+body {
+  background: var(--background-two);
+}
+
+body::before {
+  content: '';
+  width: 100%;
+  height: 436px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: var(--background-one);
+}
+
+body,
+p,
+input,
+label,
+span {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,
+button,
+legend,
+h3 {
+  font-family: 'Staatliches', cursive;
+}
+
+.page {
+  margin: auto;
+  width: 750px;
+  margin-bottom: 366px;
+}
+
+/* ========== header ======== */
+
+header {
+  width: 417px;
+  margin-top: 140px;
+  color: #ffffff;
+}
+
+header h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  margin-bottom: 18px;
+}
+
+header p {
+  font-size: 20px;
+  line-height: 30px;
+  height: 46px;
+}
+
+/* ========== form ======== */
+form {
+  margin-top: 58px;
+  background: #ffffff;
+  border-radius: 20px 20px 0px 0px;
+  padding: 64px;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset legend {
+  font-size: 24px;
+  line-height: 34px;
+  color: var(--background-one);
+  border-bottom: 1px solid #e6e6f0;
+  width: 100%;
+  padding-bottom: 16px;
+  margin-bottom: 36px;
+}
+
+/* ====== Informações pessoais ///// NAME ====== */
+
+.fieldset-wrapper {
+  display: flex;
+}
+
+.input-wrapper-name + .input-wrapper-name {
+  margin-left: 22px;
+}
+
+.input-wrapper-name label {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.input-wrapper-name input {
+  background: var(--background-input);
+  margin-top: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+
+  width: 300px;
+  height: 56px;
+
+  font-size: 16px;
+  line-height: 26px;
+
+  padding-left: 8px;
+}
+
+/* =============Informações pessoais=============== */
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper label {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.input-wrapper label span {
+  font-size: 12px;
+  line-height: 20px;
+  color: var(--text-span);
+}
+
+.input-wrapper input {
+  background: var(--background-input);
+  margin-bottom: 16px;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+
+  width: 622px;
+  height: 56px;
+
+  font-size: 16px;
+  line-height: 26px;
+
+  padding-left: 8px;
+}
+
+/* =============Informações do mentor=============== */
+
+fieldset.two {
+  margin-top: 30px;
+}
+
+fieldset.two legend {
+  padding-bottom: 8px;
+  margin-bottom: 32px;
+}
+
+fieldset.two .input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ============= Seus horários disponíveis =============== */
+
+.three legend {
+  padding-top: 32px;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+
+  color: var(--background-one);
+  margin-bottom: 8px;
+}
+
+#primeiradata {
+  width: 300px;
+}
+
+#horario {
+  width: 140px;
+}
+
+.thr.fieldset-wrapper.fieldset-wrapper {
+  display: flex;
+}
+
+.date {
+  margin-left: 32px;
+}
+
+.date + .date {
+  margin-left: 10px;
+}
+
+/* ============= botao salvar =============== */
+
+.button {
+  width: 750px;
+  height: 160px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background: #535971;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.button-submit {
+  padding: 15px 40px;
+
+  width: 608px;
+  height: 55.65px;
+
+  background: #ff5374;
+  border-radius: 20px;
+  border: none;
+
+  cursor: pointer;
+}

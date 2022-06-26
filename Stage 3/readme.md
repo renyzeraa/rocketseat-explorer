@@ -36,7 +36,7 @@
 🚀 Versão Desktop </br>
 🚀 Finalizando essa etapa </br>
 
-# O que você deve saber após finalizar esse módulo?
+# 🤔 O que você deve saber após finalizar esse módulo?
 
 - [ ] Saber sobre a regra mobile-first;
 - [ ] Aplicar unidades de medidas relativas;
@@ -44,7 +44,20 @@
 
 # 💻 Stage 03 - Parte 3
 
-# O que você deve saber após finalizar esse módulo?
+🚀 Apresentação do componente </br>
+🚀 Estruturando o HTML </br>
+🚀 Variáveis e cores HSL no CSS </br>
+🚀 Estilzando o header </br>
+🚀 Definindo largura máxima e alinhando o conteúdo </br>
+🚀 Encaixando a imagem e sobrepondo o texto </br>
+🚀 Finalizando os cards </br>
+🚀 Transições e transformações </br>
+🚀 Animações com CSS </br>
+🚀 Versão Desktop com CSS Grid </br>
+🚀 Adicionando filtros em imagens com CSS </br>
+🚀 Ajustando textos com CSS Clamp </br>
+
+# 🤔 O que você deve saber após finalizar esse módulo?
 
 - [ ] Utilizar variáveis no CSS;
 - [ ] Aplicar cores utilizando HSL;
