@@ -35,10 +35,11 @@ Boa sorte e boooooora codar! **🚀**
 </div>
 ###
 
-###
+
 
 <div align="center">
-<a href="https://www.linkedin.com/in/renan-silva-307733224/" target="_blank">
+  <img src="https://avatars.githubusercontent.com/u/101990719?v=4"/>
+ <a href="https://www.linkedin.com/in/renan-silva-307733224/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
   </a>
   </div>
