@@ -17,7 +17,7 @@
 🚀 Calculando IMC dos pacientes com Funções </br>
 🚀 Mais conceitos, revisão, finalização e próximos passos </br>
 
-# O que você deve saber após finalizar esse módulo?
+# 🤔 O que você deve saber após finalizar esse módulo?
 
 - [ ] Saber o que é variável;
 - [ ] Operadores matemáticos;
