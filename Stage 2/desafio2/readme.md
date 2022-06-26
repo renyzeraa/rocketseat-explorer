@@ -37,7 +37,7 @@ Boa sorte e boooooora codar! **🚀**
 Feito por [Renan Silva](https://github.com/renyzeraa)!
 
 <a href="https://www.linkedin.com/in/renan-silva-307733224/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
+    <img style="border-radius:50%;" src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
   </a>&nbsp;
 
 <br clear="left"/>
