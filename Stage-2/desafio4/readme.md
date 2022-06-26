@@ -26,6 +26,9 @@ Para facilitar pra você, vou deixar a pasta com as imagens exportadas do Figma 
 
 [images](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7cf4910f-11e9-4806-baaf-a7e14b1124b7/Untitled.zip)
 
+# the project... 🤩
+![Screenshot_3](https://user-images.githubusercontent.com/101990719/175837093-b2cc2c18-98f6-4263-8b9e-bb8fca908cd8.png)
+
 <h2 align="center">Tech's que usei 👇</h2>
 
 <div align="center">
