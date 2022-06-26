@@ -34,10 +34,12 @@ Importante ressaltar: fique à vontade caso queira alterar as cores, adicionar m
 Mas, lembre-se: quanto mais você praticar, mais fácil fica de absorver o conteúdo passado.
 
 Boa sorte e boooooora codar! **🚀**
-
- # the project... 🤩
+<div align="center">
+ <h1 align="center">the project... 🤩</h1>
+ 
 ![2022-06-26 19-42-29](https://user-images.githubusercontent.com/101990719/175837393-da03da51-453f-43b5-81eb-1ce74bee478f.gif)
 
+</div>
 <h2 align="center">Tech's que usei 👇</h2>
 
 <div align="center">
