@@ -28,6 +28,9 @@ E aí, vai encarar? 😉💜
 
 Boa sorte e boooooora codar! **🚀**
 
+ # the project... 🤩
+![2022-06-26 19-42-53](https://user-images.githubusercontent.com/101990719/175837440-c96107fa-a962-4413-b855-0b85bd06303f.gif)
+
 <h2 align="center">Tech's que usei 👇</h2>
 
 <div align="center">
