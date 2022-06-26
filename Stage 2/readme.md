@@ -1,6 +1,6 @@
 # Criando primeiras páginas
 
-# 💻 Stage 02 - Parte 1
+# 💻 Stage 02 - Aula 1
 
 🚀 Introdução ao HTML </br>
 🚀 Introdução ao CSS </br>
@@ -29,7 +29,7 @@
 - [ ] Trabalhar com espaçamentos;
 - [ ] Posicionamento de elementos;
 
-# 💻 Stage 02 - Parte 2
+# 💻 Stage 02 - Aula 2
 
 🚀 Apresentando o projeto 02 </br>
 🚀 Estruturando HTML com tags semânticas </br>
