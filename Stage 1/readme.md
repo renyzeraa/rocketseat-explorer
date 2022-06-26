@@ -2,10 +2,10 @@
 
 # ✍️ Stage 01
 
-🚀 O que é programação
-🚀 Lógica de programação
-🚀 O que é e como funciona a web?
-🚀 Front-end vs Back-end
+🚀 O que é programação </br>
+🚀 Lógica de programação </br>
+🚀 O que é e como funciona a web? </br>
+🚀 Front-end vs Back-end </br>
 
 # 🤔 O que você deve saber após finalizar esse módulo?
 

@@ -2,31 +2,21 @@
 
 # 💻 Stage 03 - Parte 1
 
-🚀 Entendendo os campos HTML
-🚀 Como funcionam os formulários no HTML
-🚀 Simulando a busca do Google
+🚀 Entendendo os campos HTML </br>
+🚀 Como funcionam os formulários no HTML </br>
+🚀 Simulando a busca do Google </br>
+🚀 Iniciando a estrutura do HTML e configurações do VSCode </br>
+🚀 Iniciando os estilos da página </br>
+🚀 Agrupando campos com fieldset e legend </br>
+🚀 Formatando o campo de texto </br>
+🚀 Ajustando novos campos dentro do fieldset </br>
+🚀 Estilizando o campo select </br>
+🚀 Aplicando estilos aos agrupamentos restantes </br>
+🚀 Checkbox customizado e com acessibilidade </br>
+🚀 Criando estilos para o submit </br>
+🚀 Validando campos e submetendo formulários </br>
 
-### Iniciando a estrutura do HTML e configurações do VSCode
-
-### Iniciando os estilos da página
-
-### Agrupando campos com fieldset e legend
-
-### Formatando o campo de texto
-
-### Ajustando novos campos dentro do fieldset
-
-### Estilizando o campo select
-
-### Aplicando estilos aos agrupamentos restantes
-
-### Checkbox customizado e com acessibilidade
-
-### Criando estilos para o submit
-
-### Validando campos e submetendo formulários
-
-# O que você deve saber após finalizar esse módulo?
+# 🤔 O que você deve saber após finalizar esse módulo?
 
 - [ ] Trabalhar com inputs no HTML;
 - [ ] Entender o funcionamento dos formulários na Web;
@@ -37,21 +27,14 @@
 
 # 💻 Stage 03 - Parte 2
 
-# Introdução à responsividade
-
-[Estruturando o HTML](https://www.notion.so/Estruturando-o-HTML-cfa538e5a80d4e9090157f3a308815f3)
-
-[Regra mobile-first](https://www.notion.so/Regra-mobile-first-f858f7bf898849e7a1650507f7b4ace3)
-
-[Regra das unidades de medida flexíveis](https://www.notion.so/Regra-das-unidades-de-medida-flex-veis-b878bb4f1cef49cead01059041b4ebb5)
-
-[Continuando ajustes de textos](https://www.notion.so/Continuando-ajustes-de-textos-0acc380c05ec4e2c925edc0b0d0a74bc)
-
-[Finalizando ajustes da versão mobile](https://www.notion.so/Finalizando-ajustes-da-vers-o-mobile-dd2e16990e3a4300b8d175dbebcaa07b)
-
-[Versão Desktop](https://www.notion.so/Vers-o-Desktop-317c1d02a9a442b1aac5a694f7f3d71e)
-
-[Finalizando essa etapa](https://www.notion.so/Finalizando-essa-etapa-902c3a46b1b142eabe650350bf99ed75)
+🚀 Introdução à responsividade </br>
+🚀 Estruturando o HTML </br>
+🚀 Regra mobile-first </br>
+🚀 Regra das unidades de medida flexíveis </br>
+🚀 Continuando ajustes de textos </br>
+🚀 Finalizando ajustes da versão mobile </br>
+🚀 Versão Desktop </br>
+🚀 Finalizando essa etapa </br>
 
 # O que você deve saber após finalizar esse módulo?
 
