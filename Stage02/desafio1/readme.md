@@ -22,8 +22,8 @@ Boa sorte e boooooora codar! **🚀**
 
 <div align="center">
 
- # the project... 🤩
-![2022-06-26 19-42-29](https://user-images.githubusercontent.com/101990719/175838795-86994356-dfe6-4222-a81a-cc0e0895e4b7.gif)
+# the project... 🤩
+![Screenshot_1](https://user-images.githubusercontent.com/101990719/175836881-4c24443a-2c2b-4d57-8ba1-89409db74bab.png)
 
 </div>
 <h2 align="center">Tech's que usei 👇</h2>
