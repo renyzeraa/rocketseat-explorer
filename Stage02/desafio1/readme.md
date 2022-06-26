@@ -20,6 +20,12 @@ Abaixo você terá o código ~~(quebrado)~~ do desafio zipado.
 
 Boa sorte e boooooora codar! **🚀**
 
+<div align="center">
+
+ # the project... 🤩
+![2022-06-26 19-42-29](https://user-images.githubusercontent.com/101990719/175838795-86994356-dfe6-4222-a81a-cc0e0895e4b7.gif)
+
+</div>
 <h2 align="center">Tech's que usei 👇</h2>
 
 <div align="center">
