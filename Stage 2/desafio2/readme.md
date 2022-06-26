@@ -22,14 +22,14 @@ Abaixo você terá o código ~~(quebrado)~~ do desafio zipado.
 Boa sorte e boooooora codar! **🚀**
 
 <h2 align="center">Tech's que usei 👇</h2>
-###
+
 <div align="center">
 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="52" alt="html5 logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" width="52" alt="css3 logo"  />
  
 </div>
-###
+
 
 ## Contato
 <img align="left" src="https://avatars.githubusercontent.com/renyzeraa?size=100">
