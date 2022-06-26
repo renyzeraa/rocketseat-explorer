@@ -16,7 +16,7 @@ Para facilitar, vamos deixar **[aqui](https://explorer-stage02-p01.vercel.app/)*
 
 Abaixo você terá o código ~~(quebrado)~~ do desafio zipado.
 
-[Código do desafio - Fase 01](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/64999d76-99f7-4b3f-bcab-41946db94507/Untitled.zip)
+[Código do desafio - Fase 01.zip](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/64999d76-99f7-4b3f-bcab-41946db94507/Untitled.zip)
 
 Boa sorte e boooooora codar! **🚀**
 
