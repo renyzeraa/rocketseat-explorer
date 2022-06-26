@@ -24,6 +24,9 @@ Abaixo você terá o código do desafio zipado:
 
 Boa sorte e boooooora codar! **🚀**
 
+ # the project... 🤩
+![Screenshot_2](https://user-images.githubusercontent.com/101990719/175836894-b5219976-d0cb-4203-b27c-0ed51d5eadbe.png)
+
 <h2 align="center">Tech's que usei 👇</h2>
 
 <div align="center">
