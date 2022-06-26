@@ -24,6 +24,6 @@
 ### <a href="https://github.com/renyzeraa/explorer-rocketseat/tree/master/Stage%204/desafio1"> Exercício 01 ✍🏽</a>&nbsp;
 ### <a href="https://github.com/renyzeraa/explorer-rocketseat/tree/master/Stage%204/desafio2"> Exercício 02 ✍🏽</a>&nbsp; 
 </br></br>
-<div style="width:480px"><img allow="fullscreen" frameBorder="0" height="320" src="https://giphy.com/embed/u2wg2uXJbHzkXkPphr/video" width="480"></iframe></div>
+<div style="width:480px"><img src="https://giphy.com/embed/u2wg2uXJbHzkXkPphr/video" width="480"></div>
 </div>
 
