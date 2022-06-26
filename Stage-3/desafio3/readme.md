@@ -23,10 +23,12 @@ Topa encarar esse desafio? **💜**
 Lembrando: tente se desafiar mas, caso apareça alguma dificuldade, você pode ir no nosso **[fórum](https://app.rocketseat.com.br/h/forum/explorer)** e deixar sua dúvida por lá!
 
 Boa sorte e boooooora codar! **🚀**
-
- # the project... 🤩
+<div align="center">
+ <h1 align="center">the project... 🤩</h1>
+ 
 ![2022-06-26 19-43-19](https://user-images.githubusercontent.com/101990719/175837483-f11ab846-e084-4047-a56d-2ab48809c38e.gif)
-
+ 
+</div>
 <h2 align="center">Tech's que usei 👇</h2>
 
 <div align="center">
