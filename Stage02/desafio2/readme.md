@@ -20,7 +20,13 @@ Abaixo você terá o código ~~(quebrado)~~ do desafio zipado.
 [Código do desafio - Fase 02](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cae98c59-12ce-499d-9b19-9b2f64250e62/Untitled.zip)
 
 Boa sorte e boooooora codar! **🚀**
+<div align="center">
+  
+# the project... 🤩
 
+![Screenshot_2](https://user-images.githubusercontent.com/101990719/175836894-b5219976-d0cb-4203-b27c-0ed51d5eadbe.png)
+
+</div>
 <h2 align="center">Tech's que usei 👇</h2>
 
 <div align="center">
