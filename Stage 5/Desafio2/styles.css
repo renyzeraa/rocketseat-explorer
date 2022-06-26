@@ -38,7 +38,6 @@
   color: none;
   background: transparent;
 }
-
 button {
   cursor: pointer;
   border: none;
@@ -72,7 +71,7 @@ main {
   justify-content: center;
 }
 
-.timer .time {
+.timer .content {
   font-family: 'Roboto', sans-serif;
   line-height: 16rem;
   font-size: 12rem;

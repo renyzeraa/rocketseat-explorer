@@ -1,4 +1,4 @@
-# GPS Explorer
+# Iniciando no JavaScript
 
 ## 💻 Stage 04
 
