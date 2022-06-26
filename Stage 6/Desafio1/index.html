@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>Single Page Aplication</title>
+  </head>
+  <body>
+    <div class="content">
+      <img src="./images/logo.svg" />
+      <nav>
+        <a href="/" onclick="route()">Home</a>
+        <a href="/universe" onclick="route()">O Universo</a>
+        <a href="/exploration" onclick="route()">Exploração</a>
+      </nav>
+    </div>
+    <div id="app"></div>
+    <script src="js/index.js" type="module"></script>
+  </body>
+</html>

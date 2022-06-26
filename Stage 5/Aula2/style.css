@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --hue: 194;
+  --bg-color: hsla(240, 5%, 7%, 0.89);
+  --bg-controls-color: hsla(var(--hue), 100%, 63%, 0.13);
+  --text-color: white;
+  --buttons-color: hsl(var(--hue), 100%, 63%);
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1597814570899-fff30d91a453?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1240&q=80);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  color: var(--text-color);
+  display: grid;
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+}
+
+main {
+  background: rgba(0, 0, 0, 0.95);
+  padding: 2rem;
+  border-radius: 1rem;
+  align-content: end;
+  align-self: end;
+  justify-items: center;
+  align-items: center;
+  justify-self: center;
+}
+
+.timer {
+  margin-bottom: 1.6rem;
+}
+
+.timer span {
+  font-size: 8.8rem;
+  line-height: 10.3rem;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.play path,
+.pause path,
+.sound-on path {
+  fill: var(--buttons-color);
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-controls-color);
+  border-radius: 10rem;
+  padding: 2rem 3.5rem;
+  gap: 3.2rem;
+  max-width: 22.8rem;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.95);
+  border-radius: 10rem;
+  justify-self: flex-end;
+  align-self: end;
+  padding: 1rem;
+  margin: 2rem;
+}

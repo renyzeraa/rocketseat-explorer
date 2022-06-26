@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --background: hsl(0, 0%, 100%);
+  --bg-sound: hsl(240, 9%, 89%);
+  --bg-sound-select: hsl(194, 97%, 31%);
+  --txt-color: hsl(240, 6%, 21%);
+}
+
+body {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  color: var(--txt-color);
+  min-height: 100vh;
+  align-items: center;
+  gap: clamp(1rem, 10vw, 19rem);
+  justify-content: center;
+  transition: 1s;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+button path {
+  fill: var(--txt-color);
+}
+
+.hide {
+  display: none;
+}
+
+main {
+  max-width: 32.1rem;
+  justify-self: center;
+}
+
+.timer {
+  margin-bottom: 3rem;
+}
+
+.timer span {
+  font-style: normal;
+  font-size: 12rem;
+  line-height: 14.8rem;
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  transition: 1s;
+}
+
+.sounds {
+  display: flex;
+  gap: 3.2rem;
+  flex-wrap: wrap;
+  max-width: 31rem;
+}
+
+.sounds button {
+  display: flex;
+  background: var(--bg-sound);
+  border-radius: 2.4rem;
+  padding: 4.8rem;
+  max-width: 13.8rem;
+  max-height: 15.2rem;
+  transition: 1s;
+}
+
+button.select {
+  background: var(--bg-sound-select);
+}
+.select path {
+  fill: white;
+}
+
+@media only screen and (max-width: 698px) {
+  body {
+    flex-direction: column;
+  }
+}
