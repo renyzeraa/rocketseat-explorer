@@ -1,14 +1,10 @@
 # Avançando no HTML e CSS
 
-# 💻 Explorer - Stage 03
+# 💻 Stage 03 - Parte 1
 
-# Nível 03
-
-### Entendendo os campos HTML
-
-### Como funcionam os formulários no HTML
-
-### Simulando a busca do Google
+🚀 Entendendo os campos HTML
+🚀 Como funcionam os formulários no HTML
+🚀 Simulando a busca do Google
 
 ### Iniciando a estrutura do HTML e configurações do VSCode
 
@@ -39,7 +35,7 @@
 - [ ] Trabalhar com _pseudo-elements_ no CSS;
 - [ ] Validar campos de formulários;
 
-[Stage 03 - Parte 2]
+# 💻 Stage 03 - Parte 2
 
 # Introdução à responsividade
 
@@ -63,7 +59,7 @@
 - [ ] Aplicar unidades de medidas relativas;
 - [ ] Utilizar breakpoints `@media` ;
 
-[Stage 03 - Parte 3](https://www.notion.so/14ccf2f43fa843079c53ac9dda18cb75)
+# 💻 Stage 03 - Parte 3
 
 # O que você deve saber após finalizar esse módulo?
 

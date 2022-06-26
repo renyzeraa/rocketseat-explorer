@@ -2,21 +2,21 @@
 
 # 💻 Stage 02 - Parte 1
 
-🚀 Introdução ao HTML
-🚀 Introdução ao CSS
-🚀 O que iremos desenvolver e o que é o Figma
-🚀 Iniciando o projeto 01
-🚀 Estruturando o projeto 01
-🚀 Apresentação e posição dos elementos na tela
-🚀 Aplicando fontes customizadas e iniciando o CSS
-🚀 Trabalhando com cores e fontes
-🚀 Alinhando textos e elementos
-🚀 Mais ajustes de textos
-🚀 Trabalhando com espaçamentos
-🚀 Bordas e classificações de elementos
-🚀 Posicionando elementos
-🚀 Finalizando esta etapa
-🚀 Utilizando o codepen para enviar desafios
+🚀 Introdução ao HTML </br>
+🚀 Introdução ao CSS </br>
+🚀 O que iremos desenvolver e o que é o Figma </br>
+🚀 Iniciando o projeto 01 </br>
+🚀 Estruturando o projeto 01 </br>
+🚀 Apresentação e posição dos elementos na tela </br>
+🚀 Aplicando fontes customizadas e iniciando o CSS </br>
+🚀 Trabalhando com cores e fontes </br>
+🚀 Alinhando textos e elementos </br>
+🚀 Mais ajustes de textos </br>
+🚀 Trabalhando com espaçamentos </br>
+🚀 Bordas e classificações de elementos </br>
+🚀 Posicionando elementos </br>
+🚀 Finalizando esta etapa </br>
+🚀 Utilizando o codepen para enviar desafios </br>
 
 # 🤔 O que você deve saber após finalizar esse módulo?
 
@@ -31,18 +31,18 @@
 
 # 💻 Stage 02 - Parte 2
 
-🚀 Apresentando o projeto 02
-🚀 Estruturando HTML com tags semânticas
-🚀 Finalizando a estrutura do HTML semântico
-🚀 O conceito Box Model do CSS
-🚀 Conhecendo a ferramenta de desenvolvimento DevTools
-🚀 O conceito do Flexbox do CSS
-🚀 Melhorias na acessibilidade e refatoração
-🚀 Adicionando fontes e melhorando os textos
-🚀 Aplicando alinhando e espaçamentos no main e no footer
-🚀 Configurando o botão
-🚀 Background linear-gradient e ajustes finais
-🚀 Ajustes finais do projeto
+🚀 Apresentando o projeto 02 </br>
+🚀 Estruturando HTML com tags semânticas </br>
+🚀 Finalizando a estrutura do HTML semântico </br>
+🚀 O conceito Box Model do CSS </br>
+🚀 Conhecendo a ferramenta de desenvolvimento DevTools </br>
+🚀 O conceito do Flexbox do CSS </br>
+🚀 Melhorias na acessibilidade e refatoração </br>
+🚀 Adicionando fontes e melhorando os textos </br>
+🚀 Aplicando alinhando e espaçamentos no main e no footer </br>
+🚀 Configurando o botão </br>
+🚀 Background linear-gradient e ajustes finais </br>
+🚀 Ajustes finais do projeto </br>
 
 # 🤔 O que você deve saber após finalizar esse módulo?
 
