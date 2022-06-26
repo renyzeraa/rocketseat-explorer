@@ -35,6 +35,9 @@ Mas, lembre-se: quanto mais você praticar, mais fácil fica de absorver o conte
 
 Boa sorte e boooooora codar! **🚀**
 
+ # the project... 🤩
+![2022-06-26 19-42-29](https://user-images.githubusercontent.com/101990719/175837393-da03da51-453f-43b5-81eb-1ce74bee478f.gif)
+
 <h2 align="center">Tech's que usei 👇</h2>
 
 <div align="center">
