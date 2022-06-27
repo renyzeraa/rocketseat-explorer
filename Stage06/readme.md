@@ -11,7 +11,7 @@
 🚀 Mais conceitos de Orientação a Objetos. </br>
 🚀 Adicionando um servidor local e simples com NodeJS. </br>
 
-# 🤔 O que você deve saber após finalizar esse módulo?
+# 🤔 O que aprendi após finalizar esse módulo?
 
 - [ ] Conceitos de SPA;
 - [ ] Utilização do **Event.preventDefault()**;
@@ -38,7 +38,7 @@
 🚀 Cuidando do fluxo da aplicação com try, catch e throw. </br>
 🚀 Ajustes finais, revisão e próximos passos. </br>
 
-# 🤔 O que você deve saber após finalizar esse módulo?
+# 🤔 O que aprendi após finalizar esse módulo?
 
 - [ ] Tabelas no HTML;
 - [ ] Screen Reader Only;
@@ -51,7 +51,7 @@
 - [ ] Async functions;
 - [ ] Try, catch e throw;
 
-<h2 align="center">Tech's que usei neste stage 6 👇</h2>
+<h2 align="center">Neste Stage 6 usei 👇</h2>
 
 <div align="center">
 

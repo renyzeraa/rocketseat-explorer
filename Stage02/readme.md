@@ -18,7 +18,7 @@
 🚀 Finalizando esta etapa </br>
 🚀 Utilizando o codepen para enviar desafios </br>
 
-# 🤔 O que você deve saber após finalizar esse módulo?
+# 🤔 O que aprendi após finalizar esse módulo?
 
 - [ ] Utilizar a ferramenta Figma;
 - [ ] Estrutura inicial do HTML;
@@ -44,7 +44,7 @@
 🚀 Background linear-gradient e ajustes finais </br>
 🚀 Ajustes finais do projeto </br>
 
-# 🤔 O que você deve saber após finalizar esse módulo?
+# 🤔 O que aprendi após finalizar esse módulo?
 
 - [ ] Conhecer as tags semânticas;
 - [ ] Entender os conceitos do Box Model;
@@ -56,7 +56,7 @@
 - [ ] Aplicar background em botões e posicionamento;
 - [ ] Entender a função `linear-gradient()`;
 
-# 👉 Documentos que podem te ajudar:
+# 👉 Documentos do stage:
 
 ## Links:
 
@@ -102,7 +102,7 @@
 
 [Treine me](https://explorer-stage-02-02.vercel.app/)
 
-<h2 align="center">Tech's que usei neste Stage 2 👇</h2>
+<h2 align="center">Usei neste Stage 2 👇</h2>
 
 <div align="center">
 

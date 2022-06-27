@@ -16,7 +16,7 @@
 🚀 Criando estilos para o submit </br>
 🚀 Validando campos e submetendo formulários </br>
 
-# 🤔 O que você deve saber após finalizar esse módulo?
+# 🤔 O que aprendi após finalizar esse módulo?
 
 - [ ] Trabalhar com inputs no HTML;
 - [ ] Entender o funcionamento dos formulários na Web;
@@ -36,7 +36,7 @@
 🚀 Versão Desktop </br>
 🚀 Finalizando essa etapa </br>
 
-# 🤔 O que você deve saber após finalizar esse módulo?
+# 🤔 O que aprendi após finalizar esse módulo?
 
 - [ ] Saber sobre a regra mobile-first;
 - [ ] Aplicar unidades de medidas relativas;
@@ -57,7 +57,7 @@
 🚀 Adicionando filtros em imagens com CSS </br>
 🚀 Ajustando textos com CSS Clamp </br>
 
-# 🤔 O que você deve saber após finalizar esse módulo?
+# 🤔 O que aprendi após finalizar esse módulo?
 
 - [ ] Utilizar variáveis no CSS;
 - [ ] Aplicar cores utilizando HSL;
@@ -111,7 +111,7 @@
 
 [Trabalhos](https://explorer-stage03-p03.vercel.app/)
 
-<h2 align="center">Tech's que usei neste Stage 2 👇</h2>
+<h2 align="center"> Neste Stage 2 usei 👇 </h2>
 
 <div align="center">
 
@@ -131,4 +131,3 @@ Feito por [Renan Silva](https://github.com/renyzeraa)!
   </a>&nbsp;
 
 <br clear="left"/>
-

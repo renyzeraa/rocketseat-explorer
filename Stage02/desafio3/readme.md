@@ -1,4 +1,4 @@
-# Intermediário - Semântica e acessibilidade. 💜
+# Semântica e acessibilidade. 💜
 
 # 💻 Sobre o desafio
 
@@ -12,27 +12,25 @@ Como você pode ver na imagem abaixo, a página ~~(exceto o botão)~~ continua f
 Topa encarar esse desafio e deixar o site mais acessível? **💜**
 Vai ser muito importante para o seu aprendizado rever e aplicar esses novos conceitos.
 
-\*\*\*\*Lembrando: tente se desafiar e não olhar a resposta mas, caso apareça alguma dificuldade, você pode voltar nas aulas e rever a maneira com que foi desenvolvido!
-
 Para facilitar, vamos deixar o link do Figma **[aqui](https://www.figma.com/file/rkDOHGPwwFtBNqEdHSuQPd/Projeto-02---Explorer?node-id=0%3A1)** pra você.
 
 ## Código do desafio
 
 Abaixo você terá o código do desafio zipado:
 
-[Código do desafio - Acessibilidade](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/074e50c6-5bdf-4882-add6-b4443f3cd6d2/Untitled.zip)
+[Código do desafio - Acessibilidade.zip](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/074e50c6-5bdf-4882-add6-b4443f3cd6d2/Untitled.zip)
 
 Boa sorte e boooooora codar! **🚀**
 
 <div align="center">
   
-# the project... 🤩
+# Projeto Final 🤩
 
 ![Screenshot_2](https://user-images.githubusercontent.com/101990719/175836894-b5219976-d0cb-4203-b27c-0ed51d5eadbe.png)
 
 </div>
 
-<h2 align="center">Tech's que usei 👇</h2>
+<h2 align="center">Para fazer o desafio usei 👇</h2>
 
 <div align="center">
 

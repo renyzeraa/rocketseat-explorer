@@ -1,10 +1,10 @@
-# Iniciante - Corrigindo bugs (01) **👀**
+# Corrigindo bugs (01) **👀**
 
 # 💻 Sobre o desafio
 
 Nesse desafio, você receberá um código com o projeto desenvolvido durante as aulas da Fase 01.
 Mas, a surpresa vem aí... **👀**  
-O código sofreu algumas alterações e, como podemos ver na imagem abaixo, ele não está mais da mesma forma que o Maykão deixou.
+O código sofreu algumas alterações e ele não está mais da mesma forma que o Maykão deixou.
 
 Topa encarar esse desafio e deixar o site com a mesma carinha de antes? **💜**
 
@@ -22,11 +22,12 @@ Boa sorte e boooooora codar! **🚀**
 
 <div align="center">
 
-# the project... 🤩
+# Projeto Final 🤩
+
 ![Screenshot_1](https://user-images.githubusercontent.com/101990719/175836881-4c24443a-2c2b-4d57-8ba1-89409db74bab.png)
 
 </div>
-<h2 align="center">Tech's que usei 👇</h2>
+<h2 align="center"> Para fazer o desafio usei 👇</h2>
 
 <div align="center">
 

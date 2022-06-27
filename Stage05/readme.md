@@ -23,7 +23,7 @@
 🚀 Adicionando Sons </br>
 🚀 Finalizando a aplicação </br>
 
-# 🤔 O que você deve saber após finalizar esse módulo?
+# 🤔 O que aprendi após finalizar esse módulo?
 
 - [ ] Utilização de variáveis no CSS;
 - [ ] Utilização da propriedade `clamp()`;
@@ -39,7 +39,7 @@
 - [ ] Refatoração de código;
 - [ ] Adicionar sons pelo JavaScript;
 
-<h2 align="center">Tech's que usei neste Stage 5 👇</h2>
+<h2 align="center">Para fazer este Stage 5 usei 👇</h2>
 
 <div align="center">
 

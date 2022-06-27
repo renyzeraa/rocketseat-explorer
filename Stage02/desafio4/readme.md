@@ -1,4 +1,4 @@
-# Desafio avançado - Recriando layout
+# Recriando layout
 
 ## 💻 Sobre o desafio
 
@@ -28,13 +28,11 @@ Para facilitar pra você, vou deixar a pasta com as imagens exportadas do Figma 
 
 <div align="center">
 
-  # the project... 🤩
+# Projeto Final 🤩
 
 ![Screenshot_1](https://user-images.githubusercontent.com/101990719/175839040-077d512f-a1fe-4ca2-8bc4-0d7549b353ad.png)
 
-
-<h2 align="center">Tech's que usei 👇</h2>
-
+<h2 align="center">Para fazer o desafio usei 👇</h2>
 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="52" alt="html5 logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" width="52" alt="css3 logo"  />

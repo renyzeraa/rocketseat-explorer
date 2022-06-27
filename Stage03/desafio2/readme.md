@@ -9,7 +9,7 @@ A ideia agora é criar o **Space Cream**, ~~nossa página de sorvetes~~, levando
 
 Aqui está o [**link**](https://www.figma.com/file/drBBktNRdtCIUiN4cZk4yo/Stage-03---Mobile-First/duplicate) com o layout da aplicação. Ele abrirá um arquivo igual a imagem abaixo:
 
-[https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FdrBBktNRdtCIUiN4cZk4yo%2FStage-03---Mobile-First%3Fnode-id%3D0%253A1](https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FdrBBktNRdtCIUiN4cZk4yo%2FStage-03---Mobile-First%3Fnode-id%3D0%253A1)
+[Link Figma](https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FdrBBktNRdtCIUiN4cZk4yo%2FStage-03---Mobile-First%3Fnode-id%3D0%253A1)
 
 Tente se atentar ao conteúdo que foi passado na aula. Portanto, nesse desafio, lembre-se de usar:
 
@@ -24,18 +24,17 @@ Tente se atentar ao conteúdo que foi passado na aula. Portanto, nesse desafio, 
 Como você pode ver, a ideia aqui é: ao carregar a tela as imagens sobem enquanto os tipos de sorvete descem.
 E aí, vai encarar? 😉💜
 
-\***\*Lembrando: tente se desafiar mas, caso apareça alguma dificuldade, você pode ir no nosso **[fórum](https://app.rocketseat.com.br/h/forum/explorer)\*\* e deixar sua dúvida por lá!
-
 Boa sorte e boooooora codar! **🚀**
 
 <div align="center">
 
- # the project... 🤩
+# Projeto Final 🤩
+
 ![2022-06-26 19-42-53](https://user-images.githubusercontent.com/101990719/175839191-0b3e9cd5-3e80-4edb-ab6e-8e3eacadf2da.gif)
 
 </div>
 
-<h2 align="center">Tech's que usei 👇</h2>
+<h2 align="center">Para fazer o desafio usei 👇</h2>
 
 <div align="center">
 

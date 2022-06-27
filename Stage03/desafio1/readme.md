@@ -12,8 +12,6 @@ Aqui está o **[link](https://www.figma.com/file/Nws1KWB7DyXBw8L6wXb9mp/Stage-03
 Topa encarar esse desafio? **💜**
 Vai ser muito importante para o seu aprendizado rever e aplicar esses novos conceitos.
 
-\*\*\*\*Lembrando: tente se desafiar e não olhar a resposta mas, caso apareça alguma dificuldade, você pode voltar nas aulas para relembrar algumas dicas!
-
 Achou que acabaria por aqui? 👀
 
 Temos um bônus pra você! 😍 💜
@@ -37,12 +35,13 @@ Boa sorte e boooooora codar! **🚀**
 
 <div align="center">
 
- # the project... 🤩
+# Projeto Final 🤩
+
 ![2022-06-26 19-42-29](https://user-images.githubusercontent.com/101990719/175839162-248e81ae-8023-4453-b629-7f533299bdbb.gif)
 
 </div>
 
-<h2 align="center">Tech's que usei 👇</h2>
+<h2 align="center">Para fazer o desafio usei 👇</h2>
 
 <div align="center">
 

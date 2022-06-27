@@ -8,9 +8,7 @@ Bora praticar e rever tudo o que foi ensinado na aula? **💜**
 
 A ideia agora é criar o **FocusTimer 2.0!**
 
-Aqui está o [**link**](https://www.figma.com/file/Pw8yMsK7HFkD6aISZt6gPA/Stage-05---Focus-Timer-2.0/duplicate) com o layout da aplicação. Ele abrirá um arquivo igual a imagem abaixo:
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3acaacb2-9623-421d-9948-0c5d759d4186/Untitled.png)
+Aqui está o [**link**](https://www.figma.com/file/Pw8yMsK7HFkD6aISZt6gPA/Stage-05---Focus-Timer-2.0/duplicate) com o layout da aplicação.
 
 Cada card que se encontra do lado direito, quando selecionado, vai mudar de cor e emitir um som diferente. Os sons você pode encontrar, respectivamente, nos links abaixo:
 
@@ -34,17 +32,15 @@ Vai ser muito importante para o seu aprendizado rever e aplicar esses novos conc
 
 Obs: fique à vontade para adicionar animações ou alterar as cores dos cards. Belezinha? 😉
 
-**\***Lembrando\*: tente se desafiar mas, caso apareça alguma dificuldade, você pode ir no nosso **[fórum](https://app.rocketseat.com.br/h/forum/explorer)** e deixar sua dúvida por lá!
 Boa sorte e boooooora codar! **🚀**
 
 <div align="center">
 
-# the project... 🤩
+# Projeto Final 🤩
+
 ![2022-06-26 19-46-52](https://user-images.githubusercontent.com/101990719/175839777-df4c2685-d237-4503-94f1-3f6247f24f77.gif)
 
-
-<h2 align="center">Tech's que usei 👇</h2>
-
+<h2 align="center">Para fazer o desafio usei 👇</h2>
 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="52" alt="html5 logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" width="52" alt="javascript logo"  />

@@ -25,10 +25,6 @@ Depois de criada a lista:
 - [ ] Crie uma **função** que irá calcular a média das notas de cada aluno;
 - [ ] Supondo que a média, para esse concurso é **7**, verifique **se** cada aluno obteve sucesso ou não em entrar no concurso e mostre uma mensagem na tela.
 
-O resultado final desse desafio deve ser algo em torno de:
-
-![Peek 18-04-2022 01-23.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3cd7bde5-dc14-4cb5-bb7d-02b02087f39e/Peek_18-04-2022_01-23.gif)
-
 <aside>
 💡 Dica: para quebrar uma linha no `alert()` basta usar um **\n** na mensagem. 😛
 
@@ -40,16 +36,15 @@ Fique à vontade caso queira adicionar novos dados e fazer novas validações. S
 \***\*E aí, topa encarar esse desafio? **💜\*\*
 Vai ser muito importante para o seu aprendizado rever e aplicar esses novos conceitos.
 
-**\***Lembrando\*: tente se desafiar mas, caso apareça alguma dificuldade, você pode ir no nosso **[fórum](https://app.rocketseat.com.br/h/forum/explorer)** e deixar sua dúvida por lá!
 Boa sorte e boooooora codar! **🚀**
 
 <div align="center">
   
-# the project... 🤩
+# Projeto Final 🤩
 ![2022-06-26 21-04-57](https://user-images.githubusercontent.com/101990719/175839524-eb7dae0c-f96d-4cf9-8ff5-211f67e3b21b.gif)
   
   
-<h2 align="center">Tech's que usei 👇</h2>
+<h2 align="center">Para fazer o desafio usei 👇</h2>
 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="52" alt="html5 logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" width="52" alt="javascript logo"  />

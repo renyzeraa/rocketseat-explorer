@@ -34,16 +34,15 @@ O resultado final desse desafio deve ser algo em torno de:
 E então, topa encarar esse desafio? **💜**
 Vai ser muito importante para o seu aprendizado rever e aplicar esses novos conceitos.
 
-**\***Lembrando\*: tente se desafiar mas, caso apareça alguma dificuldade, você pode ir no nosso **[fórum](https://app.rocketseat.com.br/h/forum/explorer)** e deixar sua dúvida por lá!
-
 Boa sorte e boooooora codar! **🚀**
 
 <div align="center">
 
- # the project... 🤩
+# Projeto Final 🤩
+
 ![2022-06-26 21-04-35](https://user-images.githubusercontent.com/101990719/175839488-8ad63638-58a9-4a3e-b074-308d8f381b37.gif)
-  
-<h2 align="center">Tech's que usei 👇</h2>
+
+<h2 align="center">Para fazer o desafio usei 👇</h2>
 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="52" alt="html5 logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" width="52" alt="javascript logo"  />

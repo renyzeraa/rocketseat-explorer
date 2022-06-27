@@ -30,16 +30,15 @@ Obs: por padrão, quando você clicar em qualquer área de um card, você pode d
 \***\*E aí, topa encarar esse baita desafio? **💜\*\*
 Vai ser muito importante para o seu aprendizado rever e aplicar esses novos conceitos.
 
-**\***Lembrando\*: tente se desafiar mas, caso apareça alguma dificuldade, você pode ir no nosso **[fórum](https://app.rocketseat.com.br/h/forum/explorer)** e deixar sua dúvida por lá!
 Boa sorte e boooooora codar! **🚀**
 
 <div align="center">
 
-# the project... 🤩
+# Projeto Final 🤩
+
 ![2022-06-26 19-47-54](https://user-images.githubusercontent.com/101990719/175839819-b93045f3-5c8b-4a3a-abf5-855003f70cdc.gif)
 
-
-<h2 align="center">Tech's que usei 👇</h2>
+<h2 align="center">Para fazer o desafio usei 👇</h2>
 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="52" alt="html5 logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" width="52" alt="javascript logo"  />

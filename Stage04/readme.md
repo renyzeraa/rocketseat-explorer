@@ -17,7 +17,7 @@
 🚀 Calculando IMC dos pacientes com Funções </br>
 🚀 Mais conceitos, revisão, finalização e próximos passos </br>
 
-# 🤔 O que você deve saber após finalizar esse módulo?
+# 🤔 O que aprendi após finalizar esse módulo?
 
 - [ ] Saber o que é variável;
 - [ ] Operadores matemáticos;
@@ -32,7 +32,7 @@
 - [ ] Object Literals;
 - [ ] Funções;
 
-<h2 align="center">Tech's que usei neste stage 4 👇</h2>
+<h2 align="center"> Neste stage 4 usei 👇</h2>
 
 <div align="center">
 
