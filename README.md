@@ -27,8 +27,8 @@
 <a href="https://github.com/renyzeraa/explorer-rocketseat/tree/master/Stage04/desafio2"> Exercício 02 ✍🏽</a>&nbsp; <hr>
 
 ### <a align="center" href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage05"> Stage 05 </a>&nbsp;
-<a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage05/Aulas"> Aulas </a>&nbsp; </br>
-<a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage05/Desafio10"> Desafio 1 - FocusTimer - Versão 2.0 ⌚️ </a>&nbsp; </br>
+<a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage05/Aula"> Aulas </a>&nbsp; </br>
+<a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage05/Desafio1"> Desafio 1 - FocusTimer - Versão 2.0 ⌚️ </a>&nbsp; </br>
 <a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage05/Desafio2"> Desafio 2 - FocusTimer - Dark Mode 🕐⬛️⬜️</a>&nbsp; </br>
 <hr>
 
