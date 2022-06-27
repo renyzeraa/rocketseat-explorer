@@ -38,9 +38,12 @@ Vai ser muito importante para o seu aprendizado rever e aplicar esses novos conc
 
 Boa sorte e boooooora codar! **🚀**
 
-<h2 align="center">Tech's que usei 👇</h2>
-
 <div align="center">
+
+ # the project... 🤩
+![2022-06-26 21-04-35](https://user-images.githubusercontent.com/101990719/175839488-8ad63638-58a9-4a3e-b074-308d8f381b37.gif)
+  
+<h2 align="center">Tech's que usei 👇</h2>
 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="52" alt="html5 logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" width="52" alt="javascript logo"  />
