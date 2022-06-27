@@ -37,9 +37,14 @@ Obs: fique à vontade para adicionar animações ou alterar as cores dos cards. 
 **\***Lembrando\*: tente se desafiar mas, caso apareça alguma dificuldade, você pode ir no nosso **[fórum](https://app.rocketseat.com.br/h/forum/explorer)** e deixar sua dúvida por lá!
 Boa sorte e boooooora codar! **🚀**
 
+<div align="center">
+
+# the project... 🤩
+![2022-06-26 19-46-52](https://user-images.githubusercontent.com/101990719/175839777-df4c2685-d237-4503-94f1-3f6247f24f77.gif)
+
+
 <h2 align="center">Tech's que usei 👇</h2>
 
-<div align="center">
 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="52" alt="html5 logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" width="52" alt="javascript logo"  />
