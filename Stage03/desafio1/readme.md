@@ -7,7 +7,7 @@ Bora colocar em prática tudo o que foi visto nessa primeira fase? 😍
 
 Aqui está o **[link](https://www.figma.com/file/Nws1KWB7DyXBw8L6wXb9mp/Stage-03---Formul%C3%A1rio-intermedi%C3%A1rio/duplicate)** com o layout da aplicação. Ele abrirá um arquivo igual a imagem abaixo:
 
-[https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FNws1KWB7DyXBw8L6wXb9mp%2FStage-03---Formul%25C3%25A1rio-intermedi%25C3%25A1rio%3Fnode-id%3D0%253A1](https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FNws1KWB7DyXBw8L6wXb9mp%2FStage-03---Formul%25C3%25A1rio-intermedi%25C3%25A1rio%3Fnode-id%3D0%253A1)
+[FORMULARIO 1](https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FNws1KWB7DyXBw8L6wXb9mp%2FStage-03---Formul%25C3%25A1rio-intermedi%25C3%25A1rio%3Fnode-id%3D0%253A1)
 
 Topa encarar esse desafio? **💜**
 Vai ser muito importante para o seu aprendizado rever e aplicar esses novos conceitos.
@@ -28,12 +28,19 @@ Nesse abordaremos:
 
 Importante ressaltar: fique à vontade caso queira alterar as cores, adicionar mais campos, estilizar da sua maneira, viu? 💜
 
-[https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FfnZyJHs7eqNFAA7tUrKcsD%2FStage-03---Formul%25C3%25A1rio-avan%25C3%25A7ado](https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FfnZyJHs7eqNFAA7tUrKcsD%2FStage-03---Formul%25C3%25A1rio-avan%25C3%25A7ado)
+[FORMULARIO 2](https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FfnZyJHs7eqNFAA7tUrKcsD%2FStage-03---Formul%25C3%25A1rio-avan%25C3%25A7ado)
 
 **OBS**: Fica a seu critério escolher se quer recriar apenas um ou os dois formulários, ta bom? 😉
 Mas, lembre-se: quanto mais você praticar, mais fácil fica de absorver o conteúdo passado.
 
 Boa sorte e boooooora codar! **🚀**
+
+<div align="center">
+
+ # the project... 🤩
+![2022-06-26 19-42-29](https://user-images.githubusercontent.com/101990719/175839162-248e81ae-8023-4453-b629-7f533299bdbb.gif)
+
+</div>
 
 <h2 align="center">Tech's que usei 👇</h2>
 
