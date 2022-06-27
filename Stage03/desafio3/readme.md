@@ -24,9 +24,16 @@ Lembrando: tente se desafiar mas, caso apareça alguma dificuldade, você pode i
 
 Boa sorte e boooooora codar! **🚀**
 
+<div align="center">
+
+# the project... 🤩
+![2022-06-26 19-43-19](https://user-images.githubusercontent.com/101990719/175839223-862811c8-ebdb-4f26-b5b4-f6e583662a2e.gif)
+
+
+
 <h2 align="center">Tech's que usei 👇</h2>
 
-<div align="center">
+
 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="52" alt="html5 logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" width="52" alt="css3 logo"  />
