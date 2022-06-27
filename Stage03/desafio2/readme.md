@@ -9,7 +9,7 @@ A ideia agora é criar o **Space Cream**, ~~nossa página de sorvetes~~, levando
 
 Aqui está o [**link**](https://www.figma.com/file/drBBktNRdtCIUiN4cZk4yo/Stage-03---Mobile-First/duplicate) com o layout da aplicação. Ele abrirá um arquivo igual a imagem abaixo:
 
-[https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FdrBBktNRdtCIUiN4cZk4yo%2FStage-03---Mobile-First%3Fnode-id%3D0%253A1](https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FdrBBktNRdtCIUiN4cZk4yo%2FStage-03---Mobile-First%3Fnode-id%3D0%253A1)
+[Figma](https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FdrBBktNRdtCIUiN4cZk4yo%2FStage-03---Mobile-First%3Fnode-id%3D0%253A1)
 
 Tente se atentar ao conteúdo que foi passado na aula. Portanto, nesse desafio, lembre-se de usar:
 
