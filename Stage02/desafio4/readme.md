@@ -28,7 +28,10 @@ Para facilitar pra você, vou deixar a pasta com as imagens exportadas do Figma 
 
 <div align="center">
 
-# Projeto Final 🤩
+<a href="https://stage02-desafio04.vercel.app/
+" target="_blank" > <h1> Deploy **🚀** </h1></a>
+
+# Preview do projeto 🤩
 
 ![Screenshot_1](https://user-images.githubusercontent.com/101990719/175839040-077d512f-a1fe-4ca2-8bc4-0d7549b353ad.png)
 

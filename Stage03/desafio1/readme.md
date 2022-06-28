@@ -35,7 +35,7 @@ Boa sorte e boooooora codar! **🚀**
 
 <div align="center">
 
-# Projeto Final 🤩
+# Preview do projeto 🤩
 
 ![2022-06-26 19-42-29](https://user-images.githubusercontent.com/101990719/175839162-248e81ae-8023-4453-b629-7f533299bdbb.gif)
 

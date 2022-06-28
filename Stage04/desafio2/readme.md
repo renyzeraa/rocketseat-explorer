@@ -40,10 +40,10 @@ Boa sorte e boooooora codar! **🚀**
 
 <div align="center">
   
-# Projeto Final 🤩
+# Preview do projeto 🤩
+
 ![2022-06-26 21-04-57](https://user-images.githubusercontent.com/101990719/175839524-eb7dae0c-f96d-4cf9-8ff5-211f67e3b21b.gif)
-  
-  
+
 <h2 align="center">Para fazer o desafio usei 👇</h2>
 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="52" alt="html5 logo"  />
