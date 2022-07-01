@@ -30,11 +30,13 @@ Vai ser muito importante para o seu aprendizado rever e aplicar esses novos conc
 
 Boa sorte e boooooora codar! **🚀**
 
+<div align="center">
+
 # Projeto Final 🤩
 
-<h2 align="center">Para fazer o desafio usei 👇</h2>
+![2022-07-01 15-46-20](https://user-images.githubusercontent.com/101990719/176954000-78901690-4dab-4bc1-afd8-5b35f073a22c.gif)
 
-<div align="center">
+<h2 align="center">Para fazer o desafio usei 👇</h2>
 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="52" alt="html5 logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" width="52" alt="javascript logo"  />
