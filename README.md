@@ -38,6 +38,16 @@
 
 ### <a align="center" href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage06"> Stage 06 </a>&nbsp;
 
+<a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage06/aula1"> Aula 1 </a>&nbsp; </br>
+
+<a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage06/aula2"> Aula 2 </a>&nbsp; </br>
+
+<a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage06/Desafio1"> Desafio 1 - Spa Universe 🌌 </a>&nbsp; </br>
+
+<a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage06/Desafio2"> Desafio 2 - Gitfav 👍 </a>&nbsp; </br>
+
+<hr>
+
 <div align="center">
   
 ![loading-cat](https://user-images.githubusercontent.com/101990719/175840620-1627db7d-a201-403c-a5c5-3b3420593140.gif)
