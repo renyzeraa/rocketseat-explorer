@@ -44,7 +44,7 @@
 
 <a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage06/Desafio1"> Desafio 1 - Spa Universe 🌌 </a>&nbsp; </br>
 
-<a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage06/Desafio2"> Desafio 2 - Gitfav 👍 </a>&nbsp; </br>
+<a href="#"> Desafio 2 - Gitfav 👍 **in-progress** </a>&nbsp; </br>
 
 <hr>
 
