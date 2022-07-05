@@ -24,7 +24,7 @@
 
 ### <a align="center" href="https://github.com/renyzeraa/explorer-rocketseat/tree/master/Stage04"> Stage 04 </a>&nbsp;
 
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage04/aulas"> Aulas </a>&nbsp; </br>
+<a href="https://github.com/renyzeraa/explorer-rocketseat/tree/master/Stage04/aulas"> Aulas </a>&nbsp; </br>
 <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage04/desafio1"> Exercício 01 ✍🏽</a>&nbsp; </br>
 <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage04/desafio2"> Exercício 02 ✍🏽</a>&nbsp; <hr>
 
