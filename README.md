@@ -40,7 +40,7 @@
 
 <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage06/aula1"> Aula 1 </a>&nbsp; </br>
 
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage06/aula2"> Aula 2 </a>&nbsp; </br>
+<a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage06/aula2"> Aula 2 </a>&nbsp; </br>
 
 <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage06/Desafio1"> Desafio 1 - Spa Universe 🌌 </a>&nbsp; </br>
 
