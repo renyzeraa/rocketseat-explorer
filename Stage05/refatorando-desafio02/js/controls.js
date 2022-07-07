@@ -1,5 +1,4 @@
-import timer from './timer.js'
-timer
+import './elements.js'
 
 function controlS() {
   buttonPlay.addEventListener('click', () => {
