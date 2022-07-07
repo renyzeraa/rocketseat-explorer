@@ -1,8 +1,4 @@
 function themeFunction() {
-  const buttonLight = document.querySelector('.lightTheme')
-  const buttonDark = document.querySelector('.darkTheme')
-  const body = document.querySelector('body')
-
   buttonLight.addEventListener('click', () => {
     buttonDark.classList.remove('hide')
     buttonLight.classList.add('hide')

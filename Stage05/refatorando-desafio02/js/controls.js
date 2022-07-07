@@ -1,11 +1,5 @@
 import timer from './timer.js'
 timer
-const buttonCards = document.querySelector('.cardButton')
-const buttonPlay = document.querySelector('.buttonPlay')
-const buttonPause = document.querySelector('.buttonPause')
-const buttonStop = document.querySelector('.buttonStop')
-const buttonLess = document.querySelector('.buttonLess')
-const buttonMost = document.querySelector('.buttonMost')
 
 function controlS() {
   buttonPlay.addEventListener('click', () => {

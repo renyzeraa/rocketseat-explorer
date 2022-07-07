@@ -1,6 +1,4 @@
 function timer() {
-  const minutesHtml = document.querySelector('.minutes')
-  const secondsHtml = document.querySelector('.seconds')
   let minutes = +minutesHtml.textContent
   let timerTimeOut
 
