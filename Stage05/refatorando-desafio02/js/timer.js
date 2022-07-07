@@ -8,11 +8,6 @@ function updateTimerDisplay(minutes, seconds) {
   secondsHtml.textContent = String(seconds).padStart(2, '0')
 }
 
-function resetTimer() {
-  updateTimerDisplay(minutes, 0)
-  clearTimeout(timerTimeOut)
-}
-
 function pauseTimer() {
   clearTimeout(timerTimeOut)
 }
@@ -40,4 +35,38 @@ function countdown() {
   }, 1000)
 }
 
-export { updateTimerDisplay, resetTimer, countdown, pauseTimer }
+function lessTimer() {
+  let minutes = +minutesHtml.textContent
+  let seconds = +secondsHtml.textContent
+
+  if (minutes > 5) {
+    updateTimerDisplay(minutes - 5, seconds)
+  } else {
+    updateTimerDisplay(minutes, seconds)
+  }
+}
+
+function mostTimer() {
+  let minutes = +minutesHtml.textContent
+  let seconds = +secondsHtml.textContent
+
+  if (minutes < 56) {
+    updateTimerDisplay(minutes + 5, seconds)
+  } else {
+    updateTimerDisplay(minutes, seconds)
+  }
+}
+
+function resetTimer() {
+  updateTimerDisplay(minutes, 0)
+  clearTimeout(timerTimeOut)
+}
+
+export {
+  updateTimerDisplay,
+  resetTimer,
+  countdown,
+  pauseTimer,
+  lessTimer,
+  mostTimer
+}

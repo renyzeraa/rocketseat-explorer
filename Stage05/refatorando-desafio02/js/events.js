@@ -1,6 +1,18 @@
-import { buttonPlay, buttonPause, buttonStop } from './elements.js'
+import {
+  buttonPlay,
+  buttonPause,
+  buttonStop,
+  buttonLess,
+  buttonMost
+} from './elements.js'
 import './timer.js'
-import { countdown, resetTimer, pauseTimer } from './timer.js'
+import {
+  countdown,
+  resetTimer,
+  pauseTimer,
+  lessTimer,
+  mostTimer
+} from './timer.js'
 
 buttonPlay.addEventListener('click', () => {
   buttonPlay.classList.add('hide')
@@ -18,4 +30,18 @@ buttonStop.addEventListener('click', () => {
   buttonPlay.classList.remove('hide')
   buttonPause.classList.add('hide')
   resetTimer()
+})
+
+buttonStop.addEventListener('click', () => {
+  buttonPlay.classList.remove('hide')
+  buttonPause.classList.add('hide')
+  resetTimer()
+})
+
+buttonLess.addEventListener('click', () => {
+  lessTimer()
+})
+
+buttonMost.addEventListener('click', () => {
+  mostTimer()
 })
