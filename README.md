@@ -1,4 +1,4 @@
-<h1 align="center"> Course *RocketSeat Explorer* 🚀 FullStack Developer </h1>
+<h1 align="center"> Course RocketSeat Explorer 🚀 FullStack Developer </h1>
  
 ### <a  href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage01"> Stage 01 </a>&nbsp;
 <hr>
