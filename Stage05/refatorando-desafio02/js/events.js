@@ -3,9 +3,29 @@ import {
   buttonPause,
   buttonStop,
   buttonLess,
-  buttonMost
+  buttonMost,
+  forestCard,
+  rainCard,
+  fireCard,
+  coffeeCard,
+  forestButton,
+  rainButton,
+  fireButton,
+  coffeeButton,
+  forestVolume,
+  rainVolume,
+  fireVolume,
+  coffeeVolume
 } from './elements.js'
 import './timer.js'
+import {
+  forestAudio,
+  coffeeAudio,
+  rainAudio,
+  kitchenTimerAudio,
+  buttonPressAudio,
+  fireAudio
+} from './sounds.js'
 import {
   countdown,
   resetTimer,
@@ -45,3 +65,38 @@ buttonLess.addEventListener('click', () => {
 buttonMost.addEventListener('click', () => {
   mostTimer()
 })
+
+forestButton.addEventListener('click', () => {
+  forestAudio.play()
+})
+
+// forestVolume.addEventListener('input', function () {
+//   sounds.adjustVolume(sounds.forestAudio, forestVolume.value)
+// })
+
+// rainButton.addEventListener('click', function () {
+//   controls.toggle(rainCard)
+//   sounds.playAudio(sounds.rainAudio, rainCard)
+// })
+
+// rainVolume.addEventListener('input', function () {
+//   sounds.adjustVolume(sounds.rainAudio, rainVolume.value)
+// })
+
+// fireButton.addEventListener('click', function () {
+//   controls.toggle(fireCard)
+//   sounds.playAudio(sounds.fireAudio, fireCard)
+// })
+
+// fireVolume.addEventListener('input', function () {
+//   sounds.adjustVolume(sounds.fireAudio, fireVolume.value)
+// })
+
+// coffeeButton.addEventListener('click', function () {
+//   controls.toggle(coffeeCard)
+//   sounds.playAudio(sounds.coffeeAudio, coffeeCard)
+// })
+
+// coffeeVolume.addEventListener('input', function () {
+//   sounds.adjustVolume(sounds.coffeeAudio, coffeeVolume.value)
+// })

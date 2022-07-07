@@ -1,5 +1,5 @@
 import { minutesHtml, secondsHtml } from './elements.js'
-
+import { kitchenTimerAudio } from './sounds.js'
 let minutes = +minutesHtml.textContent
 let timerTimeOut
 
@@ -16,11 +16,12 @@ function countdown() {
   timerTimeOut = setTimeout(() => {
     let minutes = +minutesHtml.textContent
     let seconds = +secondsHtml.textContent
-
+    let isFinished = minutes <= 0 && seconds <= 0
     updateTimerDisplay(minutes, 0)
 
-    if (minutes <= 0) {
-      resetControls()
+    if (isFinished) {
+      resetTimer()
+      kitchenTimerAudio.play()
       return
     }
 

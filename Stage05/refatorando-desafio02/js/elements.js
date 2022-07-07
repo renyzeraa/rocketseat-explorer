@@ -11,10 +11,20 @@ const buttonDark = document.querySelector('.darkTheme')
 const minutesHtml = document.querySelector('.minutes')
 const secondsHtml = document.querySelector('.seconds')
 // sounds
-const buttonForest = document.querySelector('.forest')
-const buttonRain = document.querySelector('.rain')
-const buttonFire = document.querySelector('.coffee-shop')
-const buttonCoffee = document.querySelector('.fire')
+const forestCard = document.querySelector('.forest')
+const rainCard = document.querySelector('.rain')
+const fireCard = document.querySelector('.fire')
+const coffeeCard = document.querySelector('.coffee-shop')
+// card-active
+const forestButton = forestCard.querySelector('.cardButton')
+const rainButton = rainCard.querySelector('.cardButton')
+const fireButton = fireCard.querySelector('.cardButton')
+const coffeeButton = coffeeCard.querySelector('.cardButton')
+// volume
+const forestVolume = forestCard.querySelector('input')
+const rainVolume = rainCard.querySelector('input')
+const fireVolume = fireCard.querySelector('input')
+const coffeeVolume = coffeeCard.querySelector('input')
 
 export {
   buttonPlay,
@@ -26,8 +36,16 @@ export {
   buttonDark,
   minutesHtml,
   secondsHtml,
-  buttonForest,
-  buttonRain,
-  buttonFire,
-  buttonCoffee
+  forestCard,
+  rainCard,
+  fireCard,
+  coffeeCard,
+  forestButton,
+  rainButton,
+  fireButton,
+  coffeeButton,
+  forestVolume,
+  rainVolume,
+  fireVolume,
+  coffeeVolume
 }
