@@ -6,7 +6,7 @@ function themeFunction() {
   buttonLight.addEventListener('click', () => {
     buttonDark.classList.remove('hide')
     buttonLight.classList.add('hide')
-    body.classList.toggle('theme-dark')
+    body.classList.add('theme-dark')
   })
 
   buttonDark.addEventListener('click', () => {
