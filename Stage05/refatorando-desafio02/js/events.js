@@ -1,6 +1,6 @@
 import { buttonPlay, buttonPause, buttonStop } from './elements.js'
 import './timer.js'
-import { countdown, resetTimer, hold } from './timer.js'
+import { countdown, resetTimer, pauseTimer } from './timer.js'
 
 buttonPlay.addEventListener('click', () => {
   buttonPlay.classList.add('hide')
@@ -11,7 +11,7 @@ buttonPlay.addEventListener('click', () => {
 buttonPause.addEventListener('click', () => {
   buttonPlay.classList.remove('hide')
   buttonPause.classList.add('hide')
-  hold()
+  pauseTimer()
 })
 
 buttonStop.addEventListener('click', () => {

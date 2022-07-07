@@ -13,7 +13,7 @@ function resetTimer() {
   clearTimeout(timerTimeOut)
 }
 
-function hold() {
+function pauseTimer() {
   clearTimeout(timerTimeOut)
 }
 
@@ -40,4 +40,4 @@ function countdown() {
   }, 1000)
 }
 
-export { updateTimerDisplay, resetTimer, countdown, hold }
+export { updateTimerDisplay, resetTimer, countdown, pauseTimer }
