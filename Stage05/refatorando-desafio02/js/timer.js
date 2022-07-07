@@ -1,37 +1,40 @@
-const minutesHtml = document.querySelector('.minutes')
-const secondsHtml = document.querySelector('.seconds')
-let minutes = +minutesHtml.textContent
-let timerTimeOut
+function timer() {
+  const minutesHtml = document.querySelector('.minutes')
+  const secondsHtml = document.querySelector('.seconds')
+  let minutes = +minutesHtml.textContent
+  let timerTimeOut
 
-function updateTimerDisplay(minutes, seconds) {
-  minutesHtml.textContent = String(minutes).padStart(2, '0')
-  secondsHtml.textContent = String(seconds).padStart(2, '0')
-}
+  function updateTimerDisplay(minutes, seconds) {
+    minutesHtml.textContent = String(minutes).padStart(2, '0')
+    secondsHtml.textContent = String(seconds).padStart(2, '0')
+  }
 
-function resetTimer() {
-  updateTimerDisplay(minutes, 0)
-  clearTimeout(timerTimeOut)
-}
-
-function countdown() {
-  timerTimeOut = setTimeout(() => {
-    let minutes = +minutesHtml.textContent
-    let seconds = +secondsHtml.textContent
-
+  function resetTimer() {
     updateTimerDisplay(minutes, 0)
+    clearTimeout(timerTimeOut)
+  }
 
-    if (minutes <= 0) {
-      resetControls()
-      return
-    }
+  function countdown() {
+    timerTimeOut = setTimeout(() => {
+      let minutes = +minutesHtml.textContent
+      let seconds = +secondsHtml.textContent
 
-    if (seconds <= 0) {
-      seconds = 60
-      --minutes
-    }
+      updateTimerDisplay(minutes, 0)
 
-    updateTimerDisplay(minutes, String(seconds - 1))
+      if (minutes <= 0) {
+        resetControls()
+        return
+      }
 
-    countdown()
-  }, 1000)
+      if (seconds <= 0) {
+        seconds = 60
+        --minutes
+      }
+
+      updateTimerDisplay(minutes, String(seconds - 1))
+
+      countdown()
+    }, 1000)
+  }
 }
+export default timer
