@@ -10,7 +10,7 @@ const buttonDark = document.querySelector('.darkTheme')
 const minutesHtml = document.querySelector('.minutes')
 const secondsHtml = document.querySelector('.seconds')
 
-export default {
+export {
   buttonCards,
   buttonPlay,
   buttonPause,

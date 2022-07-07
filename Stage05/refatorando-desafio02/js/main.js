@@ -1,4 +1,2 @@
-import themeFunction from './theme.js'
-import controls from './controls.js'
-themeFunction
-controls
+import './theme.js'
+import './events.js'

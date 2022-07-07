@@ -1,5 +1,4 @@
-import ''
-function timer() {
+export function timer() {
   let minutes = +minutesHtml.textContent
   let timerTimeOut
 
@@ -36,4 +35,3 @@ function timer() {
     }, 1000)
   }
 }
-export default timer

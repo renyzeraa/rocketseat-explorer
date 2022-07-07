@@ -1,3 +1,5 @@
+import { buttonDark, buttonLight } from './elements.js'
+
 const body = document.querySelector('body')
 
 function themeFunction() {
@@ -15,5 +17,4 @@ function themeFunction() {
   })
 }
 themeFunction()
-
 export default themeFunction
