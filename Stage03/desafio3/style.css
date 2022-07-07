@@ -14,7 +14,7 @@
   --background-img-text: hsl(312, 91%, 96%);
   --text-page: hsla(274, 84%, 12%);
   --text-card: hsl(232, 17%, 35%);
-  --textcolor-white: hsla(0, 0%, 100%);
+  --text-color-white: hsla(0, 0%, 100%);
 
   --ff-title: 'Staatliches', cursive;
 
@@ -51,7 +51,7 @@ header h1 {
   align-items: center;
 
   background: var(--background-header-title);
-  color: var(--textcolor-white);
+  color: var(--text-color-white);
   font-family: var(--ff-title);
 
   font-weight: 400;
@@ -109,7 +109,7 @@ main div:nth-child(6) {
 
 header p {
   font-family: var(--ff-text);
-  color: var(--textcolor-white);
+  color: var(--text-color-white);
 
   font-size: 1.6rem;
   line-height: 2.5rem;
