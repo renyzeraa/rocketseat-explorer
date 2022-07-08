@@ -69,6 +69,7 @@ header svg path {
   top: 0;
   right: 0;
   opacity: 0;
+  overflow: hidden;
 }
 
 .input-content {
@@ -110,32 +111,36 @@ header svg path {
 }
 
 .favorite:hover svg path {
-  transition: 1s;
+  transition: 600ms;
   fill: var(--svg-bt-fav-active);
 }
 
 .favorite:hover {
-  transition: 1s;
+  transition: 600ms;
   background: var(--bt-fav-active);
   color: var(--svg-bt-fav-active);
 }
 /* ==== TABLE ==== */
 
-/*  THEAD  */
-
 table {
   width: 100%;
 }
 
+/*  THEAD  */
+
 thead {
-  max-height: 6.4rem;
   background: var(--bg-thead);
 }
 
 thead tr td {
-  padding: 2rem 1.6rem;
+  height: 6.4rem;
+  padding: 0 1.6rem;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 160%;
 }
 
+/*  TBODY  */
 .user img {
   width: 30px;
   height: 30px;
