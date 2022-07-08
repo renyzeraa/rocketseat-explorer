@@ -7,33 +7,33 @@
 
 <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/aula1"> Class 1 </a>&nbsp; </br>
 <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/aula2"> Class 2 </a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/Challenge1"> Challenge 1 - Correcting bugs (01) 👀 </a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/Challenge2"> Challenge 2 - Correcting bugs (02) 👀 </a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/Challenge3"> Challenge 3 - Semantics and accessibility. 💜 </a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/Challenge4"> Challenge 4 - Recreating layout</a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/Challenge1"> Deploy Challenge 1 - Correcting bugs (01) 👀 </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/Challenge2"> Deploy Challenge 2 - Correcting bugs (02) 👀 </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/Challenge3"> Deploy Challenge 3 - Semantics and accessibility. 💜 </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/Challenge4"> Deploy Challenge 4 - Recreating layout</a>&nbsp; </br>
 
 <hr>
  
 ### <a align="center" href="https://github.com/renyzeraa/explorer-rocketseat/tree/master/Stage03"> Stage 03 </a>&nbsp;
 <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage03/aula1"> Class 1 </a>&nbsp; </br>
  <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage03/aula3"> Class 2 </a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage03/Challenge1"> Challenge 1 - Creating forms 📲</a>&nbsp;  
-  <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage03/Challenge2"> Challenge 2 - Mobile first 📱</a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage03/Challenge3"> Challenge 3 - Grid with animations 🖥 </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage03/Challenge1"> Deploy Challenge 1 - Creating forms 📲</a>&nbsp;  
+  <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage03/Challenge2"> Deploy Challenge 2 - Mobile first 📱</a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage03/Challenge3"> Deploy Challenge 3 - Grid with animations 🖥 </a>&nbsp; </br>
 <hr>
 
 ### <a align="center" href="https://github.com/renyzeraa/explorer-rocketseat/tree/master/Stage04"> Stage 04 </a>&nbsp;
 
 <a href="https://github.com/renyzeraa/explorer-rocketseat/tree/master/Stage04/aulas"> Classes </a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage04/Challenge1"> Challenge 01 ✍🏽</a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage04/Challenge2"> Challenge 02 ✍🏽</a>&nbsp; <hr>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage04/Challenge1"> Deploy Challenge 01 ✍🏽</a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage04/Challenge2"> Deploy Challenge 02 ✍🏽</a>&nbsp; <hr>
 
 ### <a align="center" href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage05"> Stage 05 </a>&nbsp;
 
 <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage05/Aula"> Class </a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage05/Challenge2"> Challenge 1 - FocusTimer - V 2.0 ⌚️ </a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage05/Challenge2"> Challenge 2 - FocusTimer - V 3.0 Dark Mode 🕐⬛️⬜️</a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage05/Redoing-Challenge2"> Redoing-Challenge 2 </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage05/Challenge2"> Deploy Challenge 1 - FocusTimer - V 2.0 ⌚️ </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage05/Challenge2"> Deploy Challenge 2 - FocusTimer - V 3.0 Dark Mode 🕐⬛️⬜️</a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage05/Redoing-Challenge2"> Deploy Redoing-Challenge 2 </a>&nbsp; </br>
 
 <hr>
 
@@ -41,8 +41,8 @@
 
 <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage06/aula1"> Class 1 </a>&nbsp; </br>
 <a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage06/aula2"> Class 2 </a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage06/Challenge1"> Challenge 1 - Spa Universe 🌌 </a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage06/Challenge2"> Challenge 2 - Git Favorite 🐈 </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage06/Challenge1"> Deploy Challenge 1 - Spa Universe 🌌 </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage06/Challenge2"> Deploy Challenge 2 - Git Favorite 🐈 </a>&nbsp; </br>
 
 <hr>
 
