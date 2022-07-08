@@ -156,6 +156,10 @@ thead tr td {
   font-weight: 700;
 }
 
+thead tr td:nth-child(1) {
+  padding-left: 20px;
+}
+
 /*  TBODY  */
 td.user {
   display: flex;
