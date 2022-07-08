@@ -12,50 +12,28 @@ const fireAudio = new Audio('./sounds/fire.wav')
 buttonPressAudio.volume = 0.02
 kitchenTimerAudio.volume = 0.05
 
+function pressButton(button) {
+  button.play()
+}
+
+function playAudio(sound, card) {
+  sound.loop = true
+  let isActive = card.classList.contains('active')
+  isActive === false ? sound.pause() : sound.play()
+}
+
+function adjustVolume(sound, volume) {
+  sound.volume = volume
+}
+
 export {
+  pressButton,
+  playAudio,
+  adjustVolume,
   forestAudio,
   coffeeAudio,
   rainAudio,
-  kitchenTimerAudio,
+  fireAudio,
   buttonPressAudio,
-  fireAudio
+  kitchenTimerAudio
 }
-
-// coffeeAudio.play()
-// rainAudio.play()
-// fireAudio.play()
-
-// function pressButton(button) {
-//   button.play()
-// }
-
-// function timeEnd() {
-//   pressButton(kitchenTimerAudio)
-// }
-
-// function playAudio(sound, card) {
-//   sound.loop = true
-//   let isActive = card.classList.contains('active')
-//   isActive === false ? sound.pause() : sound.play()
-// }
-
-// function adjustVolume(sound, volume) {
-//   sound.volume = volume
-// }
-
-// function hideShowButton(hideButton, showButton) {
-//   hideButton.classList.add('hide')
-//   showButton.classList.remove('hide')
-// }
-
-// function play() {
-//   hideShowButton(buttonPlay, buttonPause)
-// }
-
-// function pause() {
-//   hideShowButton(buttonPause, buttonPlay)
-// }
-
-// function toggle(card) {
-//   card.classList.toggle('active')
-// }
