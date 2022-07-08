@@ -1,9 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: content-box;
 }
 
+:root {
+  font-size: 62.5%;
+
+  --fill-color: hsl(0, 0%, 100%);
+
+  --txt-general: hsl(240, 9%, 89%);
+  --txt-remove: hsl(355, 91%, 66%);
+  --txt-input: hsl(240, 6%, 51%);
+
+  --bg-body: hsl(0, 0%, 0%);
+  --bg-input: hsl(191, 65%, 7%);
+  --bg-thead: hsl(194, 72%, 13%);
+
+  --svg-bt-fav-active: hsl(195, 91%, 25%);
+  --svg-bt-fav: hsl(0, 0%, 100%);
+
+  --bt-fav: hsl(195, 91%, 25%);
+  --bt-fav-active: hsl(0, 0%, 100%);
+
+  --trow-primary: hsla(195, 61%, 6%, 0.5);
+  --trow-secondary: hsl(192, 65%, 7%);
+  --scroll-bg: hsl(191, 31%, 42%);
+  --table-border: hsl(191, 31%, 42%);
+
+  font-family: 'Roboto', sans-serif;
+}
+
 body {
-  background: #3f3f3f;
+  font-size: 1.6rem;
+  background: var(--bg-body);
+}
+
+.content {
+  max-width: 900px;
+  margin: 100px auto 100px;
+  color: var(--txt-general);
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ==== HEADER ==== */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+header svg path {
+  fill: var(--fill-color);
+}
+
+.label-text {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+}
+
+.input-content {
+  display: flex;
+  gap: 8px;
+}
+
+#input-text::placeholder {
+  color: var(--txt-input);
+}
+#input-text {
+  background: var(--bg-input);
+  color: var(--txt-general);
+  border: none;
+  border-radius: 5px;
+  width: 30rem;
+  font-size: 16px;
+  line-height: 100%;
+  padding: 16px;
+}
+
+.favorite {
+  border: none;
+  border-radius: 5px;
+  background: var(--bt-fav);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 3rem;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.favorite svg path {
+  fill: var(--svg-bt-fav);
+}
+
+.favorite:hover svg path {
+  transition: 1s;
+  fill: var(--svg-bt-fav-active);
+}
+
+.favorite:hover {
+  transition: 1s;
+  background: var(--bt-fav-active);
+  color: var(--svg-bt-fav-active);
+}
+/* ==== TABLE ==== */
+
+/*  THEAD  */
+
+table {
+  width: 100%;
+}
+
+thead {
+  max-height: 6.4rem;
+  background: var(--bg-thead);
+}
+
+thead tr td {
+  padding: 2rem 1.6rem;
+}
+
+.user img {
+  width: 30px;
+  height: 30px;
+}
+
+tbody tr td {
+  padding: 2rem 1.6rem;
+}
+
+.remove {
+  color: var(--txt-remove);
+  background: transparent;
+  padding: 10px;
+}
+
+.remove:hover {
+  font-weight: bold;
+  transition: 1s;
 }
