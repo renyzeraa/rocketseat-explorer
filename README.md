@@ -55,8 +55,6 @@
 
 <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage08"> In progress.... </a>&nbsp; </br>
 
-<hr>
-
 <div align="center">
   
 ![loading-cat](https://user-images.githubusercontent.com/101990719/175840620-1627db7d-a201-403c-a5c5-3b3420593140.gif)
