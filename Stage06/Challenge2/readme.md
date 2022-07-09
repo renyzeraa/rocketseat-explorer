@@ -11,11 +11,15 @@ Aqui está o [**link**](https://www.figma.com/file/SzQA07HwmSPj4hOYgu1Pps/%5BDes
 \***\*E aí, topa encarar esse desafio? **💜\*\*
 Vai ser muito importante para o seu aprendizado rever e aplicar esses novos conceitos.
 
+<div align="center">
+
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/Challenge1" target="_blank" > <h1> Deploy **🚀** </h1></a>
+
 # Projeto Final 🤩
 
-<h2 align="center">Para fazer o desafio usei 👇</h2>
+![2022-07-08 23-06-40](https://user-images.githubusercontent.com/101990719/178087854-e2890b31-8b21-49de-9c43-e77cb8fc6430.gif)
 
-<div align="center">
+<h2 align="center">Para fazer o desafio usei 👇</h2>
 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="52" alt="html5 logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" width="52" alt="javascript logo"  />

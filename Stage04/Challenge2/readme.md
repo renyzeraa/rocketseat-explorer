@@ -40,6 +40,8 @@ Boa sorte e boooooora codar! **🚀**
 
 <div align="center">
   
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage04/Challenge2" target="_blank" > <h1> Deploy **🚀** </h1></a>
+
 # Preview do projeto 🤩
 
 ![2022-06-26 21-04-57](https://user-images.githubusercontent.com/101990719/175839524-eb7dae0c-f96d-4cf9-8ff5-211f67e3b21b.gif)

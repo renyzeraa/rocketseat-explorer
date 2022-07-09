@@ -16,7 +16,8 @@
  
 ### <a align="center" href="https://github.com/renyzeraa/explorer-rocketseat/tree/master/Stage03"> Stage 03 </a>&nbsp;
 <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage03/aula1"> Class 1 </a>&nbsp; </br>
- <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage03/aula3"> Class 2 </a>&nbsp; </br>
+ <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage03/aula2"> Class 2 </a>&nbsp; </br>
+ <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage03/aula3"> Class 3 </a>&nbsp; </br>
 <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage03/Challenge1"> Deploy Challenge 1 - Creating forms 📲</a>&nbsp;  
   <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage03/Challenge2"> Deploy Challenge 2 - Mobile first 📱</a>&nbsp; </br>
 <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage03/Challenge3"> Deploy Challenge 3 - Grid with animations 🖥 </a>&nbsp; </br>
