@@ -29,7 +29,9 @@ export class Favorites {
 
   async add(username) {
     try {
-      const userExists = this.entries.find(entry => entry.login === username)
+      const userExists = this.entries.find(
+        entry => entry.login.toUpperCase() === username.toUpperCase()
+      )
 
       if (userExists) {
         throw new Error('User exists!')
@@ -74,7 +76,7 @@ export class FavoritesView extends Favorites {
     const addButton = document.querySelector('.favorite')
     addButton.onclick = () => {
       const { value } = this.root.querySelector('.input-content input')
-
+      this.root.querySelector('.input-content input').value = ''
       this.add(value)
     }
   }
