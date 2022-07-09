@@ -43,6 +43,7 @@ body {
   max-width: 800px;
   margin: 100px auto 100px;
   color: var(--txt-general);
+  padding: 0 10px;
 }
 
 button {
