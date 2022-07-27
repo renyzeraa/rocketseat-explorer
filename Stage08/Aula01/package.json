@@ -1,12 +1,11 @@
 {
   "name": "aula01",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Renan Leandro da Silva",
+  "license": "ISC",
+  "description": "Aplicação Nível 08 Explorer Rocketseat"
 }
