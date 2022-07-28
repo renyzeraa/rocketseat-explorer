@@ -10,3 +10,5 @@ async function sqliteConnection() {
 
   return database
 }
+
+module.exports = sqliteConnection
