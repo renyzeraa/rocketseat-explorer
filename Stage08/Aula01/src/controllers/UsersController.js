@@ -46,8 +46,8 @@ class UsersController {
       throw new AppError('Este e-mail ja esta em uso')
     }
 
-    user.name = name
-    user.email = email
+    user.name = name ?? user.name
+    user.email = email ?? user.email
 
     if (password && !old_password) {
       throw new AppError('Voce precisa inserir sua senha antiga')
