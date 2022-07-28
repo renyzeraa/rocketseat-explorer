@@ -1,7 +1,7 @@
 exports.up = knex =>
   knex.schema.createTable('links', table => {
     table.increments('id')
-    table.text('url').noNullable()
+    table.text('url').notNullable()
     table
       .integer('note_id')
       .references('id')
