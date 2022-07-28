@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "Aplicação Nível 08 Explorer Rocketseat",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "express": "^4.18.1",
     "express-async-errors": "^3.1.1",
     "sqlite": "^4.1.2",
