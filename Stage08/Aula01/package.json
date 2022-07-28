@@ -11,7 +11,9 @@
   "description": "Aplicação Nível 08 Explorer Rocketseat",
   "dependencies": {
     "express": "^4.18.1",
-    "express-async-errors": "^3.1.1"
+    "express-async-errors": "^3.1.1",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.0.10"
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
