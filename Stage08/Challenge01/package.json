@@ -1,12 +1,9 @@
 {
   "name": "challenge01",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
+  "scripts": {},
   "author": "Renan Leandro da Silva",
-  "license": "ISC"
+  "license": "ISC",
+  "description": "Api RocketNotes"
 }
