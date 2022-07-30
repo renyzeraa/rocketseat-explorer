@@ -5,5 +5,8 @@
   "scripts": {},
   "author": "Renan Leandro da Silva",
   "license": "ISC",
-  "description": "Api RocketNotes"
+  "description": "Api RocketNotes",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
