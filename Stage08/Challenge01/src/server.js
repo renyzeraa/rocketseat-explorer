@@ -1,11 +1,13 @@
-const { response } = require('express')
 const express = require('express')
 
 const app = express()
 
-app.get('/message/:id/:user', (resquest, response) => {
-  const { id, user } = resquest.params
-  response.send(`Id da mensagem:${id}, para o usuario ${user} `)
+app.use(express.json())
+
+app.post('/users', (resquest, response) => {
+  const { name, email, password } = resquest.body
+
+  response.json({ name, email, password })
 })
 
 const PORT = 3333
