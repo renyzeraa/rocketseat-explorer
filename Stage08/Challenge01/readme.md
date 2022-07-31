@@ -16,12 +16,16 @@ Valores inteiros que podem variar de 1 até o 5.
 Exemplos: ação, comedia, terror, medo...etc._
 ```
 
-Você pode usar esse modelo como base, mas caso queira alterar algum dado e/ou montar o seu próprio diagrama você pode usar esse site [**aqui**](https://drawsql.app/home).
+Você pode usar esse modelo como base para fazer um tambem, mas caso queira alterar algum dado e/ou montar o seu próprio diagrama você pode usar esse site [**aqui**](https://drawsql.app/home).
 
 ### **Observações:**
 
 Alguns detalhes aprendidos em aula que foram adicionados no desafio:
 
+- Bibliotecas para tratamento de erros de cliente e servidor
+- Utilizado express para atender as requisições
+- Insomnia para executar as requisições HTTP (GET, PUT, POST, PATCH, DELETE)
+- Beekeper para manusear banco de dados dos clientes
 - Criptografia de senhas;
 - Validação de e-mail;
 - Aplicar o cascade para garantir que uma tag será excluída caso o usuário opte por excluir a nota.
