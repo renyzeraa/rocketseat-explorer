@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./src/server.js",
-    "dev": "nodemon ./src/server.js"
+    "dev": "nodemon ./src/server.js",
+    "migrate": "knex migrate:latest"
   },
   "author": "Renan Leandro da Silva",
   "license": "ISC",
