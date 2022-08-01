@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node ./src/server.js",
     "dev": "nodemon ./src/server.js",
-    "migrate": "knex migrate:latest"
+    "migrate": "knex migrate:latest",
+    "rollback": "knex migrate:rollback --all && knex migrate:latest"
   },
   "author": "Renan Leandro da Silva",
   "license": "ISC",
