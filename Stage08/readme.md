@@ -1,12 +1,132 @@
-A ideia agora foi criar uma aplicação em Node.js onde o usuário cadastra seu email, senha (sendo a senha criptografada por uma biblioteca externa (bcrypt)), tem outra aba onde indica um filme que gostou, preenche com algumas informações (nome, descrição, nota) e cria tags relacionadas a ele.
-Utilizei a framework express para atender minhas requisições com Node.js.
-Para desenvolver, utilizei o nodemon para rodar minha API enquanto fazia alterações, trabalhando sempre com entrada e saída de arquivos .JSON.
-Foi feito e organizado da melhor maneira para que pudesse ser feitos alterações e atualizações, separado por rotas que vai me levar até o caminhos que o cliente faz a requisição, também os controllers, onde fica minhas regras de negócios, são os controladores junto de middlewares para fazer verificações se está de acordo ou não essas requisições, e cada controller respeitando uma boa prática de deixar apenas 5 funções cada.
-Foi posto em prática as requisições HTTP com o insomnia (ferramenta gratuita, muito interessante e fácil de usar), onde foi aplicado GET, POST, PUT, DELETE, PATCH. Tratando sempre de me retornar o status certo com as respostas HTTP, onde caso acontecesse algum erro interno ou externo, fosse feito uma sinalização com a biblioteca async erros.
-Achei muito bacana o node.js poder ir instalando e executando as bibliotecas conforme a minha demanda, isso deixa muito enxuta a aplicação, dando mais performance e possibilidades.
-Pensando em outros sistemas e browsers, utilizei o path, que vem junto do node, para ajudar a resolver problemas com os diretórios dos arquivos, para que tudo fosse sempre “encontrado”.
-Na parte de Banco de dados, o SQLite foi quem escolhi como drive dos dados, mas como sistema de gerenciador de banco de dados a ferramenta beekeper me ajudou muito, além de ser muito intuitiva é também super fácil de usar. Revi alguns conceitos de comandos SQL, os DDL (Data Definition Language ) para criar e definir dados e os DML (Data Manipulation Language) para manipular os dados. Para criação de tabelas dos dados, a biblioteca migration foi quem me auxiliou e utilizei o Query builder knex, para gerar os comandos SQL independente do banco de dados que eu for utilizar.
-Com o migration conseguimos fazer versões do meu banco de dados, onde guarda as alterações feitas caso precise fazer alguma alteração ou reversão de algum dado.
+# Stage 08 - Node.js and API's
+
+# 📬 Conhecendo o Node.js
+
+🚀 O que é uma API? </br>
+🚀 O que é o Node.js? </br>
+🚀 Onde o Node.js pode ser utilizado </br>
+🚀 Vantagens do Node.js </br>
+🚀 v8 Engine </br>
+🚀 O funcionamento do Node.js </br>
+🚀 Stage 08 - Conhecendo o Node.js </br>
+
+## 🤔 O que aprendi após finalizar esse módulo?
+
+- [ ] O que é API;
+- [ ] O que é o Node.js;
+- [ ] Onde podemos utilizar o Node.js;
+- [ ] Vantagens do Node.js;
+- [ ] O que é a v8 Engine;
+- [ ] Como funciona o Node.js;
+
+# Criando uma aplicação Node.js
+
+🚀 Iniciando um projeto Node.js </br>
+🚀 Adicionando Express </br>
+🚀 node_modules </br>
+🚀 Iniciando o Express </br>
+🚀 Executando a aplicação </br>
+🚀 Rotas e Métodos HTTP </br>
+🚀 Método GET </br>
+🚀 Route Params </br>
+🚀 Query Params </br>
+🚀 Nodemon </br>
+🚀 Insomnia </br>
+🚀 Método POST </br>
+🚀 Body Params </br>
+🚀 Organizando a estrutura do projeto </br>
+🚀 Controllers </br>
+🚀 Users Controller </br>
+🚀 HTTP Codes </br>
+🚀 Entendendo Middlewares </br>
+🚀 Utilizando Middleware </br>
+🚀 AppError </br>
+🚀 Tratando exceções </br>
+🚀 Configurando o Insomnia </br>
+
+## 🤔 O que aprendi após finalizar esse módulo?
+
+- [ ] Iniciar um projeto Node.js;
+- [ ] Adicionar Express no projeto;
+- [ ] O que é a pasta `node_modules`;
+- [ ] Rotas;
+- [ ] Métodos HTTP;
+- [ ] Route Params;
+- [ ] Query Params;
+- [ ] Instação e utilização do `nodemon`;
+- [ ] Instalação e utilização do `Insomnia`;
+- [ ] Body Params;
+- [ ] Controller;
+- [ ] HTTP Status Codes;
+- [ ] Middleware;
+- [ ] Lidar com erros na API;
+
+# SQL
+
+🚀 O que é um banco de dados </br>
+🚀 Estrutura do banco de dados </br>
+🚀 Conectando com o banco de dados </br>
+🚀 SGBD </br>
+🚀 Criando tabela de usuário </br>
+🚀 SQL </br>
+🚀 Alter </br>
+🚀 Comando DDL </br>
+🚀 Manipulando dados </br>
+🚀 Migrations </br>
+🚀 Select </br>
+🚀 Cadastrando usuário </br>
+🚀 Criptografando senha do usuário </br>
+🚀 Atualizando usuário </br>
+🚀 Atualizando senha </br>
+🚀 Datetime do Banco </br>
+🚀 Validando nome e e-mail </br>
+
+## 🤔 O que aprendi após finalizar esse módulo?
+
+- [ ] O que é um banco de dados;
+- [ ] Como conectar um banco de dados SQLite;
+- [ ] Utilização da ferramenta Beekeper Studio;
+- [ ] Comandos DML;
+- [ ] Comandos DDL;
+- [ ] Migrations;
+- [ ] Fazer consultas no SQL;
+- [ ] Criptografar senhas no banco de dados;
+- [ ] Validações no back-end;
+
+# Query Builder
+
+🚀 O que é um SQL Query Builder </br>
+🚀 Instalando Knex.js </br>
+🚀 Configurando Knex.js </br>
+🚀 Conceito de Migrations </br>
+🚀 Migrations para Notes </br>
+🚀 NPM vs NPX </br>
+🚀 Primary key e Foreign key </br>
+🚀 Cardinalidade </br>
+🚀 Migrations para Link e Tag </br>
+🚀 Cadastrando nota </br>
+🚀 Exibindo nota </br>
+🚀 Deletando nota </br>
+🚀 Listando notas </br>
+🚀 Operador Like </br>
+🚀 Filtro WhereIn </br>
+🚀 Conceito de Inner Join </br>
+🚀 Aplicando Inner Join </br>
+🚀 Map e Filter </br>
+🚀 Obtendo tags da nota </br>
+🚀 Listando tags </br>
+
+## 🤔 O que aprendi após finalizar esse módulo?
+
+- [ ] SQL Query Builder;
+- [ ] Instalar Knex/js;
+- [ ] Configurar Knex.js;
+- [ ] NPM vs NPX;
+- [ ] Primary Key;
+- [ ] Foreign Key;
+- [ ] Cardinalidade;
+- [ ] Inner Join;
+- [ ] Map e Filter;
 
 ## Contact
 
