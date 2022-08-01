@@ -17,9 +17,11 @@ class NotesController {
       user_id
     })
 
-    const tagsInsert = tags.map(name => {
-      return { note_id, user_id, name }
-    })
+    const tagsInsert = tags
+      .map(name => {
+        return { note_id, user_id, name }
+      })
+      .toLowerCase()
 
     await knex('movie_tags').insert(tagsInsert)
 
@@ -48,16 +50,46 @@ class NotesController {
 
   async index(request, response) {
     const { title, user_id, tags } = request.query
-    const notes = await knex('movie_notes')
-      .where({ user_id })
-      .whereLike('title', `%${title}%`)
-      .orderBy('title')
+    let notes
+
+    if (tags) {
+      const filterTags = tags.split(',').map(tag => tag.trim())
+
+      notes = await knex('movie_tags')
+        .select([
+          'movie_notes.id',
+          'movie_notes.title',
+          'movie_notes.description',
+          'movie_notes.rating',
+          'movie_notes.user_id'
+        ])
+        .where('movie_notes.user_id', user_id)
+        .whereLike('movie_notes.title', `%${title}%`)
+        .whereIn('name', filterTags)
+        .innerJoin('movie_notes', 'movie_notes.id', 'movie_tags.note_id')
+        .orderBy('movie_notes.title')
+    } else {
+      notes = await knex('movie_notes')
+        .where({ user_id })
+        .whereLike('title', `%${title}%`)
+        .orderBy('title')
+    }
 
     if (notes.length === 0) {
       throw new AppError(`Movie notes not found`)
     }
 
-    return response.json(notes)
+    const userTags = await knex('movie_tags').where({ user_id })
+
+    const notesWithTags = notes.map(note => {
+      const noteTags = userTags.filter(tag => tag.note_id === note.id)
+      return {
+        ...note,
+        tags: noteTags
+      }
+    })
+
+    return response.json(notesWithTags)
   }
 }
 module.exports = NotesController
