@@ -17,11 +17,9 @@ class NotesController {
       user_id
     })
 
-    const tagsInsert = tags
-      .map(name => {
-        return { note_id, user_id, name }
-      })
-      .toLowerCase()
+    const tagsInsert = tags.map(name => {
+      return { note_id, user_id, name }
+    })
 
     await knex('movie_tags').insert(tagsInsert)
 
