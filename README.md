@@ -67,7 +67,14 @@
 
 ### <a align="center" href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage08"> Stage 08 </a>&nbsp; </br>
 
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage08"> In progress.... </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage08/Aula01"> Class 1 </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage08/Challenge01"> Challenge 1 - API's 🛠 </a>&nbsp; </br>
+
+<hr>
+
+### <a align="center" href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage09"> Stage 09 </a>&nbsp; </br>
+
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage09"> In progress.... </a>&nbsp; </br>
 
 <div align="center">
   
