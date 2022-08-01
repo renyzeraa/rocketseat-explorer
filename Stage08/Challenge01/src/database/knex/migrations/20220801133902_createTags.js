@@ -6,7 +6,11 @@ exports.up = knex =>
       .references('id')
       .inTable('movie_notes')
       .onDelete('CASCADE')
-    table.integer('user_id').references('id').inTable('users')
+    table
+      .integer('user_id')
+      .references('id')
+      .inTable('users')
+      .onDelete('CASCADE')
     table.text('name').notNullable()
   })
 
