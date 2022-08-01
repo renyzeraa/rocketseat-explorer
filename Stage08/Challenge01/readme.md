@@ -30,7 +30,7 @@ Alguns detalhes aprendidos em aula que foram adicionados no desafio:
 - Validação de e-mail;
 - Aplicar o cascade para garantir que uma tag será excluída caso o usuário opte por excluir a nota.
 
-<h2 align="center">Neste Stage 8 usei 👇</h2>
+<h2 align="center">Para fazer o desafio usei 👇</h2>
 
 <div align="center">
 

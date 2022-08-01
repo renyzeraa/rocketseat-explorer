@@ -128,6 +128,14 @@
 - [ ] Inner Join;
 - [ ] Map e Filter;
 
+<h2 align="center">Neste Stage 8 usei 👇</h2>
+
+<div align="center">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original-wordmark.svg" height="40" width="52" alt="sqlite logo" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" width="52" alt="nodejs logo" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" width="52" alt="javascript logo" />
+
 ## Contact
 
 <img align="left" src="https://avatars.githubusercontent.com/renyzeraa?size=100">
