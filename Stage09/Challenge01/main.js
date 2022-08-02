@@ -1,7 +1,3 @@
-// String (texto)
-// Number (número)
-// if "se" (argumento "verdadeiro" ou "falso")
-
 window.addEventListener('scroll', onScroll)
 
 onScroll()

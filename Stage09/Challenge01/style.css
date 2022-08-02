@@ -8,17 +8,21 @@
 
 :root {
   --hue: 240;
-  --primary-color: hsl(var(--hue), 100%, 26%);
+
+  --logo-menu: rgb(255, 136, 0);
+
+  --primary-color: hsl(240, 100%, 26%);
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
 
-  --title-color: hsl(var(--hue) 41% 10%);
+  --title-color: hsl(240 41% 10%);
 
   --brand-beige: hsl(39, 100%, 97%);
-  --brand-light: hsl(calc(var(--hue) - 22), 23%, 89%);
-  --brand-light-2: hsl(calc(var(--hue) + 10), 14%, 97%);
-  --brand-dark: hsl(var(--hue), 100%, 14%);
-  --base-color: hsl(var(--hue) 36% 57%);
+
+  --brand-light: hsl(calc(240 - 22), 23%, 89%);
+  --brand-light-2: hsl(calc(240 + 10), 14%, 97%);
+  --brand-dark: hsl(240, 100%, 14%);
+  --base-color: hsl(240 36% 57%);
   --bg-light: hsl(180, 14%, 97%);
 
   /* fonts
@@ -49,9 +53,7 @@ body {
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
-
   text-align: center;
-
   overflow: overlay;
 
   background-color: var(--bg-light);
@@ -69,13 +71,13 @@ a {
   text-decoration: none;
 }
 
-.logo {
-  font: 700 1.31rem var(--title-font);
-  color: var(--title-color);
+.logo-menu {
+  font: 700 2rem var(--title-font);
+  color: var(--logo-menu);
 }
 
-.logo span {
-  color: var(--base-color);
+.logo-menu span {
+  color: var(--primary-color);
 }
 
 ul {
@@ -349,10 +351,10 @@ body.menu-expanded button path {
 }
 
 #home img {
-  width: 26.4rem;
+  width: 40rem;
   display: block;
   margin-inline: auto;
-  object-position: 0 2rem;
+  margin-bottom: 2rem;
 }
 
 #home .stats {
@@ -385,7 +387,7 @@ body.menu-expanded button path {
   line-height: 150%;
 }
 
-/*=== SERVICES =================================*/
+/*=== SERVICES =================================
 #services header h2 {
   margin-bottom: 6rem;
 }
@@ -410,7 +412,7 @@ body.menu-expanded button path {
   margin-block: 1.6rem;
 }
 
-/*=== ABOUT =================================*/
+/*=== ABOUT =================================
 #about {
   text-align: left;
   background-color: var(--brand-beige);
@@ -425,7 +427,7 @@ body.menu-expanded button path {
   margin-bottom: 6rem;
 }
 
-/*=== CONTACT =================================*/
+/*=== CONTACT =================================
 #contact {
   text-align: left;
 }
@@ -448,7 +450,7 @@ body.menu-expanded button path {
   gap: 0.8rem;
 }
 
-/*=== FOOTER =================================*/
+/*=== FOOTER =================================
 footer {
   background-color: var(--primary-color);
   padding-block: 6rem;
