@@ -15,12 +15,13 @@ function resetPage() {
 
 function handleClick(event) {
   event.preventDefault()
-
   xAttempts++
 
   if (+inputNumber.value == randomNumber) {
     hitNumber()
   }
+
+  inputNumber.value = ''
 }
 
 function restartGame() {

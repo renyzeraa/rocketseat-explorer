@@ -105,6 +105,7 @@ p {
 }
 
 .container2 {
+  margin: 2rem;
   display: flex;
 }
 
@@ -118,6 +119,7 @@ p {
 .acertou {
   border-radius: 10rem;
   margin-bottom: 2rem;
+  width: 40%;
 }
 
 .btn2 {
@@ -135,6 +137,39 @@ p {
 
 .btn2:hover {
   background: hsl(240, 25%, 39%);
+}
+
+@media (max-width: 700px) {
+  body {
+    background-position: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .insert input {
+    border-radius: 4px;
+    margin-right: 0;
+  }
+
+  .container2 {
+    display: grid;
+    justify-items: center;
+  }
+
+  .acertou {
+    border-radius: 4rem;
+    margin-bottom: 0;
+    width: 75%;
+  }
+
+  .btn {
+    border-radius: 4px 4px;
+    margin: 0.5rem;
+  }
+
+  .tom {
+    width: 14rem;
+  }
 }
 
 .hide {
