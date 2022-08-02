@@ -19,8 +19,8 @@
       <div class="insert">
         <img class="tom" src="./assets/tom.gif" alt="tom">
         <form>
-          <input type="number" min="0" max="100">
-          <button class="btn">Tentar</button>
+          <input class="input-number" type="number" min="0" max="100">
+          <button class="btn" onclick="handleClick(event)">Tentar</button>
         </form>
       </div>
     </div>
@@ -30,7 +30,7 @@
 
       <div class="text-button">
 
-        <h1>Acertou em <span>2</span> tentativas</h1>
+        <h1>Acertou em <span class="xAttempts"></span> tentativas</h1>
         <button class="btn2">Jogar Novamente</button>
 
       </div>
