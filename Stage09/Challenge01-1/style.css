@@ -54,7 +54,7 @@ body {
   /* color: var(--text-color); */
   background: var(--body-color);
   -webkit-font-smoothing: antialiased;
-  padding-inline: 1rem;
+  /* padding-inline: 1rem; */
 }
 
 .title {
@@ -339,9 +339,6 @@ nav.show div.icon-close {
 }
 
 /*==== about ============================ */
-#about {
-  background: white;
-}
 
 #about .container {
   margin: 0;
@@ -378,6 +375,10 @@ nav.show div.icon-close {
 
 /*==== services ========================== */
 
+#services {
+  background: white;
+}
+
 .cards.grid {
   gap: 1.5rem;
 }
@@ -394,6 +395,11 @@ nav.show div.icon-close {
   margin-bottom: 1.5rem;
   font-size: 5rem;
   color: var(--base-color);
+}
+
+.card i:hover {
+  transform: scale(1.1);
+  transition: all 200ms;
 }
 
 .card .title {
