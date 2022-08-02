@@ -333,44 +333,9 @@ nav.show div.icon-close {
 #stats .stat p {
   margin: 0;
   color: var(--primary-color);
-  font-size: clamp(1rem, 3vw, 1.6rem);
+  font-size: clamp(1.15rem, 3vw, 1.6rem);
   line-height: 150%;
   border-bottom: 2px var(--base-color) solid;
-}
-
-/*==== about ============================ */
-
-#about .container {
-  margin: 0;
-}
-
-#about .image {
-  position: relative;
-}
-
-#about .image::before {
-  content: '';
-  height: 100%;
-  width: 100%;
-  background: var(--base-color-second);
-  position: absolute;
-  top: -8%;
-  left: -33%;
-  z-index: 0;
-}
-
-#about .image img {
-  position: relative;
-}
-
-#about .image img,
-#about .image::before {
-  border-radius: 0.25rem;
-}
-
-#about .text {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
 }
 
 /*==== services ========================== */
@@ -379,10 +344,10 @@ nav.show div.icon-close {
   background: white;
 }
 
-.cards.grid {
+#services .cards.grid {
   gap: 1.5rem;
 }
-.card {
+#services .card {
   padding: 3.625rem 2rem;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
   border-bottom: 0.25rem solid var(--base-color);
@@ -390,21 +355,54 @@ nav.show div.icon-close {
   text-align: center;
 }
 
-.card i {
-  display: block;
+#services .card img {
   margin-bottom: 1.5rem;
-  font-size: 5rem;
-  color: var(--base-color);
+  width: 100px;
 }
 
-.card i:hover {
+#services .card img:hover {
   transform: scale(1.1);
   transition: all 200ms;
 }
 
-.card .title {
+#services .card .title {
   font-size: 1.5rem;
   margin-bottom: 0.75rem;
+}
+
+#services p {
+  font-size: 1.1rem;
+}
+
+#services .card p {
+  font-size: 1.1rem;
+}
+
+/*==== about ============================ */
+
+#about .image-slide {
+  display: flex;
+  max-width: 500px;
+  overflow-x: scroll;
+}
+
+#about .container {
+  margin: 0;
+}
+
+#about .image img {
+  width: 100%;
+  height: min(350px, 90%);
+}
+
+#about .image img,
+#about .image::before {
+  border-radius: 1rem;
+}
+
+#about .text {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 /*==== testimonials ====================== */
@@ -567,134 +565,6 @@ footer .brand p {
 /*==== responsivo =================== */
 
 @media (min-width: 1024px) {
-  /*{
-  :root {
-    --title-font-size: 2.25rem;
-    --subtitle-font-size: 1.125rem;
-  }
-  main {
-    margin-top: var(--header-height);
-  }
-
-  .section header,
-  #testimonials header {
-    margin-left: auto;
-    max-width: 32rem;
-    text-align: center;
-    margin-right: auto;
-  }
-
-  .section {
-    padding: 10rem 0;
-  }
-
-  .button {
-    height: 3.125rem;
-  }
-
-  .container {
-    max-width: 1120px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  /* navigation 
-  nav .menu {
-    opacity: 1;
-    visibility: visible;
-    top: 0;
-  }
-
-  nav .menu ul {
-    display: flex;
-    gap: 2rem;
-  }
-
-  nav .menu ul li a.title {
-    font: 400 1rem var(--body-font);
-    -webkit-font-smoothing: antialiased;
-  }
-
-  nav .menu ul li a.title.active {
-    font-weight: bold;
-    -webkit-font-smoothing: auto;
-  }
-
-  nav .icon-menu {
-    display: none;
-  }
-
-  #home .container {
-    grid-auto-flow: column;
-    justify-content: space-between;
-    margin: 0 auto;
-  }
-
-  #home .image {
-    order: 1;
-  }
-
-  #home .image img {
-    position: relative;
-    right: -3.07rem;
-  }
-
-  #home .text {
-    order: 0;
-    text-align: left;
-    max-width: 24rem;
-  }
-
-  #about .container {
-    grid-auto-flow: column;
-    margin: 0 auto;
-  }
-
-  #about .image::before {
-    height: 70%;
-    width: 95%;
-    background: var(--base-color-second);
-
-    top: -5%;
-
-    left: -23%;
-    z-index: 0;
-  }
-
-  .cards {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .card {
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
-
-  #testimonials .container {
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  #contact .container {
-    grid-auto-flow: column;
-    align-items: center;
-  }
-
-  #contact .text {
-    max-width: 24.5rem;
-  }
-
-  footer.section {
-    padding: 3.75rem 0;
-  }
-
-  footer .container {
-    grid-auto-flow: column;
-    align-items: center;
-    justify-content: space-between;
-  }
-}*/
-
   /* reusable classes */
   .container {
     max-width: 1120px;
@@ -811,5 +681,12 @@ footer .brand p {
 
   footer .logo {
     font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 992px) {
+  :root {
+    --title-font-size: 2.25rem;
+    --subtitle-font-size: 1.125rem;
   }
 }
