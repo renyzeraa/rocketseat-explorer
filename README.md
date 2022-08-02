@@ -47,7 +47,7 @@
 
 <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage05/Aula01"> Class 01 </a>&nbsp; </br>
 <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage05/Aula02"> Class 02 </a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage05/Challenge2"> Deploy Challenge 1 - FocusTimer - V 2.0 ⌚️ </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage05/Challenge1"> Deploy Challenge 1 - FocusTimer - V 2.0 ⌚️ </a>&nbsp; </br>
 <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage05/Challenge2"> Deploy Challenge 2 - FocusTimer - V 3.0 Dark Mode 🕐⬛️⬜️</a>&nbsp; </br>
 <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage05/Redoing-Challenge2"> Deploy Redoing-Challenge 2 </a>&nbsp; </br>
 
