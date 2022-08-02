@@ -1,10 +1,10 @@
 <div align="center">
 
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage05/Aula01" target="_blank" > <h1> Deploy **🚀** </h1></a>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage05/Aula02" target="_blank" > <h1> Deploy **🚀** </h1></a>
 
 # Preview do projeto 🤩
 
-![Screenshot_6](https://user-images.githubusercontent.com/101990719/175839695-3a0e4841-976b-4619-8f31-12f9b99e7cf9.png)
+![Screenshot_1](https://user-images.githubusercontent.com/101990719/182402042-a3d8cdc8-848e-4ac5-9f16-b379a41e4dfe.png)
 
 </div>
 
