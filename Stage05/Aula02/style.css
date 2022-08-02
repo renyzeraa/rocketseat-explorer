@@ -143,9 +143,17 @@ p {
   body {
     background-position: center;
   }
+
+  main {
+    padding: 0;
+  }
 }
 
 @media (max-width: 450px) {
+  main {
+    padding: 0;
+  }
+
   .insert input {
     border-radius: 4px;
     margin-right: 0;
