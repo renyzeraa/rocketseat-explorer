@@ -401,6 +401,7 @@ nav.show div.icon-close {
 }
 
 #about img {
+  border-radius: 0.5rem;
   vertical-align: middle;
 }
 /* Slideshow container */
@@ -444,14 +445,7 @@ nav.show div.icon-close {
   width: 100%;
   text-align: center;
 }
-/* Number text (1/3 etc) */
-#about .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
+
 /* The dots/bullets/indicators */
 #about .dot {
   cursor: pointer;
@@ -474,13 +468,12 @@ nav.show div.icon-close {
   background: white;
 }
 
-#securities .container {
-  margin-left: 0;
-  margin-right: 0;
-}
-
 #securities header {
   text-align: center;
+}
+
+#securities .securie-container {
+  display: flex;
 }
 
 /*==== contact ====================== */
