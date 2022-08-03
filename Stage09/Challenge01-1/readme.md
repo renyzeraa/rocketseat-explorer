@@ -1,20 +1,18 @@
-# NLW 6ª Edição
+#
 
 Faaala dev!, seja bem-vindo a mais um projeto.
-
-Aconteceu o evento da NLW (next level week) Return 6ª edição com a RocketSeat 🚀, decidi participar para botar alguns dos meus conhecimentos em pratica e também para continuar adquirindo novos.
 
 ## <a href="https://renyzeraa.github.io/LP-beautysalon/" > Deploy 🛫 </a>
 
 O objetivo final é uma landing page para uma empresa (o exemplo usado foi de salão de beleza), com mobile first, toda adaptada para telas menores e maiores, apresentando quais produtos tem a oferecer, comentarios de clientes com anição scroll, contato e muito mais !.
 
 ### Para fazer este projeto usei 👇
+
 <span>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="52" alt="html5 logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" width="52" alt="css3 logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" width="52" alt="javascript logo"  />
-</span> 
-
+</span>
 
 ## Contact
 
