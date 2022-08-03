@@ -405,33 +405,18 @@ nav.show div.icon-close {
 
 #about .image-slide {
   display: flex;
-  width: min(900px, 100%);
-  overflow-x: scroll;
-  border-radius: 10px;
-  scrollbar-height: none;
+  margin-left: -21px;
+  margin-right: 58px;
+  border: 17px solid var(--base-color);
+  width: min(900px, 110%);
+  overflow-y: scroll;
+  border-radius: 2px;
 }
+
 #about .text {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
-
-.image-slide::-webkit-scrollbar {
-  width: 8px;
-}
-
-:-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0);
-}
-
-/*  SCROLL  */
-/* #about 
-
-
-
-#about .image-slide::-webkit-scrollbar-thumb {
-  background-color: var(--scroll-bg);
-  border-radius: 100px;
-} */
 
 /*==== securities ====================== */
 
