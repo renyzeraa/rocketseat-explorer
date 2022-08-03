@@ -406,7 +406,6 @@ nav.show div.icon-close {
 #about .image-slide {
   display: flex;
   margin-left: -21px;
-  margin-right: 58px;
   border: 17px solid var(--base-color);
   width: min(900px, 110%);
   overflow-y: scroll;

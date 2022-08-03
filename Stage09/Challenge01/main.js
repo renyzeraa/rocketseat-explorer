@@ -37,20 +37,28 @@ let count1 = +count1Html.textContent
 let count2 = +count1Html.textContent
 let count3 = +count1Html.textContent
 
-function updateDisplay(count1, count2, count3) {
-  count1Html.textContent = String(count1)
+function updateDisplay(count2, count3) {
   count2Html.textContent = String(count2)
   count3Html.textContent = String(count3)
 }
-function countdown() {
+function updateDisplay1(count1) {
+  count1Html.textContent = String(count1)
+}
+function countdown1() {
   setTimeout(() => {
     let count1 = +count1Html.textContent
+    if (count1 <= 9980) {
+      count1 = count1 + 20
+    }
+    updateDisplay1(count1)
+    countdown1()
+  }, 0.5)
+}
+
+function countdown() {
+  setTimeout(() => {
     let count2 = +count2Html.textContent
     let count3 = +count3Html.textContent
-
-    if (count1 <= 19000) {
-      count1 = count1 + 1000
-    }
 
     if (count2 <= 19) {
       ++count2
@@ -60,7 +68,7 @@ function countdown() {
       ++count3
     }
 
-    updateDisplay(count1, count2, count3)
+    updateDisplay(count2, count3)
 
     countdown()
   }, 100)
@@ -68,6 +76,7 @@ function countdown() {
 
 if (window.scrollY > 100) {
   countdown()
+  countdown1()
 }
 
 const swiper = new Swiper('.swiper-container', {
