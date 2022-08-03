@@ -23,10 +23,10 @@ function changeHeaderWhenScroll() {
 
   if (window.scrollY >= navHeight) {
     header.classList.add('scroll')
-    logoHeader.setAttribute('src', './assets/imgs/logo-white.png')
+    logoHeader.setAttribute('src', './assets/imgs/logo/logo-white.png')
   } else {
     header.classList.remove('scroll')
-    logoHeader.setAttribute('src', './assets/imgs/logo-black.png')
+    logoHeader.setAttribute('src', './assets/imgs/logo/logo-black.png')
   }
 }
 
@@ -75,7 +75,6 @@ function countdown() {
     countdown()
   }, 90)
 }
-
 let slideIndex = 1
 
 function plusSlides(n) {
@@ -84,15 +83,25 @@ function plusSlides(n) {
 function currentSlide(n) {
   showSlides((slideIndex = n))
 }
+
 function showSlides(n) {
   let i
   let slides = document.getElementsByClassName('mySlides')
   let dots = document.getElementsByClassName('dot')
+
+  if (slideIndex > 6) {
+    slideIndex = 6
+  }
+  if (slideIndex < 1) {
+    slideIndex = 1
+  }
+
   if (n > slides.length) {
     slideIndex = 1
   }
+
   if (n < 1) {
-    slideIndex = slides.length
+    slideIndex = 1
   }
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = 'none'
@@ -104,20 +113,7 @@ function showSlides(n) {
   dots[slideIndex - 1].className += ' active'
 }
 
-const swiper = new Swiper('.swiper-container', {
-  slidesPerView: 1,
-  pagination: {
-    el: '.swiper-pagination'
-  },
-  mousewheel: true,
-  keyboard: true,
-  breakpoints: {
-    767: {
-      slidesPerView: 2,
-      setWrapperSize: true
-    }
-  }
-})
+showSlides(slideIndex)
 
 const scrollReveal = ScrollReveal({
   origin: 'top',
@@ -129,8 +125,7 @@ const scrollReveal = ScrollReveal({
 scrollReveal.reveal(
   `#home .logo-home, #home .text, #stats .stats,
   #services header, #services .card,
-  #about .text, #about .image-slide,
-  #securities header, #securities .securities, #contact .links, #contact .maps
+  #about .text, #about .slideshow-container, #contact .links, #contact .maps
   footer .logo, footer .social
   `,
   { interval: 100 }
@@ -177,6 +172,6 @@ window.addEventListener('scroll', () => {
     countdown()
     countdown1()
   }
-  showSlides(slideIndex)
+
   // activateMenuAtCurrentSection()
 })
