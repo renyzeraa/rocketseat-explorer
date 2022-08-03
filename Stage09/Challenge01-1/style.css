@@ -567,13 +567,17 @@ footer .brand p {
 @media (min-width: 1024px) {
   /* reusable classes */
   .container {
+    padding-left: 1rem;
     max-width: 1120px;
     margin-left: auto;
     margin-right: auto;
   }
 
+  .logo img {
+    height: 3rem;
+  }
   .section {
-    padding: 10rem 0;
+    padding: 7rem 0;
   }
 
   .section header,
@@ -621,19 +625,34 @@ footer .brand p {
 
   /* home */
   #home .container {
+    display: grid;
     grid-auto-flow: column;
     justify-content: space-between;
     margin: 0 auto;
-  }
-
-  #home .image {
-    order: 1;
+    margin-top: -5rem;
   }
 
   #home .text {
     order: 0;
     max-width: 24rem;
-    text-align: left;
+    text-align: center;
+  }
+
+  #stats .stats {
+    max-width: 81rem;
+
+    flex-direction: row;
+    padding: 6rem;
+    gap: 3rem;
+  }
+
+  #stats .stats .stat p {
+    border-bottom: none;
+  }
+
+  #stats .stats .stat + .stat {
+    border-left: 2px solid var(--base-color);
+    padding-left: 4rem;
   }
 
   /* about */
@@ -651,6 +670,10 @@ footer .brand p {
     padding-left: 3rem;
     padding-right: 3rem;
   }
+  #services p,
+  .card p {
+    font-size: 1.4rem;
+  }
 
   /* testimonials */
   #testimonials .container {
@@ -659,18 +682,39 @@ footer .brand p {
   }
 
   /* contact */
+
+  #contact {
+    margin: 0 auto;
+    max-width: 1120px;
+  }
+
+  #contact .title {
+    margin-bottom: 1rem;
+    width: 600px;
+  }
+
   #contact .container {
-    grid-auto-flow: column;
-    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #contact .grid {
+    gap: 0rem;
   }
 
   #contact .text {
     max-width: 25rem;
   }
 
+  .maps {
+    overflow: hidden;
+
+    border-radius: 10px;
+  }
+
   /* footer */
   footer.section {
-    padding: 3.75rem 0;
+    padding: 3.75rem 0 1rem 0;
   }
 
   footer .container {
@@ -680,7 +724,31 @@ footer .brand p {
   }
 
   footer .logo {
-    font-size: 2.25rem;
+    margin-bottom: 1rem;
+  }
+
+  footer p {
+    text-align: center;
+  }
+
+  .brand .logo .logo-white {
+    padding: 1.2rem 0 0 0;
+    height: 6rem;
+  }
+
+  .brand .logo .logo-white:hover {
+    transition: 1s;
+    transform: scale(1.1);
+  }
+
+  .description-footer {
+    text-align: center;
+    color: var(--body-color);
+    margin-top: 4rem;
+  }
+
+  .description-footer p {
+    margin-bottom: 1rem;
   }
 }
 
