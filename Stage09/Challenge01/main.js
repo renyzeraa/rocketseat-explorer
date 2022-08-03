@@ -73,7 +73,7 @@ function countdown() {
     updateDisplay(count2, count3)
 
     countdown()
-  }, 90)
+  }, 150)
 }
 let slideIndex = 1
 
@@ -143,7 +143,7 @@ function backToTop() {
 
 const sections = document.querySelectorAll('main section[id]')
 function activateMenuAtCurrentSection() {
-  const checkpoint = window.pageYOffset + (window.innerHeight / 8) * 4
+  const checkpoint = window.scrollY + (window.innerHeight / 8) * 4
 
   for (const section of sections) {
     const sectionTop = section.offsetTop
@@ -152,10 +152,10 @@ function activateMenuAtCurrentSection() {
 
     const checkpointStart = checkpoint >= sectionTop
     const checkpointEnd = checkpoint <= sectionTop + sectionHeight
-
+    console.log(checkpoint, sectionId)
     if (checkpointStart && checkpointEnd) {
       document
-        .querySelector('nav ul li a[href*=' + sectionId + ']')
+        .querySelector(`nav ul li a[href*='${sectionId}']`)
         .classList.add('active')
     } else {
       document
@@ -178,5 +178,5 @@ window.addEventListener('scroll', () => {
     countdown1()
   }
 
-  // activateMenuAtCurrentSection()
+  activateMenuAtCurrentSection()
 })
