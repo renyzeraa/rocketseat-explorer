@@ -1,22 +1,5 @@
 # salve
 
-Projeto para meu amigo
-
-teste
-
-teste
-teste
-
-teste
-
-teste
-
-v
-teste
-v
-v
-teste
-
 Faaala dev!, seja bem-vindo a mais um projeto.
 
 ## <a href="https://renyzeraa.github.io/LP-beautysalon/" > Deploy 🛫 </a>
