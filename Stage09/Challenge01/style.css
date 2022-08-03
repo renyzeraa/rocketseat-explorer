@@ -315,7 +315,7 @@ nav.show div.icon-close {
   font-family: var(--stats-font);
   margin-top: 3rem;
   text-align: center;
-  max-width: 500px;
+  width: min(340px, 100%);
   padding-block: 4rem;
   margin-inline: auto;
 
@@ -389,14 +389,8 @@ nav.show div.icon-close {
 
 /*==== about ============================ */
 
-#about .image-slide {
-  display: flex;
-  max-width: 500px;
-  overflow-x: scroll;
-}
-
 #about .container {
-  margin: 0;
+  text-align: center;
 }
 
 #about .image img {
@@ -409,10 +403,35 @@ nav.show div.icon-close {
   border-radius: 1rem;
 }
 
+#about .image-slide {
+  display: flex;
+  width: min(900px, 100%);
+  overflow-x: scroll;
+  border-radius: 10px;
+  scrollbar-height: none;
+}
 #about .text {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
+
+.image-slide::-webkit-scrollbar {
+  width: 8px;
+}
+
+:-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+}
+
+/*  SCROLL  */
+/* #about 
+
+
+
+#about .image-slide::-webkit-scrollbar-thumb {
+  background-color: var(--scroll-bg);
+  border-radius: 100px;
+} */
 
 /*==== securities ====================== */
 
