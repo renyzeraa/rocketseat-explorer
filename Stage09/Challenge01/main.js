@@ -56,7 +56,7 @@ scrollReveal.reveal(
   `#home .logo-home, #home .text, #stats .stats,
   #services header, #services .card,
   #about .text, #about .image-slide,
-  #testimonials header, #testimonials .testimonials, #contact .links, #contact .maps
+  #securities header, #securities .securities, #contact .links, #contact .maps
   footer .logo, footer .social
   `,
   { interval: 100 }
