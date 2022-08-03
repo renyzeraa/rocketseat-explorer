@@ -572,6 +572,17 @@ footer .brand p {
 
 /*==== responsivo =================== */
 
+@media (min-width: 900px) {
+  :root {
+    --title-font-size: 2.25rem;
+    --subtitle-font-size: 1.125rem;
+  }
+
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 @media (min-width: 1024px) {
   /* reusable classes */
   .container {
@@ -596,10 +607,10 @@ footer .brand p {
 
   .section header,
   #securities header {
-    max-width: 32rem;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    max-width: 60rem;
   }
 
   .button {
@@ -699,6 +710,12 @@ footer .brand p {
   #about .container {
     margin: 0 auto;
     grid-auto-flow: column;
+
+    gap: 1rem;
+  }
+
+  #about .container .text {
+    max-width: 358px;
   }
 
   /* services */
@@ -789,18 +806,5 @@ footer .brand p {
 
   .description-footer p {
     margin-bottom: 1rem;
-  }
-}
-
-@media (min-width: 992px) {
-  :root {
-    --title-font-size: 2.25rem;
-    --subtitle-font-size: 1.125rem;
-  }
-}
-
-@media (min-height: 530px) {
-  #about .image-slide {
-    height: clamp(14rem, 14rem, 90rem);
   }
 }
