@@ -83,3 +83,6 @@ ScrollReveal({
   #contact .button
   `
 )
+{
+  amigo: 'uidiasjdákdokasokdsokdoasaodks'
+}
