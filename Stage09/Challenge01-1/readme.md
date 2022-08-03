@@ -6,13 +6,7 @@ teste
 
 teste
 teste
-teste
-teste
 
-teste
-teste
-teste
-v
 teste
 
 teste
