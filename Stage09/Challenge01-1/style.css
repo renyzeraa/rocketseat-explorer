@@ -639,11 +639,10 @@ footer .brand p {
   }
 
   #stats .stats {
-    max-width: 81rem;
-
+    max-width: 70rem;
     flex-direction: row;
-    padding: 6rem;
-    gap: 3rem;
+    padding: 3rem;
+    gap: 1.5rem;
   }
 
   #stats .stats .stat p {
