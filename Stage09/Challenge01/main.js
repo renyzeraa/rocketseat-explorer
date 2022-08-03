@@ -152,7 +152,7 @@ function activateMenuAtCurrentSection() {
 
     const checkpointStart = checkpoint >= sectionTop
     const checkpointEnd = checkpoint <= sectionTop + sectionHeight
-    console.log(checkpoint, sectionId)
+
     if (checkpointStart && checkpointEnd) {
       document
         .querySelector(`nav ul li a[href*='${sectionId}']`)
@@ -165,7 +165,7 @@ function activateMenuAtCurrentSection() {
   }
 }
 
-if (window.innerHeight > 700) {
+if (window.innerWidth > 700) {
   countdown()
   countdown1()
 }
@@ -173,7 +173,7 @@ if (window.innerHeight > 700) {
 window.addEventListener('scroll', () => {
   changeHeaderWhenScroll()
   backToTop()
-  if (window.scrollY > 250) {
+  if (window.scrollY > 220) {
     countdown()
     countdown1()
   }
