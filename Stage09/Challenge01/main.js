@@ -29,6 +29,7 @@ function changeHeaderWhenScroll() {
     logoHeader.setAttribute('src', './assets/imgs/logo-black.png')
   }
 }
+
 const count1Html = document.querySelector('.count1')
 const count2Html = document.querySelector('.count2')
 const count3Html = document.querySelector('.count3')
@@ -44,6 +45,7 @@ function updateDisplay(count2, count3) {
 function updateDisplay1(count1) {
   count1Html.textContent = String(count1)
 }
+
 function countdown1() {
   setTimeout(() => {
     let count1 = +count1Html.textContent
@@ -74,9 +76,32 @@ function countdown() {
   }, 100)
 }
 
-if (window.scrollY > 100) {
-  countdown()
-  countdown1()
+let slideIndex = 1
+
+function plusSlides(n) {
+  showSlides((slideIndex += n))
+}
+function currentSlide(n) {
+  showSlides((slideIndex = n))
+}
+function showSlides(n) {
+  let i
+  let slides = document.getElementsByClassName('mySlides')
+  let dots = document.getElementsByClassName('dot')
+  if (n > slides.length) {
+    slideIndex = 1
+  }
+  if (n < 1) {
+    slideIndex = slides.length
+  }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = 'none'
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(' active', '')
+  }
+  slides[slideIndex - 1].style.display = 'block'
+  dots[slideIndex - 1].className += ' active'
 }
 
 const swiper = new Swiper('.swiper-container', {
@@ -148,6 +173,10 @@ function activateMenuAtCurrentSection() {
 window.addEventListener('scroll', () => {
   changeHeaderWhenScroll()
   backToTop()
-  countdown()
+  if (window.scrollY > 250) {
+    countdown()
+    countdown1()
+  }
+  showSlides(slideIndex)
   // activateMenuAtCurrentSection()
 })

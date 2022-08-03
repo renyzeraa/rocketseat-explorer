@@ -67,15 +67,15 @@
       <section id="stats">
         <div class="stats">
           <div class="stat">
-            <h3>+<span class="count1"></span></h3>
+            <h3>+<span class="count1">0</span></h3>
             <p>Carros Reparados</p>
           </div>
           <div class="stat">
-            <h3>+<span class="count2"></span></h3>
+            <h3>+<span class="count2">0</span></h3>
             <p>Especialistas em Reparação</p>
           </div>
           <div class="stat">
-            <h3><span class="count3"></span></h3>
+            <h3><span class="count3">0</span></h3>
             <p>Anos no mercado</p>
           </div>
         </div>
@@ -149,7 +149,7 @@
 
     <section class="section" id="about">
       <div class="container grid">
-        <div class="text">
+        <!-- <div class="text">
           <h1 class="title">MAIS DE UMA DÉCADA DE EXCELÊNCIA</h1>
           <p>
             Em outubro de 2007, da união de três amigos nascia a GPM CAR. A primeira sede foi estabelecida no Bairro Canoas, cada um dos sócios atuava nas suas respectivas especialidades.
@@ -158,44 +158,36 @@
           <p>
             Qualidade, atendimento e comprometimento com nossos clientes, foram os principais pilares para chegarmos a mais de uma década de empresa, prestando serviços com excelência e construindo uma relação de confiança com nossos clientes e colaboradores.
           </p>
+        </div> -->
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img src="./assets/imgs/cabine1.jpg">
+          </div>
+          <div class="mySlides fade">
+            <img src="./assets/imgs/cabine2.jpg">
+          </div>
+          <div class="mySlides fade">
+            <img src="./assets/imgs/garagem.jpg">
+          </div>
+          <div class="mySlides fade">
+            <img src="./assets/imgs/lataria1.jpg">
+          </div>
+          <div class="mySlides fade">
+            <img src="./assets/imgs/frente-gpm1.jpg">
+          </div>
+          <div class="mySlides fade">
+            <img src="./assets/imgs/frente-gpm2.jpg">
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
         </div>
-        <div class="image-slide">
-          <div class="slides">
-
-            <div id="last" class="btn-slide">
-              <i class="fa-solid fa-angle-left"></i>
-            </div>
-            <div id="next" class="btn-slide">
-              <i class="fa-solid fa-angle-right"></i>
-            </div>
-
-            <div id="actual" class="imgs">
-              <img src="./assets/imgs/cabine1.jpg" alt="">
-            </div>
-            <div id="actual" class="imgs">
-              <img src="./assets/imgs/cabine2.jpg" alt="">
-            </div>
-            <div id="actual" class="imgs">
-              <img src="./assets/imgs/frente-gpm1.jpg" alt="">
-            </div>
-            <div id="actual" class="imgs">
-              <img src="./assets/imgs/frente-gpm2.jpg" alt="">
-            </div>
-            <div id="actual" class="imgs">
-              <img src="./assets/imgs/lataria1.jpg" alt="">
-            </div>
-            <div id="actual" class="imgs">
-              <img src="./assets/imgs/garagem.jpg" alt="">
-            </div>
-          </div>
-          <div class="balls">
-            <div id="0"></div>
-            <div id="1"></div>
-            <div id="2"></div>
-            <div id="3"></div>
-            <div id="4"></div>
-            <div id="5"></div>
-          </div>
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
         </div>
       </div>
     </section>
