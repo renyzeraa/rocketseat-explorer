@@ -552,22 +552,6 @@ nav.show div.icon-close {
   background-color: #717171;
 }
 
-/* swipper */
-
-/* .swiper-slide {
-  height: auto;
-  padding: 4rem 1rem;
-}
-
-.swiper-pagination-bullet {
-  width: 0.5rem;
-  padding: 0.5rem;
-}
-
-.swiper-pagination-bullet-active {
-  background: var(--base-color);
-} */
-
 /*==== contact ====================== */
 
 #contact .grid {
@@ -685,6 +669,10 @@ footer .brand p {
     height: 3.125rem;
   }
 
+  #header {
+    padding: 0 20px 0 20px;
+  }
+
   /* navigation */
   nav .menu {
     opacity: 1;
@@ -705,6 +693,10 @@ footer .brand p {
   nav .menu ul li a.title.active {
     font-weight: bold;
     -webkit-font-smoothing: auto;
+  }
+
+  header.scroll nav .menu ul li a {
+    color: white;
   }
 
   nav .icon-menu {
@@ -732,7 +724,7 @@ footer .brand p {
   }
 
   #stats .stats {
-    max-width: 70rem;
+    width: min(70rem, 90%);
     flex-direction: row;
     padding: 3rem;
     gap: 1.5rem;
