@@ -315,7 +315,7 @@ nav.show div.icon-close {
   font-family: var(--stats-font);
   margin-top: 3rem;
   text-align: center;
-  width: min(340px, 100%);
+  width: min(450px, 80%);
   padding-block: 4rem;
   margin-inline: auto;
 
