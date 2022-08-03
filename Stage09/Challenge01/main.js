@@ -54,7 +54,7 @@ function countdown1() {
     }
     updateDisplay1(count1)
     countdown1()
-  }, 0.5)
+  }, 0.7)
 }
 
 function countdown() {
@@ -73,7 +73,7 @@ function countdown() {
     updateDisplay(count2, count3)
 
     countdown()
-  }, 100)
+  }, 90)
 }
 
 let slideIndex = 1
