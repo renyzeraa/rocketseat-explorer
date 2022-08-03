@@ -1,8 +1,5 @@
 const nav = document.querySelector('#header nav')
 const toggle = document.querySelectorAll('nav .toggle')
-const links = document.querySelectorAll('nav ul li a')
-const header = document.querySelector('#header')
-const navHeight = header.offsetHeight
 
 for (const element of toggle) {
   element.addEventListener('click', function () {
@@ -10,17 +7,26 @@ for (const element of toggle) {
   })
 }
 
+const links = document.querySelectorAll('nav ul li a')
+
 for (const link of links) {
   link.addEventListener('click', function () {
     nav.classList.remove('show')
   })
 }
 
+const header = document.querySelector('#header')
+const navHeight = header.offsetHeight
+
 function changeHeaderWhenScroll() {
+  const logoHeader = document.querySelector('#header nav a img')
+
   if (window.scrollY >= navHeight) {
     header.classList.add('scroll')
+    logoHeader.setAttribute('src', './assets/imgs/logo-white.png')
   } else {
     header.classList.remove('scroll')
+    logoHeader.setAttribute('src', './assets/imgs/logo-black.png')
   }
 }
 
@@ -47,12 +53,11 @@ const scrollReveal = ScrollReveal({
 })
 
 scrollReveal.reveal(
-  `#home .image, #home .text,
-  #about .image, #about .text,
+  `#home .logo-home, #home .text, #stats .stats,
   #services header, #services .card,
-  #testimonials header, #testimonials .testimonials
-  #contact .text, #contact .links,
-  footer .brand, footer .social
+  #about .text, #about .image-slide,
+  #testimonials header, #testimonials .testimonials, #contact .links, #contact .maps
+  footer .logo, footer .social
   `,
   { interval: 100 }
 )
@@ -91,8 +96,8 @@ function activateMenuAtCurrentSection() {
   }
 }
 
-window.addEventListener('scroll', function () {
+window.addEventListener('scroll', () => {
   changeHeaderWhenScroll()
   backToTop()
-  activateMenuAtCurrentSection()
+  // activateMenuAtCurrentSection()
 })
