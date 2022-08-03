@@ -653,6 +653,12 @@ footer .brand p {
   .logo img {
     height: 3rem;
   }
+
+  .logo img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+  }
+
   .section {
     padding: 7rem 0;
   }
@@ -695,6 +701,11 @@ footer .brand p {
     -webkit-font-smoothing: auto;
   }
 
+  header.scroll nav ul li a:hover,
+  header.scroll nav ul li a.active {
+    color: var(--base-color);
+  }
+
   header.scroll nav .menu ul li a {
     color: white;
   }
@@ -709,6 +720,11 @@ footer .brand p {
   }
 
   /* home */
+
+  #home .logo-home {
+    width: 100%;
+  }
+
   #home .container {
     display: grid;
     grid-auto-flow: column;

@@ -165,6 +165,11 @@ function activateMenuAtCurrentSection() {
   }
 }
 
+if (window.innerHeight > 700) {
+  countdown()
+  countdown1()
+}
+
 window.addEventListener('scroll', () => {
   changeHeaderWhenScroll()
   backToTop()
