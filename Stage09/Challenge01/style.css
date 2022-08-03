@@ -403,14 +403,14 @@ nav.show div.icon-close {
   border-radius: 1rem;
 }
 
-#about .image-slide {
+/* #about .image-slide {
   display: flex;
   margin-left: -21px;
   border: 17px solid var(--base-color);
   width: min(900px, 110%);
   overflow-y: scroll;
   border-radius: 2px;
-}
+} */
 
 #about .text {
   margin-left: 1.5rem;
