@@ -115,6 +115,23 @@ function showSlides(n) {
 
 showSlides(slideIndex)
 
+const imagesCarousel = document.getElementById('imgs')
+const imgCarousel = document.querySelectorAll('#imgs img')
+
+let idx = 0
+
+function slideAuto() {
+  idx++
+
+  let tamanhoFinal = window.innerWidth < 1000 ? 220 : 165
+  if (idx >= imgCarousel.length - 1) {
+    idx = 0
+  }
+  imagesCarousel.style.transform = `translateX(${-idx * tamanhoFinal}px)`
+}
+
+setInterval(slideAuto, 700)
+
 const scrollReveal = ScrollReveal({
   origin: 'top',
   distance: '30px',
