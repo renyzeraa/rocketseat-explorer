@@ -586,6 +586,10 @@ footer .menu .grid li .title {
   position: relative;
 }
 
+footer .menu .grid li .title:hover {
+  font-weight: bold;
+}
+
 footer .menu .grid li .title:hover::after {
   width: 100%;
 }
