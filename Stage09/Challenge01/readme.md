@@ -1,6 +1,6 @@
 # Land 09 - Projetos pessoais
 
-# 💻 Sobre o desafio
+# 💻 GPM Project 🚗
 
 Apos visitar o **Dribbble** e o **UpLabs**, e escolhi um projeto para fazer. Para melhorar este projeto, projetei um site para um amigo que tem uma empresa de chapeação de carro e estava dando uma repaginada na empresa, resolvi ajudar ele fazendo uma boa landing page, alem de me inspirar, vou botar os conhecimentos vistos ate aqui em prática.! 🚀
 

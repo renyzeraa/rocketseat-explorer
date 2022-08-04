@@ -75,7 +75,8 @@
 
 ### <a align="center" href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage09"> Stage 09 </a>&nbsp; </br>
 
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage09"> In progress.... </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage09/Challenge01"> Deploy - GPM Project 🚗 </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage09"> Challenges In progress.... </a>&nbsp; </br>
 
 <div align="center">
   
