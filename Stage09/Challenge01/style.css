@@ -337,6 +337,7 @@ nav.show div.icon-close {
 }
 
 #stats .stat p {
+  font-weight: bold;
   margin: 0;
   color: var(--base-color);
   font-size: clamp(1.15rem, 3vw, 1.6rem);
@@ -667,6 +668,13 @@ footer .menu .grid li .title:hover::after {
 }
 
 /*==== responsivo =================== */
+@media (min-width: 600px) {
+  #logo-guincho {
+    display: inline;
+    max-width: 70px;
+    margin-right: 10px;
+  }
+}
 
 @media (min-width: 900px) {
   :root {
@@ -681,12 +689,6 @@ footer .menu .grid li .title:hover::after {
   #contact .numbers-urgencies {
     margin-left: -1000px;
     margin-right: -1000px;
-  }
-
-  #logo-guincho {
-    display: inline;
-    max-width: 70px;
-    margin-right: 10px;
   }
 
   footer .container {
@@ -865,7 +867,7 @@ footer .menu .grid li .title:hover::after {
   }
 
   #contact .title {
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
     width: 600px;
   }
 

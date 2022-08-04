@@ -1,23 +1,43 @@
+// nav animations
 const nav = document.querySelector('#header nav')
 const toggle = document.querySelectorAll('nav .toggle')
+const links = document.querySelectorAll('nav ul li a')
 
+// animations stats
+const count1Html = document.querySelector('.count1')
+const count2Html = document.querySelector('.count2')
+const count3Html = document.querySelector('.count3')
+let count1 = +count1Html.textContent
+let count2 = +count1Html.textContent
+let count3 = +count1Html.textContent
+
+//modify logo menu #header
+const header = document.querySelector('#header')
+const navHeight = header.offsetHeight
+
+// slide logos securities
+const imagesCarousel = document.getElementById('imgs')
+const imgCarousel = document.querySelectorAll('#imgs img')
+let idx = 0
+
+// button back to top
+const backToTopButton = document.querySelector('.back-to-top')
+// most section menu
+const sections = document.querySelectorAll('main section[id]')
+
+// animation menu mobile
 for (const element of toggle) {
   element.addEventListener('click', function () {
     nav.classList.toggle('show')
   })
 }
-
-const links = document.querySelectorAll('nav ul li a')
-
 for (const link of links) {
   link.addEventListener('click', function () {
     nav.classList.remove('show')
   })
 }
 
-const header = document.querySelector('#header')
-const navHeight = header.offsetHeight
-
+//modify logo menu #header
 function changeHeaderWhenScroll() {
   const logoHeader = document.querySelector('#header nav a img')
 
@@ -30,14 +50,7 @@ function changeHeaderWhenScroll() {
   }
 }
 
-const count1Html = document.querySelector('.count1')
-const count2Html = document.querySelector('.count2')
-const count3Html = document.querySelector('.count3')
-
-let count1 = +count1Html.textContent
-let count2 = +count1Html.textContent
-let count3 = +count1Html.textContent
-
+// animations stats
 function updateDisplay(count2, count3) {
   count2Html.textContent = String(count2)
   count3Html.textContent = String(count3)
@@ -45,7 +58,6 @@ function updateDisplay(count2, count3) {
 function updateDisplay1(count1) {
   count1Html.textContent = String(count1)
 }
-
 function countdown1() {
   setTimeout(() => {
     let count1 = +count1Html.textContent
@@ -56,7 +68,6 @@ function countdown1() {
     countdown1()
   }, 8)
 }
-
 function countdown() {
   setTimeout(() => {
     let count2 = +count2Html.textContent
@@ -75,15 +86,15 @@ function countdown() {
     countdown()
   }, 180)
 }
-let slideIndex = 1
 
+// slide photos #about
+let slideIndex = 1
 function plusSlides(n) {
   showSlides((slideIndex += n))
 }
 function currentSlide(n) {
   showSlides((slideIndex = n))
 }
-
 function showSlides(n) {
   let i
   let slides = document.getElementsByClassName('mySlides')
@@ -112,33 +123,27 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = 'block'
   dots[slideIndex - 1].className += ' active'
 }
-
 showSlides(slideIndex)
 
-const imagesCarousel = document.getElementById('imgs')
-const imgCarousel = document.querySelectorAll('#imgs img')
-
-let idx = 0
-
+// slide logos #securities
 function slideAuto() {
   idx++
 
-  let tamanhoFinal = window.innerWidth < 700 ? 216 : 165
+  let tamanhoFinal = window.innerWidth < 700 ? 208 : 165
   if (idx >= imgCarousel.length - 1) {
     idx = 0
   }
   imagesCarousel.style.transform = `translateX(${-idx * tamanhoFinal}px)`
 }
-
 setInterval(slideAuto, 700)
 
+// animations scrolls
 const scrollReveal = ScrollReveal({
   origin: 'top',
   distance: '30px',
   duration: 400,
   reset: true
 })
-
 scrollReveal.reveal(
   `#home .logo-home, #home .text, #stats .stats,
   #services header, #services .card,
@@ -147,8 +152,7 @@ scrollReveal.reveal(
   { interval: 100 }
 )
 
-const backToTopButton = document.querySelector('.back-to-top')
-
+// button back to top
 function backToTop() {
   if (window.scrollY >= 560) {
     backToTopButton.classList.add('show')
@@ -157,7 +161,7 @@ function backToTop() {
   }
 }
 
-const sections = document.querySelectorAll('main section[id]')
+// active animation menu
 function activateMenuAtCurrentSection() {
   const checkpoint = window.scrollY + (window.innerHeight / 8) * 4
 
@@ -181,11 +185,13 @@ function activateMenuAtCurrentSection() {
   }
 }
 
+// stats desktop
 if (window.innerWidth > 700) {
   countdown()
   countdown1()
 }
 
+// events with scroll
 window.addEventListener('scroll', () => {
   changeHeaderWhenScroll()
   backToTop()
