@@ -280,7 +280,7 @@ nav.show div.icon-close {
 #home {
   overflow: hidden;
 
-  padding-top: calc(4.1rem + var(--nav-height));
+  padding-top: calc(3rem + var(--nav-height));
 }
 
 #home .container {
@@ -646,6 +646,18 @@ footer .menu .grid li .title:hover::after {
   .cards {
     grid-template-columns: 1fr 1fr;
   }
+
+  footer .container {
+    margin: 0 auto;
+    display: flex;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 4rem;
+  }
+
+  footer .menu {
+    text-align: left;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -837,12 +849,6 @@ footer .menu .grid li .title:hover::after {
   /* footer */
   footer.section {
     padding: 3.75rem 0 1rem 0;
-  }
-
-  footer .container {
-    grid-auto-flow: column;
-    align-items: center;
-    justify-content: space-between;
   }
 
   footer .logo {
