@@ -123,7 +123,7 @@ let idx = 0
 function slideAuto() {
   idx++
 
-  let tamanhoFinal = window.innerWidth < 1000 ? 220 : 165
+  let tamanhoFinal = window.innerWidth < 1000 ? 216 : 165
   if (idx >= imgCarousel.length - 1) {
     idx = 0
   }
