@@ -496,6 +496,33 @@ nav.show div.icon-close {
 
 /*==== contact =================== */
 
+.section#contact {
+  padding-top: 0;
+}
+
+#logo-guincho {
+  display: none;
+}
+
+#contact .numbers-urgencies {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5.5rem;
+  background: var(--base-color);
+  height: 4rem;
+  box-shadow: 0px 1px 20px 3px rgb(255 136 0 / 88%);
+  gap: 10px;
+}
+
+.numbers-urgencies p,
+.numbers-urgencies a {
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: white;
+  font-size: calc(12px + 1vw);
+}
+
 #contact .grid {
   gap: 4rem;
 }
@@ -531,7 +558,7 @@ nav.show div.icon-close {
 
 #contact .container #maps {
   width: 100vw;
-  height: 50vh;
+  height: 40vh;
 }
 
 /*==== footer ====================== */
@@ -649,6 +676,17 @@ footer .menu .grid li .title:hover::after {
 
   .cards {
     grid-template-columns: 1fr 1fr;
+  }
+
+  #contact .numbers-urgencies {
+    margin-left: -1000px;
+    margin-right: -1000px;
+  }
+
+  #logo-guincho {
+    display: inline;
+    max-width: 70px;
+    margin-right: 10px;
   }
 
   footer .container {
