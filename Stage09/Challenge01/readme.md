@@ -1,10 +1,13 @@
-# salve
+# Land 09 - Projetos pessoais
 
-Faaala dev!, seja bem-vindo a mais um projeto.
+# 💻 Sobre o desafio
 
-## <a href="https://renyzeraa.github.io/LP-beautysalon/" > Deploy 🛫 </a>
+Apos visitar o **Dribbble** e o **UpLabs**, e escolhi um projeto para fazer. Para melhorar este projeto, projetei um site para um amigo que tem uma empresa de chapeação de carro e estava dando uma repaginada na empresa, resolvi ajudar ele fazendo uma boa landing page, alem de me inspirar, vou botar os conhecimentos vistos ate aqui em prática.! 🚀
 
-O objetivo final é uma landing page para uma empresa (o exemplo usado foi de salão de beleza), com mobile first, toda adaptada para telas menores e maiores, apresentando quais produtos tem a oferecer, comentarios de clientes com anição scroll, contato e muito mais !.
+- Nome do projeto (GPM CAR)
+- Descrição do projeto (Empresa do ramo de manutenção de lataria de carros da minha região, landing page com serviços que a empresa oferece, dados sobre, e contatos.)
+- Escopo do projeto (Pagina única, com 5 topicos (Inicio, Serviços, Sobre, Seguradoras, Contato)e é feita com mobile first, todo responsivo para varios tipos de dispositivos)
+- Cronograma do projeto (01/08/2022 começo do projeto, será feito em 3 dias, para entrega final em 30/08/2022).
 
 ### Para fazer este projeto usei 👇
 
