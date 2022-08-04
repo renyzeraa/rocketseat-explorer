@@ -472,8 +472,24 @@ nav.show div.icon-close {
   text-align: center;
 }
 
-#securities .securie-container {
+#securities .carousel {
+  overflow: overlay;
+  border-radius: 10px;
+  box-shadow: 0px 2px 20px 1px #000000d1;
+}
+
+.container-slider img {
+  background: var(--body-color);
+  padding: 30px;
+  width: 236px;
+  height: 190px;
+  object-fit: scale-down;
+}
+
+.container-slider {
   display: flex;
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(0);
 }
 
 /*==== contact ====================== */
