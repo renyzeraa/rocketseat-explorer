@@ -122,9 +122,23 @@ function showSlides(n) {
   }
   slides[slideIndex - 1].style.display = 'block'
   dots[slideIndex - 1].className += ' active'
+
+  const tabContent = document.querySelectorAll('.js-tabcontent section')
+
+  function activeTab(slideIndex) {
+    tabContent.forEach(section => {
+      section.classList.remove('actualtab')
+    })
+
+    tabContent[slideIndex - 1].classList.add('actualtab')
+  }
+  activeTab(slideIndex)
 }
 showSlides(slideIndex)
+//modify text
+//
 
+//
 // slide logos #securities
 function slideAuto() {
   idx++
@@ -192,7 +206,7 @@ if (window.innerWidth > 700) {
 }
 
 // events with scroll
-window.addEventListener('scroll', () => {
+function eventScroll() {
   changeHeaderWhenScroll()
   backToTop()
   if (window.scrollY > 220) {
@@ -201,4 +215,5 @@ window.addEventListener('scroll', () => {
   }
 
   activateMenuAtCurrentSection()
-})
+}
+window.addEventListener('scroll', eventScroll)
