@@ -433,6 +433,13 @@ nav.show div.icon-close {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+#about .js-tabcontent section {
+  display: none;
+}
+
+#about .js-tabcontent section.actualtab {
+  display: block;
+}
 /* Caption text */
 #about .slideshow-container .text {
   color: black;
@@ -558,8 +565,9 @@ nav.show div.icon-close {
 }
 
 #contact .container #maps {
-  width: 100vw;
-  height: 40vh;
+  border: 0;
+  width: 495px;
+  height: 385px;
 }
 
 /*==== footer ====================== */
