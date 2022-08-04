@@ -54,7 +54,7 @@ function countdown1() {
     }
     updateDisplay1(count1)
     countdown1()
-  }, 0.7)
+  }, 8)
 }
 
 function countdown() {
@@ -73,7 +73,7 @@ function countdown() {
     updateDisplay(count2, count3)
 
     countdown()
-  }, 150)
+  }, 180)
 }
 let slideIndex = 1
 
@@ -123,7 +123,7 @@ let idx = 0
 function slideAuto() {
   idx++
 
-  let tamanhoFinal = window.innerWidth < 1000 ? 216 : 165
+  let tamanhoFinal = window.innerWidth < 700 ? 216 : 165
   if (idx >= imgCarousel.length - 1) {
     idx = 0
   }
@@ -135,15 +135,14 @@ setInterval(slideAuto, 700)
 const scrollReveal = ScrollReveal({
   origin: 'top',
   distance: '30px',
-  duration: 700,
+  duration: 400,
   reset: true
 })
 
 scrollReveal.reveal(
   `#home .logo-home, #home .text, #stats .stats,
   #services header, #services .card,
-  #about .text, #about .slideshow-container, #contact .links, #contact .maps
-  footer .logo, footer .social
+  #about .text, #about .slideshow-container, #contact .links, #contact .maps , footer 
   `,
   { interval: 100 }
 )

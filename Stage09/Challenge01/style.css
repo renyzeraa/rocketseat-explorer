@@ -156,9 +156,6 @@ body {
 /*====  LOGO ============================ */
 
 .logo {
-  /* font: 700 1.31rem var(--title-font);
-  color: var(--title-color);
-  font-style: italic; */
   display: flex;
 }
 
@@ -492,14 +489,15 @@ nav.show div.icon-close {
   transform: translateX(0);
 }
 
-/*==== contact ====================== */
+#securities .text-securities {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/*==== contact =================== */
 
 #contact .grid {
   gap: 4rem;
-}
-
-#contact .text p {
-  margin-bottom: 2rem;
 }
 
 #contact .button i,
@@ -521,6 +519,21 @@ nav.show div.icon-close {
   color: var(--base-color);
 }
 
+#contact ul li a {
+  color: black;
+}
+
+#contact .container .maps {
+  text-align: center;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+#contact .container #maps {
+  width: 100vw;
+  height: 50vh;
+}
+
 /*==== footer ====================== */
 
 footer {
@@ -528,33 +541,44 @@ footer {
 }
 
 footer.section {
-  padding: 4rem 0;
-}
-footer .logo span {
-  color: var(--body-color);
+  padding: 3rem 0;
 }
 
-footer .logo {
-  display: inline-block;
-  margin-bottom: 2rem;
+footer .title {
+  color: white;
   font-size: 2rem;
 }
 
 footer .social a i {
-  color: var(--body-color);
-  font-size: 1.5rem;
-  margin-right: 2rem;
+  color: white;
+  font-size: 3.2rem;
 }
 
-footer .brand p {
-  color: var(--body-color);
-  margin-bottom: 0.75rem;
+footer .social {
+  margin-bottom: 2rem;
+  text-align: center;
 }
 
+.description-footer {
+  gap: 1rem;
+  padding: 0 3rem;
+}
+
+.description-footer p {
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  gap: 3rem;
+  margin-bottom: 0;
+}
+
+.description-footer p:last-child {
+  margin-top: 20px;
+}
 /* botao back to top */
 
 .back-to-top {
-  background: var(--base-color);
+  background: var(--logo-menu);
   color: var(--text-color-light);
   position: fixed;
   right: 1rem;
