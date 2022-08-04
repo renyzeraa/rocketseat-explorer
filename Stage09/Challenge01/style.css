@@ -540,23 +540,54 @@ footer {
   background: var(--base-color);
 }
 
+footer .container {
+  margin: 0;
+  text-align: center;
+}
+
 footer.section {
-  padding: 3rem 0;
+  padding: 3rem 0 0 0;
 }
 
 footer .title {
   color: white;
-  font-size: 2rem;
 }
 
 footer .social a i {
   color: white;
-  font-size: 3.2rem;
+  font-size: 2.5rem;
 }
 
-footer .social {
+footer .menu .grid {
+  gap: 9px;
   margin-bottom: 2rem;
-  text-align: center;
+}
+
+footer .menu .grid li a {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+footer .menu .grid li .title::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: white;
+
+  position: absolute;
+  left: 0;
+  bottom: -0.5rem;
+
+  transition: width 0.2s;
+}
+
+footer .menu .grid li .title {
+  transition: color 0.2s;
+  position: relative;
+}
+
+footer .menu .grid li .title:hover::after {
+  width: 100%;
 }
 
 .description-footer {
@@ -575,7 +606,8 @@ footer .social {
 .description-footer p:last-child {
   margin-top: 20px;
 }
-/* botao back to top */
+
+/* back to top */
 
 .back-to-top {
   background: var(--logo-menu);
