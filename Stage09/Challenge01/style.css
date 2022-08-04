@@ -473,7 +473,7 @@ nav.show div.icon-close {
 }
 
 #securities .carousel {
-  overflow: overlay;
+  overflow: hidden;
   border-radius: 10px;
   box-shadow: 0px 2px 20px 1px #000000d1;
 }
