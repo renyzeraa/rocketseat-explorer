@@ -20,7 +20,7 @@ export default function aboutSlide() {
 
   dots.forEach((element, index) => {
     element.addEventListener('click', () => {
-      currentSlide(index)
+      currentSlide(index + 1)
     })
   })
 
