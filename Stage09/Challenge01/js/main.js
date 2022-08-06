@@ -1,12 +1,12 @@
 // nav animations
-const nav = document.querySelector('#header nav')
-const toggle = document.querySelectorAll('nav .toggle')
+const nav = document.querySelector('.js-nav')
+const toggle = document.querySelectorAll('.js-toggle')
 const links = document.querySelectorAll('nav ul li a')
 
 // animations stats
-const count1Html = document.querySelector('.count1')
-const count2Html = document.querySelector('.count2')
-const count3Html = document.querySelector('.count3')
+const count1Html = document.querySelector('.js-count1')
+const count2Html = document.querySelector('.js-count2')
+const count3Html = document.querySelector('.js-count3')
 let count1 = +count1Html.textContent
 let count2 = +count1Html.textContent
 let count3 = +count1Html.textContent
@@ -16,8 +16,8 @@ const header = document.querySelector('#header')
 const navHeight = header.offsetHeight
 
 // slide logos securities
-const imagesCarousel = document.getElementById('imgs')
-const imgCarousel = document.querySelectorAll('#imgs img')
+const imagesCarousel = document.getElementById('js-imgs')
+const imgCarousel = document.querySelectorAll('#js-imgs img')
 let idx = 0
 
 // button back to top
