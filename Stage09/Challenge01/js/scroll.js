@@ -1,4 +1,4 @@
-import { backToTopButton } from './elements.js'
+import { backToTopButton, sections } from './elements.js'
 import changeHeaderWhenScroll from './header.js'
 //modify logo menu #header
 
@@ -11,9 +11,6 @@ export default function eventScroll() {
       backToTopButton.classList.remove('show')
     }
   }
-
-  // most section menu
-  const sections = document.querySelectorAll('main section[id]')
 
   // active animation menu
   function activateMenuAtCurrentSection() {
