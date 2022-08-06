@@ -1,14 +1,9 @@
 // animation menu mobile
 import showMenu from './nav.js'
-showMenu()
+import stats from './stats.js'
 
-// animations stats
-const count1Html = document.querySelector('.js-count1')
-const count2Html = document.querySelector('.js-count2')
-const count3Html = document.querySelector('.js-count3')
-let count1 = +count1Html.textContent
-let count2 = +count1Html.textContent
-let count3 = +count1Html.textContent
+showMenu()
+stats()
 
 //modify logo menu #header
 const header = document.querySelector('#header')
@@ -35,43 +30,6 @@ function changeHeaderWhenScroll() {
     header.classList.remove('scroll')
     logoHeader.setAttribute('src', './assets/imgs/logo/logo-black.png')
   }
-}
-
-// animations stats
-function updateDisplay(count2, count3) {
-  count2Html.textContent = String(count2)
-  count3Html.textContent = String(count3)
-}
-function updateDisplay1(count1) {
-  count1Html.textContent = String(count1)
-}
-function countdown1() {
-  setTimeout(() => {
-    let count1 = +count1Html.textContent
-    if (count1 <= 9980) {
-      count1 = count1 + 20
-    }
-    updateDisplay1(count1)
-    countdown1()
-  }, 8)
-}
-function countdown() {
-  setTimeout(() => {
-    let count2 = +count2Html.textContent
-    let count3 = +count3Html.textContent
-
-    if (count2 <= 19) {
-      ++count2
-    }
-
-    if (count3 <= 14) {
-      ++count3
-    }
-
-    updateDisplay(count2, count3)
-
-    countdown()
-  }, 180)
 }
 
 // slide photos #about
@@ -187,20 +145,11 @@ function activateMenuAtCurrentSection() {
 }
 
 // stats desktop
-if (window.innerWidth > 700) {
-  countdown()
-  countdown1()
-}
 
 // events with scroll
 function eventScroll() {
   changeHeaderWhenScroll()
   backToTop()
-  if (window.scrollY > 220) {
-    countdown()
-    countdown1()
-  }
-
   activateMenuAtCurrentSection()
 }
 window.addEventListener('scroll', eventScroll)
