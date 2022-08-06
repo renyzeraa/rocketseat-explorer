@@ -55,8 +55,8 @@
 
 ### <a align="center" href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage06"> Stage 06 </a>&nbsp;
 
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage06/aula1"> Class 1 </a>&nbsp; </br>
-<a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage06/aula2"> Class 2 </a>&nbsp; </br>
+<a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage06/aula1">Repo Class 1 </a>&nbsp; </br>
+<a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage06/aula2">Repo Class 2 </a>&nbsp; </br>
 <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage06/Challenge1"> Deploy Challenge 1 - Spa Universe 🌌 </a>&nbsp; </br>
 <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage06/Challenge2"> Deploy Challenge 2 - Git Favorite 🐈 </a>&nbsp; </br>
 
@@ -68,15 +68,15 @@
 
 ### <a align="center" href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage08"> Stage 08 </a>&nbsp; </br>
 
-<a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage08/Aula01"> Class 1 </a>&nbsp; </br>
-<a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage08/Challenge01"> Challenge 1 - API's 🛠 </a>&nbsp; </br>
+<a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage08/Aula01">Repo Class 1 </a>&nbsp; </br>
+<a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage08/Challenge01">Repo Challenge 1 - API's 🛠 </a>&nbsp; </br>
 
 <hr>
 
 ### <a align="center" href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage09"> Stage 09 </a>&nbsp; </br>
 
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage09/Challenge01"> Deploy - GPM Project 🚗 </a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage09"> Challenges In progress.... </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage09/Aula01/rocketnotes"> Class 1 </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage09/Challenge01"> Deploy Challenge 01 - GPM Project 🚗 </a>&nbsp; </br>
 
 <div align="center">
   
