@@ -31,10 +31,11 @@ img {
   --base-color-alt: hsl(240 57% 53%);
   --title-color: hsl(240 41% 10%);
   --text-color: hsl(0 0% 46%);
+  --text-white: hsl(0, 0%, 100%);
   --text-color-light: hsl(0 0% 98%);
   --body-color: rgb(230, 230, 230);
   --brand-beige: hsl(40, 100%, 99%);
-
+  --bg-white: hsl(0, 0%, 100%);
   --nav-height: 7.2rem;
 
   /* fonts 
@@ -352,7 +353,7 @@ nav.show div.icon-close {
 
 #services {
   text-align: center;
-  background: white;
+  background: var(--bg-white);
 }
 
 #services .cards.grid {
@@ -420,7 +421,7 @@ nav.show div.icon-close {
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: white;
+  color: var(--text-white);
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -476,7 +477,7 @@ nav.show div.icon-close {
 /*==== securities ====================== */
 
 #securities {
-  background: white;
+  background: var(--bg-white);
 }
 
 #securities header {
@@ -537,7 +538,7 @@ nav.show div.icon-close {
 .numbers-urgencies a {
   font-weight: bold;
   font-family: 'Roboto';
-  color: white;
+  color: var(--text-white);
   font-size: calc(12px + 1vw);
 }
 
@@ -596,11 +597,11 @@ footer.section {
 }
 
 footer .title {
-  color: white;
+  color: var(--text-white);
 }
 
 footer .social a i {
-  color: white;
+  color: var(--text-white);
   font-size: 2.5rem;
 }
 
@@ -618,7 +619,7 @@ footer .menu .grid li .title::after {
   content: '';
   width: 0%;
   height: 2px;
-  background: white;
+  background: var(--bg-white);
 
   position: absolute;
   left: 0;
@@ -646,7 +647,7 @@ footer .menu .grid li .title:hover::after {
 }
 
 .description-footer p {
-  color: white;
+  color: var(--text-white);
   text-align: center;
   font-size: 1rem;
   gap: 3rem;
@@ -772,7 +773,7 @@ footer .menu .grid li .title:hover::after {
   }
 
   .scroll nav ul li a::after {
-    background: white;
+    background: var(--bg-white);
   }
 
   nav .menu ul li a.title {
@@ -796,7 +797,7 @@ footer .menu .grid li .title:hover::after {
 
   header.scroll nav .menu ul li a,
   header.scroll nav .menu ul li a.title.active {
-    color: white;
+    color: var(--text-white);
   }
 
   nav .icon-menu {
