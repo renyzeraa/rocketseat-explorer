@@ -1,7 +1,6 @@
 // animation menu mobile
 import showMenu from './nav.js'
 import stats from './stats.js'
-
 showMenu()
 stats()
 
@@ -80,10 +79,7 @@ function showSlides(n) {
   activeTab(slideIndex)
 }
 showSlides(slideIndex)
-//modify text
-//
 
-//
 // slide logos #securities
 function slideAuto() {
   idx++

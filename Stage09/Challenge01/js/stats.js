@@ -10,9 +10,11 @@ export default function stats() {
     count2Html.textContent = String(count2)
     count3Html.textContent = String(count3)
   }
+
   function updateDisplay1(count1) {
     count1Html.textContent = String(count1)
   }
+
   function countdown1() {
     setTimeout(() => {
       let count1 = +count1Html.textContent
@@ -23,6 +25,7 @@ export default function stats() {
       countdown1()
     }, 8)
   }
+
   function countdown() {
     setTimeout(() => {
       let count2 = +count2Html.textContent
@@ -53,5 +56,6 @@ export default function stats() {
       countdown1()
     }
   }
+
   window.addEventListener('scroll', eventScroll)
 }
