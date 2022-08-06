@@ -1,7 +1,6 @@
-// nav animations
-const nav = document.querySelector('.js-nav')
-const toggle = document.querySelectorAll('.js-toggle')
-const links = document.querySelectorAll('nav ul li a')
+// animation menu mobile
+import showMenu from './nav.js'
+showMenu()
 
 // animations stats
 const count1Html = document.querySelector('.js-count1')
@@ -24,18 +23,6 @@ let idx = 0
 const backToTopButton = document.querySelector('.back-to-top')
 // most section menu
 const sections = document.querySelectorAll('main section[id]')
-
-// animation menu mobile
-for (const element of toggle) {
-  element.addEventListener('click', function () {
-    nav.classList.toggle('show')
-  })
-}
-for (const link of links) {
-  link.addEventListener('click', function () {
-    nav.classList.remove('show')
-  })
-}
 
 //modify logo menu #header
 function changeHeaderWhenScroll() {
