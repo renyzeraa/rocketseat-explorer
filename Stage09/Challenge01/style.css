@@ -315,7 +315,8 @@ nav.show div.icon-close {
 /* == stats == */
 
 #stats .stats {
-  font-family: var(--stats-font);
+  font-style: italic;
+
   margin-top: 3rem;
   text-align: center;
   width: min(450px, 80%);
