@@ -13,11 +13,6 @@ a {
   text-decoration: none;
 }
 
-img {
-  width: 100%;
-  height: auto;
-}
-
 /*====  VARIABLES ============================ */
 :root {
   --header-height: 4.5rem;
@@ -406,6 +401,8 @@ nav.show div.icon-close {
 }
 
 #about img {
+  width: 100%;
+  height: auto;
   border-radius: 0.5rem;
   vertical-align: middle;
 }
