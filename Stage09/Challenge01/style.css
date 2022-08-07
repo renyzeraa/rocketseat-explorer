@@ -729,7 +729,7 @@ footer .menu .grid li .title:hover::after {
   /* reusable classes */
   .container {
     padding-left: 1rem;
-    max-width: 1120px;
+    max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
   }
