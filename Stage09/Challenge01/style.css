@@ -159,10 +159,7 @@ body {
 }
 
 .logo img {
-  width: 100%;
-  align-items: center;
-  max-height: 2.5rem;
-  display: inline-block;
+  max-height: 35px;
 }
 
 .logo span {
