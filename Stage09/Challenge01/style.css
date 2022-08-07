@@ -154,11 +154,8 @@ body {
 
 /*====  LOGO ============================ */
 
-.logo {
-  display: flex;
-}
-
 .logo img {
+  margin-top: 5px;
   max-height: 35px;
 }
 
