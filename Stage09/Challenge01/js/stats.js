@@ -51,7 +51,7 @@ if (window.innerWidth > 900) {
 }
 
 function statsEvent() {
-  if ((window.scrollY = 200)) {
+  if (window.scrollY > 200) {
     countdown()
     countdown1()
   }

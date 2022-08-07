@@ -1,14 +1,22 @@
-import { backToTopButton, sections } from './elements.js'
-import changeHeaderWhenScroll from './header.js'
-//modify logo menu #header
+import { header, logoHeader, sections, backToTopButton } from './elements.js'
 
-export default function eventScroll() {
-  // button back to top
-  function backToTop() {
-    if (window.scrollY >= 560) {
+export default function scroll() {
+  // scroll events
+  function activeButton() {
+    if (window.scrollY > 600) {
       backToTopButton.classList.add('show')
     } else {
       backToTopButton.classList.remove('show')
+    }
+  }
+
+  function changeHeaderWhenScroll() {
+    if (window.scrollY > 1) {
+      header.classList.add('scroll')
+      logoHeader.setAttribute('src', './assets/imgs/logo/logo-white.png')
+    } else {
+      header.classList.remove('scroll')
+      logoHeader.setAttribute('src', './assets/imgs/logo/logo-black.png')
     }
   }
 
@@ -26,17 +34,16 @@ export default function eventScroll() {
 
       if (checkpointStart && checkpointEnd) {
         document
-          .querySelector(`nav ul li a[href*='${sectionId}']`)
+          .querySelector(`nav ul li a[href*= '${sectionId}']`)
           .classList.add('active')
       } else {
         document
-          .querySelector('nav ul li a[href*=' + sectionId + ']')
+          .querySelector(`nav ul li a[href*= '${sectionId}']`)
           .classList.remove('active')
       }
     }
   }
-
-  changeHeaderWhenScroll()
-  backToTop()
+  activeButton()
   activateMenuAtCurrentSection()
+  changeHeaderWhenScroll()
 }

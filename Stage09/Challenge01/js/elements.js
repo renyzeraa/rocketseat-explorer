@@ -25,7 +25,7 @@ const imgCarousel = document.querySelectorAll('#js-imgs img')
 const backToTopButton = document.querySelector('.back-to-top')
 
 // most section menu
-const sections = document.querySelectorAll('main section[id]')
+const sections = document.querySelectorAll('body main section[id]')
 
 export {
   nav,
