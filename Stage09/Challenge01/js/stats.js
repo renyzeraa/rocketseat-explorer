@@ -51,7 +51,7 @@ export default function stats() {
   }
 
   function eventScroll() {
-    if (window.scrollY > 100) {
+    if ((window.scrollY = 200)) {
       countdown()
       countdown1()
     }
