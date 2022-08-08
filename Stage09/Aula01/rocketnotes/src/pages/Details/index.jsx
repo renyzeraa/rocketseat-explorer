@@ -7,6 +7,7 @@ export function Details() {
   return (
     <Container>
       <Header />
+
       <Section title="Links Úteis">
         <Links>
           <li>
@@ -17,6 +18,9 @@ export function Details() {
           </li>
         </Links>
       </Section>
+
+      <Section title="Marcadores"></Section>
+
       <Button title="Voltar" />
     </Container>
   )

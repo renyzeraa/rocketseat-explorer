@@ -5,7 +5,8 @@ export const Container = styled.section`
 
   > h2 {
     border-bottom-width: 1px;
-    border-bottom-style: solid ${({ theme }) => theme.COLORS.BACKGROUND_700};
+    border-bottom-style: solid;
+    border-bottom-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
 
     padding-bottom: 16px;
     margin-bottom: 24px;
