@@ -9,10 +9,19 @@ export function Home() {
       <Brand>
         <h1>RocketNotes</h1>
       </Brand>
+      <Header />
 
-      <Header></Header>
-
-      <Menu></Menu>
+      <Menu>
+        <li>
+          <ButtonText title="Todos" isActive></ButtonText>
+        </li>
+        <li>
+          <ButtonText title="Node"></ButtonText>
+        </li>
+        <li>
+          <ButtonText title="React"></ButtonText>
+        </li>
+      </Menu>
 
       <Search></Search>
 
