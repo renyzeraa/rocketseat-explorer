@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.header`
   grid-area: header;
-  height: 90px;
+  height: 106px;
   width: 100%;
 
   border-bottom-width: 1px;
@@ -38,5 +38,15 @@ export const Profile = styled.div`
   strong {
     color: ${({ theme }) => theme.COLORS.WHITE};
     font-size: 18px;
+  }
+`
+
+export const Logout = styled.button`
+  background: transparent;
+  border: none;
+
+  > svg {
+    color: ${({ theme }) => theme.COLORS.GRAY_100};
+    font-size: 36px;
   }
 `
