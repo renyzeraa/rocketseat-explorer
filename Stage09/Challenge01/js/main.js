@@ -8,7 +8,7 @@ import aboutSlide from './about.js'
 aboutSlide()
 // slide logos #securities
 import slideAuto from './securities.js'
-setInterval(slideAuto, 700)
+setInterval(slideAuto, 1000)
 
 //modify logo menu #header
 import scroll from './scroll.js'

@@ -5,7 +5,7 @@ let idx = 0
 export default function slideAuto() {
   idx++
 
-  let tamanhoFinal = window.innerWidth < 700 ? 208 : 165
+  let tamanhoFinal = window.innerWidth < 700 ? 208 : 152
   if (idx >= imgCarousel.length - 1) {
     idx = 0
   }
