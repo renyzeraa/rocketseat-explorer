@@ -4,7 +4,7 @@ import { ButtonText } from '../../components/ButtonText'
 import { Input } from '../../components/Input'
 import { Section } from '../../components/Section'
 import { Note } from '../../components/Note'
-import { FiPlus, FiSearch } from 'react-icons/fi'
+import { FiPlus } from 'react-icons/fi'
 export function Home() {
   return (
     <Container>
@@ -26,7 +26,7 @@ export function Home() {
       </Menu>
 
       <Search>
-        <Input placeholder="Pesquisar pelo título" icon={FiSearch} />
+        <Input placeholder="Pesquisar pelo título" />
       </Search>
 
       <Content>
