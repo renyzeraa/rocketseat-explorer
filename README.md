@@ -75,8 +75,15 @@
 
 ### <a align="center" href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage09"> Stage 09 </a>&nbsp; </br>
 
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage09/Aula01/rocketnotes"> Class 1 </a>&nbsp; </br>
+<a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage09/Aula01/rocketnotes"> Class 1 - RocketNotes </a>&nbsp; </br>
 <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage09/Challenge01"> Deploy Challenge 01 - GPM Project 🚗 </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage09/Challenge02"> Deploy Challenge 02 - RocketMovies 🎥 </a>&nbsp; </br>
+
+<hr>
+
+### <a align="center" href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage10"> Stage 10 </a>&nbsp; </br>
+
+<a href="#"> ⏳ in progress . . . ⌛️ </a>&nbsp; </br>
 
 <div align="center">
   
