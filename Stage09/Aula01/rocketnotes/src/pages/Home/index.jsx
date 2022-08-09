@@ -1,6 +1,5 @@
 import { Container, Brand, Menu, Search, Content, NewNote } from './styles'
 import { Header } from '../../components/Header'
-import { Button } from '../../components/Button'
 import { ButtonText } from '../../components/ButtonText'
 import { Input } from '../../components/Input'
 import { Section } from '../../components/Section'
