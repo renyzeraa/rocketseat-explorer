@@ -7,7 +7,7 @@ export function Profile() {
   return (
     <Container>
       <header>
-        <a href="#">
+        <a href="/">
           <FiArrowLeft />
         </a>
       </header>
