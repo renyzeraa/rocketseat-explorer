@@ -15,7 +15,7 @@ export function New() {
         <Form>
           <header>
             <h1>Criar Nota</h1>
-            <a href="/">Voltar</a>
+            <a href="/">voltar</a>
           </header>
 
           <Input type="text" placeholder="Título"></Input>
