@@ -20,6 +20,10 @@ body, input, button, textarea {
   font-size:16px;
 }
 
+img {
+  width: 100%;
+}
+
 a {
   text-decoration: none;
 }
