@@ -28,7 +28,7 @@ a {
   text-decoration: none;
 }
 
-button , a {
+button , a , img {
   cursor: pointer;
   transition: filter 0.3s;
 }
