@@ -22,12 +22,12 @@
 
 ### <a  href="https://github.com/renyzeraa/explorer-rocketseat/tree/master/Stage02"> Stage 02 🏷 </a>&nbsp;
 
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/aula1"> 🚀 Deploy Class 1 </a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/aula2"> 🚀 Deploy Class 2 </a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/Challenge1"> 🚀 Deploy Challenge 1 - Correcting bugs (01) 👀 </a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/Challenge2"> 🚀 Deploy Challenge 2 - Correcting bugs (02) 👀 </a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/Challenge3"> 🚀 Deploy Challenge 3 - Semantics and accessibility. 💜 </a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/Challenge4"> 🚀 Deploy Challenge 4 - Recreating layout</a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/aula1"> 🛫 Deploy Class 1 </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/aula2"> 🛫 Deploy Class 2 </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/Challenge1"> 🛫 Deploy Challenge 1 - Correcting bugs (01) 👀 </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/Challenge2"> 🛫 Deploy Challenge 2 - Correcting bugs (02) 👀 </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/Challenge3"> 🛫 Deploy Challenge 3 - Semantics and accessibility. 💜 </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/Challenge4"> 🛫 Deploy Challenge 4 - Recreating layout</a>&nbsp; </br>
 
 <hr>
  
