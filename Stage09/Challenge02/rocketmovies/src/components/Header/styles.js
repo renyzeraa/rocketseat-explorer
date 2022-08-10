@@ -28,7 +28,9 @@ export const Container = styled.header`
       text-align: right;
       margin-right: 10px;
       width: 125px;
-      p {
+
+      a:first-child {
+        color: ${({ theme }) => theme.COLORS.WHITE};
       }
       a {
         color: ${({ theme }) => theme.COLORS.GRAY_100};

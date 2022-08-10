@@ -10,7 +10,7 @@ export function Header() {
       <Input placeholder="Pesquisar pelo título" icon={FiSearch} />
       <div>
         <div>
-          <p>Renan Silva</p>
+          <a href="#">Renan Silva</a>
           <a href="#">sair</a>
         </div>
         <img src="https://github.com/renyzeraa.png" alt="User Image" />
