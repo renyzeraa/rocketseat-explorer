@@ -3,6 +3,9 @@
 ###
 
 <div align="center">
+
+## Stacks Studied 💼🎓
+
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="52" alt="html5 logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" width="52" alt="css3 logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" width="52" alt="figma logo"   />        
@@ -14,74 +17,74 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" width="52" alt="github logo"   />                                   
 </div>
  
-### <a  href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage01"> Stage 01 </a>&nbsp;
+### <a  href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage01"> Stage 01 🏷 </a>&nbsp;
 <hr>
 
-### <a  href="https://github.com/renyzeraa/explorer-rocketseat/tree/master/Stage02"> Stage 02 </a>&nbsp;
+### <a  href="https://github.com/renyzeraa/explorer-rocketseat/tree/master/Stage02"> Stage 02 🏷 </a>&nbsp;
 
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/aula1"> Class 1 </a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/aula2"> Class 2 </a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/Challenge1"> Deploy Challenge 1 - Correcting bugs (01) 👀 </a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/Challenge2"> Deploy Challenge 2 - Correcting bugs (02) 👀 </a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/Challenge3"> Deploy Challenge 3 - Semantics and accessibility. 💜 </a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/Challenge4"> Deploy Challenge 4 - Recreating layout</a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/aula1"> 🚀 Deploy Class 1 </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/aula2"> 🚀 Deploy Class 2 </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/Challenge1"> 🚀 Deploy Challenge 1 - Correcting bugs (01) 👀 </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/Challenge2"> 🚀 Deploy Challenge 2 - Correcting bugs (02) 👀 </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/Challenge3"> 🚀 Deploy Challenge 3 - Semantics and accessibility. 💜 </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage02/Challenge4"> 🚀 Deploy Challenge 4 - Recreating layout</a>&nbsp; </br>
 
 <hr>
  
-### <a align="center" href="https://github.com/renyzeraa/explorer-rocketseat/tree/master/Stage03"> Stage 03 </a>&nbsp;
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage03/aula1"> Class 1 </a>&nbsp; </br>
- <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage03/aula2"> Class 2 </a>&nbsp; </br>
- <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage03/aula3"> Class 3 </a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage03/Challenge1"> Deploy Challenge 1 - Creating forms 📲</a>&nbsp;  
-  <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage03/Challenge2"> Deploy Challenge 2 - Mobile first 📱</a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage03/Challenge3"> Deploy Challenge 3 - Grid with animations 🖥 </a>&nbsp; </br>
+### <a align="center" href="https://github.com/renyzeraa/explorer-rocketseat/tree/master/Stage03"> Stage 03 🏷 </a>&nbsp;
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage03/aula1"> 🚀 Deploy Class 1 </a>&nbsp; </br>
+ <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage03/aula2"> 🚀 Deploy Class 2 </a>&nbsp; </br>
+ <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage03/aula3"> 🚀 Deploy Class 3 </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage03/Challenge1"> 🚀 Deploy Challenge 1 - Creating forms 📲</a>&nbsp;  
+  <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage03/Challenge2"> 🚀 Deploy Challenge 2 - Mobile first 📱</a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage03/Challenge3"> 🚀 Deploy Challenge 3 - Grid with animations 🖥 </a>&nbsp; </br>
 <hr>
 
-### <a align="center" href="https://github.com/renyzeraa/explorer-rocketseat/tree/master/Stage04"> Stage 04 </a>&nbsp;
+### <a align="center" href="https://github.com/renyzeraa/explorer-rocketseat/tree/master/Stage04"> Stage 04 🏷 </a>&nbsp;
 
-<a href="https://github.com/renyzeraa/explorer-rocketseat/tree/master/Stage04/aulas"> Classes </a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage04/Challenge1"> Deploy Challenge 01 ✍🏽</a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage04/Challenge2"> Deploy Challenge 02 ✍🏽</a>&nbsp; <hr>
+<a href="https://github.com/renyzeraa/explorer-rocketseat/tree/master/Stage04/aulas"> 📦 Repo Classes </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage04/Challenge1"> 🛫 Deploy Challenge 01 ✍🏽</a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage04/Challenge2"> 🛫 Deploy Challenge 02 ✍🏽</a>&nbsp; <hr>
 
-### <a align="center" href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage05"> Stage 05 </a>&nbsp;
+### <a align="center" href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage05"> Stage 05 🏷 </a>&nbsp;
 
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage05/Aula01"> Class 01 </a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage05/Aula02"> Class 02 </a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage05/Challenge1"> Deploy Challenge 1 - FocusTimer - V 2.0 ⌚️ </a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage05/Challenge2"> Deploy Challenge 2 - FocusTimer - V 3.0 Dark Mode 🕐⬛️⬜️</a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage05/Redoing-Challenge2"> Deploy Redoing-Challenge 2 </a>&nbsp; </br>
-
-<hr>
-
-### <a align="center" href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage06"> Stage 06 </a>&nbsp;
-
-<a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage06/aula1">Repo Class 1 </a>&nbsp; </br>
-<a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage06/aula2">Repo Class 2 </a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage06/Challenge1"> Deploy Challenge 1 - Spa Universe 🌌 </a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage06/Challenge2"> Deploy Challenge 2 - Git Favorite 🐈 </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage05/Aula01"> 🚀 Deploy Class 01 </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage05/Aula02"> 🚀 Deploy Class 02 </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage05/Challenge1"> 🚀 Deploy Challenge 1 - FocusTimer - V 2.0 ⌚️ </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage05/Challenge2"> 🚀 Deploy Challenge 2 - FocusTimer - V 3.0 Dark Mode 🕐⬛️⬜️</a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage05/Redoing-Challenge2"> 🚀 Deploy Redoing-Challenge 2 </a>&nbsp; </br>
 
 <hr>
 
-### <a align="center" href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage07"> Stage 07 </a>&nbsp; </br>
+### <a align="center" href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage06"> Stage 06 🏷 </a>&nbsp;
+
+<a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage06/aula1"> 📦 Repo Class 1 </a>&nbsp; </br>
+<a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage06/aula2"> 📦 Repo Class 2 </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage06/Challenge1"> 🛫 Deploy Challenge 1 - Spa Universe 🌌 </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage06/Challenge2"> 🛫 Deploy Challenge 2 - Git Favorite 🐈 </a>&nbsp; </br>
 
 <hr>
 
-### <a align="center" href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage08"> Stage 08 </a>&nbsp; </br>
-
-<a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage08/Aula01">Repo Class 1 </a>&nbsp; </br>
-<a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage08/Challenge01">Repo Challenge 1 - API's 🛠 </a>&nbsp; </br>
+### <a align="center" href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage07"> Stage 07 🏷 </a>&nbsp; </br>
 
 <hr>
 
-### <a align="center" href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage09"> Stage 09 </a>&nbsp; </br>
+### <a align="center" href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage08"> Stage 08 🏷 </a>&nbsp; </br>
 
-<a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage09/Aula01/rocketnotes"> Class 1 - RocketNotes </a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage09/Challenge01"> Deploy Challenge 01 - GPM Project 🚗 </a>&nbsp; </br>
-<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage09/Challenge02"> Deploy Challenge 02 - RocketMovies 🎥 </a>&nbsp; </br>
+<a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage08/Aula01"> 📦 Repo Class 1 </a>&nbsp; </br>
+<a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage08/Challenge01"> 📦 Repo Challenge 1 - API's 🛠 </a>&nbsp; </br>
 
 <hr>
 
-### <a align="center" href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage10"> Stage 10 </a>&nbsp; </br>
+### <a align="center" href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage09"> Stage 09 🏷 </a>&nbsp; </br>
+
+<a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage09/Aula01/rocketnotes"> 📦 Class 1 - RocketNotes </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage09/Challenge01"> 🚀 Deploy Challenge 01 - GPM Project 🚗 </a>&nbsp; </br>
+<a href="https://renyzeraa.github.io/rocketseat-explorer/Stage09/Challenge02"> 🚀 Deploy Challenge 02 - RocketMovies 🎥 </a>&nbsp; </br>
+
+<hr>
+
+### <a align="center" href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage10"> Stage 10 🏷 </a>&nbsp; </br>
 
 <a href="#"> ⏳ in progress . . . ⌛️ </a>&nbsp; </br>
 
@@ -94,7 +97,7 @@
 
 <img align="left" src="https://avatars.githubusercontent.com/renyzeraa?size=100">
 
-Made with ❤️ by [Renan L. Silva](https://github.com/renyzeraa)! <br>
+Made with ❤️ by [Renan Silva](https://github.com/renyzeraa)! <br>
 🛠 Frontend Developer Jr. <br>
 📍 Santa Catarina - Brazil <br>
 
