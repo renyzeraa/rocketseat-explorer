@@ -29,6 +29,7 @@ export const Content = styled.div`
   max-height: 600px;
   margin-top: 24px;
   padding-right: 10px;
+
   .title {
     display: flex;
   }
