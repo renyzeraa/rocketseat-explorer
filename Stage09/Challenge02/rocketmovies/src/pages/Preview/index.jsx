@@ -2,6 +2,7 @@ import { Container, Content } from './styles'
 import { Header } from '../../components/Header'
 import { ButtonText } from '../../components/ButtonText'
 import { Tag } from '../../components/Tag'
+import { Rating } from '../../components/Rating'
 
 import { RiArrowLeftLine } from 'react-icons/ri'
 import { AiFillStar, AiOutlineStar } from 'react-icons/ai'
@@ -18,9 +19,7 @@ export function Preview() {
           <div className="title">
             <h1>Nome do Filme</h1>
             <div className="stars-content">
-              {stars.map((Star, i) => (
-                <Star key={i} />
-              ))}
+              <Rating></Rating>
             </div>
           </div>
           <div className="autor-container">
