@@ -10,7 +10,7 @@ export const Container = styled.div`
 
   .content {
     button {
-      max-width: 207px;
+      padding: 0 16px;
     }
     display: flex;
     justify-content: space-between;
