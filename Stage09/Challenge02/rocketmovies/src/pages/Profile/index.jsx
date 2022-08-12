@@ -1,6 +1,7 @@
 import { Container, Form, Avatar } from './styles'
 import { Input } from '../../components/Input'
 import { Button } from '../../components/Button'
+import { Link } from 'react-router-dom'
 
 import {
   RiArrowLeftLine,
@@ -14,9 +15,9 @@ export function Profile() {
   return (
     <Container>
       <header>
-        <a href="#">
+        <Link to="/">
           <RiArrowLeftLine /> Voltar
-        </a>
+        </Link>
       </header>
       <Form>
         <Avatar>
