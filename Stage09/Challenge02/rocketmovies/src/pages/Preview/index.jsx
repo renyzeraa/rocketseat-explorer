@@ -32,11 +32,8 @@ export function Preview() {
             <p>23/05/22 às 08:00</p>
           </div>
           <div className="tags-container">
-            <Tag title="prima"></Tag>
-            <Tag title="cachorro"></Tag>
-            <Tag title="asduahsduhas"></Tag>
-            <Tag title="prima"></Tag>
-            <Tag title="prima"></Tag>
+            <Tag title="teste"></Tag>
+            <Tag title="teste"></Tag>
           </div>
 
           <p>

@@ -4,7 +4,7 @@ import { Rating } from '../../components/Rating'
 
 export function Card({ title }) {
   return (
-    <Container>
+    <Container to="/preview/1">
       <h2>{title}</h2>
       <Rating></Rating>
       <p>
