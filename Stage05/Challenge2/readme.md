@@ -2,10 +2,7 @@
 
 ## 💻 Sobre o desafio
 
-Bora praticar e se desafiar um pouquinho mais? **💜**
-
-Dentro desse desafio teremos dois desafios pra você. Preparado? 👀
-\*\*\*\*Você irá:
+Dentro do projeto tive dois desafios:
 
 - Criar a versão Dark Mode;
 - Trabalhar com o volume dos sons de cada card.
@@ -25,12 +22,7 @@ Nesse [**link**](https://www.figma.com/file/nlJJAVuGDc1tnDKqUW4FJA/Stage-05---Da
    Como no desafio anterior, quando um card é selecionado ele muda de cor e começa a tocar o som específico, certo?
    Nessa versão, além disso, o volume deverá ser controlado pelo slider que está embaixo de cada ícone.
 
-Obs: por padrão, quando você clicar em qualquer área de um card, você pode deixar o volume em 50%.
-
-\***\*E aí, topa encarar esse baita desafio? **💜\*\*
-Vai ser muito importante para o seu aprendizado rever e aplicar esses novos conceitos.
-
-Boa sorte e boooooora codar! **🚀**
+Obs: por padrão, quando você clicar em qualquer área de um card, você pode deixar o volume conforme você preferir.
 
 <div align="center">
 

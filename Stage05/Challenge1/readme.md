@@ -2,11 +2,9 @@
 
 ## 💻 Sobre o desafio
 
-E aí, curtiu aprender todos esses novos conceitos de JavaScript?
+Curti demais aprender todos esses novos conceitos de JavaScript e agora botei em pratica, para rever tudo o que foi ensinado na aula **💜**
 
-Bora praticar e rever tudo o que foi ensinado na aula? **💜**
-
-A ideia agora é criar o **FocusTimer 2.0!**
+A ideia agora foi criar o **FocusTimer 2.0!**
 
 Aqui está o [**link**](https://www.figma.com/file/Pw8yMsK7HFkD6aISZt6gPA/Stage-05---Focus-Timer-2.0/duplicate) com o layout da aplicação.
 
@@ -26,13 +24,6 @@ Funcionalidades esperadas dos botões:
 - Stop : para o timer;
 - - : aumenta em mais 5 minutos o tempo do timer;
 - - : diminui em 5 minutos o tempo do timer.
-
-E então, topa encarar esse novo desafio? **💜**
-Vai ser muito importante para o seu aprendizado rever e aplicar esses novos conceitos.
-
-Obs: fique à vontade para adicionar animações ou alterar as cores dos cards. Belezinha? 😉
-
-Boa sorte e boooooora codar! **🚀**
 
 <div align="center">
 
