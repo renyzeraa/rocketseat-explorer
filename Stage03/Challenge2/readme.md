@@ -2,16 +2,16 @@
 
 ## 💻 Sobre o desafio
 
-E aí, curtiu aprender mais sobre responsividade? 👀
+Curti demais aprender mais sobre responsividade
 Então bora colocar em prática tudo o que foi visto nessa fase! 😍
 
-A ideia agora é criar o **Space Cream**, ~~nossa página de sorvetes~~, levando em consideração o Mobile first! 🍦
+A ideia agora foi criar o **Space Cream**, ~~nossa página de sorvetes~~, levando em consideração o Mobile first! 🍦
 
 Aqui está o [**link**](https://www.figma.com/file/drBBktNRdtCIUiN4cZk4yo/Stage-03---Mobile-First/duplicate) com o layout da aplicação. Ele abrirá um arquivo igual a imagem abaixo:
 
 [Link Figma](https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FdrBBktNRdtCIUiN4cZk4yo%2FStage-03---Mobile-First%3Fnode-id%3D0%253A1)
 
-Tente se atentar ao conteúdo que foi passado na aula. Portanto, nesse desafio, lembre-se de usar:
+Me atenttei ao conteúdo que foi passado na aula. Portanto, nesse desafio, usei:
 
 - Mobile First;
 - Unidade de medida flexível;
@@ -22,9 +22,6 @@ Tente se atentar ao conteúdo que foi passado na aula. Portanto, nesse desafio, 
 ![desafio-Space.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/565efcff-040e-445a-a2d2-30fbdd72cc22/desafio-Space.gif)
 
 Como você pode ver, a ideia aqui é: ao carregar a tela as imagens sobem enquanto os tipos de sorvete descem.
-E aí, vai encarar? 😉💜
-
-Boa sorte e boooooora codar! **🚀**
 
 <div align="center">
 

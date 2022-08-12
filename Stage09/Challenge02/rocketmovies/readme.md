@@ -1,35 +1,23 @@
-# Corrigindo bugs (02) **👀**
+# Front-end da aplicação: Rocket.js
 
 # 💻 Sobre o desafio
 
-Nesse desafio, recebi um código com o projeto desenvolvido durante as aulas da Fase 02.
+Para praticar React.js, foi proposto o desafio de montar a aplicação do Rocket Movies 💜, pois no desafio do Stage 08, foi feita a parte de Back-end da aplicação (API).
 
-E, novamente, a surpresa ~~(não tão surpresa assim)~~ vem aí... **👀**
+Segue o [link](https://www.figma.com/file/UObYagRzmvi5PY4HhmzEHM/RocketMovies/duplicate) do layout do figma dessa aplicação: o **RocketMovies.**
 
-O código sofreu algumas alterações nos principais pontos abordados nessa fase e ele não está mais da mesma forma que o Maykão deixou.
+Agora botando a mão na massa, tive a experiencia muito daora de fazer uma aplicação com o react.js. Eu ja gostava do front-end antes, mas agora, to mais animado ainda em criar páginas interativas!. Foi muito importante para o meu aprendizado rever e aplicar esses novos conceitos vistos neste modulo 09.
 
-Topei encarar esse desafio e deixar o site com a mesma carinha de antes **💜**
-
-## Código do desafio
-
-[Código do desafio - Fase 02](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cae98c59-12ce-499d-9b19-9b2f64250e62/Untitled.zip)
+![Untitled](https://user-images.githubusercontent.com/101990719/183761835-5b25f316-2bda-47e8-9681-c741caa3bf1c.png)
 
 <div align="center">
-  
-<a href="https://stage02-aula02.vercel.app/" target="_blank" > <h1> Deploy **🚀** </h1></a>
 
-# Preview do projeto 🤩
+# <a href="https://rocketmovies-eight.vercel.app/" > Deploy 🛫 </a>
 
-![Screenshot_2](https://user-images.githubusercontent.com/101990719/175836894-b5219976-d0cb-4203-b27c-0ed51d5eadbe.png)
-
-</div>
 <h2 align="center">Para fazer o desafio usei 👇</h2>
 
-<div align="center">
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="52" alt="html5 logo"  />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" width="52" alt="css3 logo"  />
- 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" height="40" width="52" alt="react logo" />
+          
 </div>
 
 ## Contact

@@ -1,8 +1,10 @@
-<a href="https://stage02-aula01.vercel.app/" target="_blank" > <h1> Deploy **🚀** </h1></a>
+<div align="center">
 
 # Preview do projeto 🤩
 
-![Screenshot_1](https://user-images.githubusercontent.com/101990719/175836881-4c24443a-2c2b-4d57-8ba1-89409db74bab.png)
+![Screenshot_1](https://user-images.githubusercontent.com/101990719/184452218-98dfdc6f-6eb8-4e1d-9b2f-d9e6c0ba03f9.png)
+
+</div>
 
 ## Contact
 

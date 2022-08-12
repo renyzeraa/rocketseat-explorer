@@ -1,16 +1,10 @@
-# Front-end da aplicação: Rocket.js
+<div align="center">
 
-# 💻 Sobre o desafio
+# Preview do projeto 🤩
 
-Para praticar React.js, foi proposto o desafio de montar a aplicação do Rocket Movies 💜, pois no desafio do Stage 08, foi feita a parte de Back-end da aplicação (API).
+![Screenshot_1](https://user-images.githubusercontent.com/101990719/184451354-2016a5cd-87ec-4c0a-bc95-7b98ff34893e.png)
 
-Segue o [link](https://www.figma.com/file/UObYagRzmvi5PY4HhmzEHM/RocketMovies/duplicate) do layout do figma dessa aplicação: o **RocketMovies.**
-
-Agora botando a mão na massa, tive a experiencia muito daora de fazer uma aplicação com o react.js. Eu ja gostava do front-end antes, mas agora, to mais animado ainda em criar páginas interativas!. Foi muito importante para o meu aprendizado rever e aplicar esses novos conceitos vistos neste modulo 09.
-
-![Untitled](https://user-images.githubusercontent.com/101990719/183761835-5b25f316-2bda-47e8-9681-c741caa3bf1c.png)
-
-# <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage09/Challenge02" > Deploy 🛫 </a>
+</div>
 
 ## Contact
 
