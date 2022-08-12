@@ -5,6 +5,7 @@ import { Input } from '../../components/Input'
 import { Button } from '../../components/Button'
 import { Textarea } from '../../components/Textarea'
 import { NoteItem } from '../../components/NoteItem'
+import { Link } from 'react-router-dom'
 
 import { RiArrowLeftLine } from 'react-icons/ri'
 
@@ -14,7 +15,9 @@ export function Create() {
       <Header></Header>
 
       <main>
-        <ButtonText icon={RiArrowLeftLine} title="Voltar"></ButtonText>
+        <Link to="/">
+          <ButtonText icon={RiArrowLeftLine} title="Voltar"></ButtonText>
+        </Link>
         <section>
           <Content>
             <h1>Novo Filme</h1>
