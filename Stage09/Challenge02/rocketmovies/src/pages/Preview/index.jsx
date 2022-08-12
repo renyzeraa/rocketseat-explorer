@@ -3,18 +3,19 @@ import { Header } from '../../components/Header'
 import { ButtonText } from '../../components/ButtonText'
 import { Tag } from '../../components/Tag'
 import { Rating } from '../../components/Rating'
+import { Link } from 'react-router-dom'
 
 import { RiArrowLeftLine } from 'react-icons/ri'
-import { AiFillStar, AiOutlineStar } from 'react-icons/ai'
 import { FaRegClock } from 'react-icons/fa'
 
 export function Preview() {
-  let stars = [AiFillStar, AiFillStar, AiFillStar, AiOutlineStar, AiOutlineStar]
   return (
     <Container>
       <Header />
       <main>
-        <ButtonText icon={RiArrowLeftLine} title="Voltar"></ButtonText>
+        <Link to="/">
+          <ButtonText icon={RiArrowLeftLine} title="Voltar"></ButtonText>
+        </Link>
         <Content>
           <div className="title">
             <h1>Nome do Filme</h1>
@@ -23,7 +24,9 @@ export function Preview() {
             </div>
           </div>
           <div className="autor-container">
-            <img src="https://github.com/renyzeraa.png" alt="User Image" />
+            <Link to="/profile">
+              <img src="https://github.com/renyzeraa.png" alt="User Image" />
+            </Link>
             <p>Por Renan Silva</p>
             <FaRegClock />
             <p>23/05/22 às 08:00</p>
