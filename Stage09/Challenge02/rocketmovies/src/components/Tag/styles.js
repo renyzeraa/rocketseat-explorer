@@ -8,5 +8,5 @@ export const Container = styled.div`
   border-radius: 8px;
   color: ${({ theme }) => theme.COLORS.WHITE};
 
-  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_600};
+  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
 `
