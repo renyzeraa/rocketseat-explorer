@@ -13,10 +13,13 @@ export const Container = styled.div`
 
     padding: 0 124px;
   }
-
-  svg {
-    color: ${({ theme }) => theme.COLORS.GRAY_100};
-    font-size: 24px;
+  a {
+    color: ${({ theme }) => theme.COLORS.PINK};
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
   }
 `
 
