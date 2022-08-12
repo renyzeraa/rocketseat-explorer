@@ -1,20 +1,23 @@
 import { Container } from './styles'
 import { Input } from '../../components/Input'
-import { FiSearch } from 'react-icons/fi'
+import { Link } from 'react-router-dom'
+
 export function Header() {
   return (
     <Container>
       <div className="header">
         <h1>
-          <a href="#">RocketMovies</a>
+          <Link to="/">RocketMovies</Link>
         </h1>
-        <Input placeholder="Pesquisar pelo título" icon={FiSearch} />
+        <Input placeholder="Pesquisar pelo título" />
         <div className="profile">
           <div>
-            <a href="#">Renan Silva</a>
+            <Link to="/profile">Renan Silva</Link>
             <a href="#">sair</a>
           </div>
-          <img src="https://github.com/renyzeraa.png" alt="User Image" />
+          <Link to="/profile">
+            <img src="https://github.com/renyzeraa.png" alt="User Image" />
+          </Link>
         </div>
       </div>
     </Container>
