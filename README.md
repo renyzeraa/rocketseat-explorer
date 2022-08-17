@@ -69,6 +69,8 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original-wordmark.svg" height="40" width="52" alt="heroku logo"   />
 
   <br>
+  <br>
+  <br>
   
   ### > 📦 Repositório - 🛫/🚀 Deploys
                                            
