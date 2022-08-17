@@ -2,11 +2,13 @@
 
 ## Sobre 😎 :
 
-**Programa baseado no método 7-2-1 (70% coding, 20% networking, 10% branding). O Explorer contém o conteudo para desenvolver habilidades técnicas e comportamentais, iniciar uma carreira sólida na programação e se tornar um destaque.**
+**Programa baseado no método 7-2-1 (70% coding, 20% networking, 10% branding). O Explorer contém o conteudo para desenvolver habilidades técnicas e comportamentais, iniciar uma carreira sólida na programação e se tornar um dev destaque.**
 
 ## Contendo 🤓 :
 
-> **Introdução à programação web**: Fundamentos da internet; Protocolos; Navegadores; Cliente & servidor; Front-end & Back-end;
+**Introdução à programação web**:
+
+> Fundamentos da internet; Protocolos; Navegadores; Cliente & servidor; Front-end & Back-end;
 
 > **HTML**: Configuração de IDE; Ferramentas dev do navegador; Fundamentos do HTML; Tags & atributos; Semântica; Formulários; Mídias;
 
