@@ -10,25 +10,45 @@
 
 > Fundamentos da internet; Protocolos; Navegadores; Cliente & servidor; Front-end & Back-end;
 
-> **HTML**: Configuração de IDE; Ferramentas dev do navegador; Fundamentos do HTML; Tags & atributos; Semântica; Formulários; Mídias;
+**HTML**:
 
-> **CSS**: Fundamentos do CSS; Box Model; Flex Layout; Grid Layout; Position; Responsividade; Transformações; Animações e transições; Interpretação de layouts (Figma);
+> Configuração de IDE; Ferramentas dev do navegador; Fundamentos do HTML; Tags & atributos; Semântica; Formulários; Mídias;
 
-> **Lógica de programação**: Entendendo problemas; Algoritmos; Paradigmas de programação;
+**CSS**:
 
-> **JavaScript**: Fundamentos do JavaScript; Estruturas de dados; Funções; Controles de fluxo; Estruturas de repetição; Expressões e operadores; JavaScript assíncrono; Tratativa de erros; Syntax Sugars; ES Modules; DOM; Web APIs; Manipulação de vetores;
+> Fundamentos do CSS; Box Model; Flex Layout; Grid Layout; Position; Responsividade; Transformações; Animações e transições; Interpretação de layouts (Figma);
 
-> **Encontrando soluções**: Fórums; Como pesquisar?; Como identificar erros?; Fontes de pesquisa;
+**Lógica de programação**:
 
-> **Git & GitHub**: Controle de versão; Fundamentos do Git & GitHub;
+> Entendendo problemas; Algoritmos; Paradigmas de programação;
 
-> **Back-end**: Fundamentos do back-end; Node.js; NPM (Gerenciador de pacotes); SQL; Criação de API's;
+**JavaScript**:
 
-> **Front-end**: Tipos de aplicações (SSR, SPA); Bibliotecas e frameworks; Transpilers & Bundlers; Pré-processadores CSS; Styled-components; React.js;
+> Fundamentos do JavaScript; Estruturas de dados; Funções; Controles de fluxo; Estruturas de repetição; Expressões e operadores; JavaScript assíncrono; Tratativa de erros; Syntax Sugars; ES Modules; DOM; Web APIs; Manipulação de vetores;
 
-> **API RESTful**: Consumo de API; Integração front-end e back-end; JSON; Autenticação; Testes;
+**Encontrando soluções**:
 
-> **Deploy de projetos**: CI/CD; Digital Ocean; Heroku; Vercel; Netlify;
+> Fórums; Como pesquisar?; Como identificar erros?; Fontes de pesquisa;
+
+**Git & GitHub**:
+
+> Controle de versão; Fundamentos do Git & GitHub;
+
+**Back-end**:
+
+> Fundamentos do back-end; Node.js; NPM (Gerenciador de pacotes); SQL; Criação de API's;
+
+**Front-end**:
+
+> Tipos de aplicações (SSR, SPA); Bibliotecas e frameworks; Transpilers & Bundlers; Pré-processadores CSS; Styled-components; React.js;
+
+**API RESTful**:
+
+> Consumo de API; Integração front-end e back-end; JSON; Autenticação; Testes;
+
+**Deploy de projetos**:
+
+> CI/CD; Digital Ocean; Heroku; Vercel; Netlify;
 
 ###
 
@@ -50,6 +70,7 @@
 
   <br>
   
+  ### > 📦 Repositório - 🛫/🚀 Deploys
                                            
 </div>
  
