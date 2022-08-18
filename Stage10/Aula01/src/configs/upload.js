@@ -11,6 +11,8 @@ const MULTER = {
     filename(request, file, callback) {
       const fileHash = crypto.randomBytes(10).toString('hex')
       const fileName = `${fileHash}-${file.orignalname}`
+
+      return callback(null, fileName)
     }
   })
 }
