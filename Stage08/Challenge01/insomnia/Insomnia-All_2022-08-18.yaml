@@ -1,0 +1,725 @@
+_type: export
+__export_format: 4
+__export_date: 2022-08-18T21:57:22.336Z
+__export_source: insomnia.desktop.app:v2022.5.1
+resources:
+  - _id: req_4d67a22dda6c48a8bbc50523b0c644d6
+    parentId: wrk_41f0f5b4ad234bd3a289904b95922c97
+    modified: 1658186365163
+    created: 1658186365163
+    url: ""
+    name: New Request
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1658186365163
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: wrk_41f0f5b4ad234bd3a289904b95922c97
+    parentId: null
+    modified: 1658186365139
+    created: 1658186365139
+    name: New Document
+    description: ""
+    scope: design
+    _type: workspace
+  - _id: req_8fd8a565ce6a4be19ed586fc4c607517
+    parentId: fld_8f13eb5d38b34a6e88773d6eab334795
+    modified: 1660832538001
+    created: 1658928530304
+    url: "{{ _.BASE_URL }}/{{ _.RESOURCE }}"
+    name: Create
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"name": "renan",
+        	"email": "teste@email.com",
+        	"password": "123"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_0ffacc83468743ebb6e02b898fcf1f47
+    authentication: {}
+    metaSortKey: -1658928530304
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_8f13eb5d38b34a6e88773d6eab334795
+    parentId: wrk_dac98822c34e4e388432f96f292fe55d
+    modified: 1658933056560
+    created: 1658932911656
+    name: Users
+    description: ""
+    environment:
+      RESOURCE: users
+    environmentPropertyOrder:
+      "&":
+        - RESOURCE
+    metaSortKey: -1658932911656
+    _type: request_group
+  - _id: wrk_dac98822c34e4e388432f96f292fe55d
+    parentId: null
+    modified: 1658186412438
+    created: 1658186412438
+    name: RocketNotes
+    description: ""
+    scope: collection
+    _type: workspace
+  - _id: req_223f8787b19746be91b69f373fe05b2d
+    parentId: fld_8f13eb5d38b34a6e88773d6eab334795
+    modified: 1660832544940
+    created: 1659012804877
+    url: "{{ _.BASE_URL }}/{{ _.RESOURCE }}"
+    name: Update
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"name": "Renan Silva",
+        	"email": "renan@email.com",
+        	"password": "123",
+        	"old_password": "123"
+        }
+    parameters:
+      - id: pair_a09b63ec551c4b0b8fce439985f30b82
+        name: ""
+        value: ""
+        description: ""
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_c0a60110299f4fbc8a71a62949ef31db
+    authentication:
+      type: bearer
+      token: "{{ _.USER_TOKEN }}"
+      disabled: false
+    metaSortKey: -1659012804877
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_c794eb3dffb544dc8422788efb8d3043
+    parentId: fld_8f13eb5d38b34a6e88773d6eab334795
+    modified: 1660832954799
+    created: 1660830438279
+    url: "{{ _.BASE_URL }}/{{ _.RESOURCE }}/avatar"
+    name: Avatar
+    description: ""
+    method: PATCH
+    body:
+      mimeType: multipart/form-data
+      params:
+        - id: pair_e6bf02a3ef684a4cabafe773d729899f
+          name: ""
+          value: ""
+          description: ""
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: multipart/form-data
+        id: pair_884c73f04fac4f508d53859819bdfffd
+    authentication: {}
+    metaSortKey: -1660830438279
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_e44c9d19c1ee41f0b48231934a7e7b68
+    parentId: fld_f5d26b79a6ed47f8a8ae66c09ab523a7
+    modified: 1660688329434
+    created: 1659017755529
+    url: "{{ _.BASE_URL }}/{{ _.RESOURCE }}"
+    name: Create
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"title": "Criptografia de Dados",
+        	"descriptions": "Esta é uma nota de exemplo",
+        	"tags": ["node", "express"],
+        	"links": ["link1", "link2"]
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_a76aaeb0065a47eba45863416955cb6f
+    authentication:
+      type: bearer
+      token: "{{ _.USER_TOKEN }}"
+    metaSortKey: -1659054001013
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_f5d26b79a6ed47f8a8ae66c09ab523a7
+    parentId: wrk_dac98822c34e4e388432f96f292fe55d
+    modified: 1659017802861
+    created: 1659017747205
+    name: Notes
+    description: ""
+    environment:
+      RESOURCE: notes
+    environmentPropertyOrder:
+      "&":
+        - RESOURCE
+    metaSortKey: -1659017747205
+    _type: request_group
+  - _id: req_342be974049b44cfa8b0c6c6f9d2f1d7
+    parentId: fld_f5d26b79a6ed47f8a8ae66c09ab523a7
+    modified: 1660688497037
+    created: 1659053106208
+    url: "{{ _.BASE_URL }}/{{ _.RESOURCE }}"
+    name: Show
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication:
+      type: bearer
+      token: "{{ _.USER_TOKEN }}"
+    metaSortKey: -1659053106208
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_ce596b3c635e4914a624e82c31dc1eaf
+    parentId: fld_f5d26b79a6ed47f8a8ae66c09ab523a7
+    modified: 1660688489112
+    created: 1659053631843
+    url: "{{ _.BASE_URL }}/{{ _.RESOURCE }}/"
+    name: Delete
+    description: ""
+    method: DELETE
+    body: {}
+    parameters: []
+    headers: []
+    authentication:
+      type: bearer
+      token: "{{ _.USER_TOKEN }}"
+    metaSortKey: -1659054000988
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_e0bcef626d0049a3ad2aadfe92c7145f
+    parentId: fld_f5d26b79a6ed47f8a8ae66c09ab523a7
+    modified: 1660688489544
+    created: 1659054000963
+    url: "{{ _.BASE_URL }}/{{ _.RESOURCE }}"
+    name: Index
+    description: ""
+    method: GET
+    body: {}
+    parameters:
+      - id: pair_e9473b03b1d844dc8d44da6d53a18c97
+        name: user_id
+        value: "1"
+        description: ""
+        disabled: false
+      - id: pair_81460c61bf3e4e0e888bb7c5b430e7f9
+        name: title
+        value: ""
+        description: ""
+      - id: pair_f5100a51f433452a9db37a05017f0b96
+        name: tags
+        value: ""
+        description: ""
+      - id: pair_26d26f920e414b3ea0d915ad5d2c1069
+        name: ""
+        value: ""
+        description: ""
+    headers: []
+    authentication:
+      type: bearer
+      token: "{{ _.USER_TOKEN }}"
+    metaSortKey: -1659054000963
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_40cc1f0ee79c4277839c7a4a2af3c7fd
+    parentId: fld_40793acd6afb44c8acf8e1f6bb3ac4a6
+    modified: 1660826692616
+    created: 1659055539198
+    url: "{{ _.BASE_URL }}/{{ _.RESOURCE }}"
+    name: Index
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication:
+      type: bearer
+      token: "{{ _.USER_TOKEN }}"
+    metaSortKey: -1659055539198
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_40793acd6afb44c8acf8e1f6bb3ac4a6
+    parentId: wrk_dac98822c34e4e388432f96f292fe55d
+    modified: 1659055577465
+    created: 1659055537706
+    name: Tags
+    description: ""
+    environment:
+      RESOURCE: tags
+    environmentPropertyOrder:
+      "&":
+        - RESOURCE
+    metaSortKey: -1659055537706
+    _type: request_group
+  - _id: req_69a464aa4ff04284abfe39fb553eed44
+    parentId: fld_5165f018cdae47e3a7a2fd727b0568c3
+    modified: 1660832555619
+    created: 1660676050680
+    url: "{{ _.BASE_URL }}/{{ _.RESOURCE }}"
+    name: Create
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"email": "renan@email.com",
+        	"password": "123"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_0112f66f6deb4d1abcf80a67a22f44e5
+    authentication: {}
+    metaSortKey: -1660676050680
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_5165f018cdae47e3a7a2fd727b0568c3
+    parentId: wrk_dac98822c34e4e388432f96f292fe55d
+    modified: 1660676107764
+    created: 1660676049172
+    name: Sessions
+    description: ""
+    environment:
+      RESOURCE: sessions
+    environmentPropertyOrder:
+      "&":
+        - RESOURCE
+    metaSortKey: -1658975329430.5
+    _type: request_group
+  - _id: req_f858f164f25544189cccb0d4d6a456d1
+    parentId: fld_48b37e42440943559a3f7adaa15b89c1
+    modified: 1660859828300
+    created: 1659217465897
+    url: "{{ _.BASE_URL }}/{{ _.RESORCE }}"
+    name: Create
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"name": "renan ",
+        	"email": "renan@email.com",
+        	"password": "123"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_b400e03a50584d38996c8a522742469b
+    authentication: {}
+    metaSortKey: -1659217465897
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_48b37e42440943559a3f7adaa15b89c1
+    parentId: wrk_d376f5007c3141a29644891e8c1ea9d2
+    modified: 1659355162979
+    created: 1659295226740
+    name: Users
+    description: ""
+    environment:
+      RESORCE: users
+    environmentPropertyOrder:
+      "&":
+        - RESORCE
+    metaSortKey: -1659295226740
+    _type: request_group
+  - _id: wrk_d376f5007c3141a29644891e8c1ea9d2
+    parentId: null
+    modified: 1659217456176
+    created: 1659217456176
+    name: RocketMovies
+    description: ""
+    scope: collection
+    _type: workspace
+  - _id: req_73af587bc8b84014a803f7c718d3d871
+    parentId: fld_48b37e42440943559a3f7adaa15b89c1
+    modified: 1660672808768
+    created: 1659355136516
+    url: "{{ _.BASE_URL }}/{{ _.RESORCE }}/1"
+    name: Update
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"name": "renan silva",
+        	"email": "renan@email.com",
+        	"password": "123",
+        	"old_password": "123"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_b8224235d448407998fe77418ab21561
+    authentication: {}
+    metaSortKey: -1659217465847
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_c143e294dd9f4c9495944400b4b9ab1e
+    parentId: fld_1544cb4478634f1f84d259b8f36c1861
+    modified: 1659390789620
+    created: 1659370470574
+    url: "{{ _.BASE_URL }}/{{ _.RESOURCE }}/1"
+    name: Create
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"title": "Batman",
+        	"description": "Filme do batman",
+        	"rating": "3",
+        	"tags": ["Suspence"]
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_931c0d72609b4062bb22506e26c7d147
+    authentication: {}
+    metaSortKey: -1659370470574
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_1544cb4478634f1f84d259b8f36c1861
+    parentId: wrk_d376f5007c3141a29644891e8c1ea9d2
+    modified: 1659372053816
+    created: 1659370442362
+    name: Movie_Notes
+    description: ""
+    environment:
+      RESOURCE: notes
+    environmentPropertyOrder:
+      "&":
+        - RESOURCE
+    metaSortKey: -1659370442362
+    _type: request_group
+  - _id: req_bf65d0d988fe467b8286c788c9a41825
+    parentId: fld_1544cb4478634f1f84d259b8f36c1861
+    modified: 1659390823832
+    created: 1659374966513
+    url: "{{ _.BASE_URL }}/{{ _.RESOURCE }}/1"
+    name: Show
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1659370470549
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_26649ef2d9fa4c17b4a016a535755dba
+    parentId: fld_1544cb4478634f1f84d259b8f36c1861
+    modified: 1659390868660
+    created: 1659375595211
+    url: "{{ _.BASE_URL }}/{{ _.RESOURCE }}/1"
+    name: Delete
+    description: ""
+    method: DELETE
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1659370470524
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_d9b97d78063b48c1a3a5fa1628777e7b
+    parentId: fld_1544cb4478634f1f84d259b8f36c1861
+    modified: 1659390987632
+    created: 1659375921333
+    url: "{{ _.BASE_URL }}/{{ _.RESOURCE }}/"
+    name: Index
+    description: ""
+    method: GET
+    body: {}
+    parameters:
+      - id: pair_b0a16aba2d124c16b1aebc43b94d23a6
+        name: user_id
+        value: "1"
+        description: ""
+      - id: pair_14d0a6a8ee0946f096844fcd56ec3638
+        name: title
+        value: Superman
+        description: ""
+      - id: pair_2a17947594fd41b39dd958430cd08277
+        name: tags
+        value: Ação
+        description: ""
+      - id: pair_e9cc17bd56fa4ff2b4ecf832be6f0f53
+        name: ""
+        value: ""
+        description: ""
+    headers: []
+    authentication: {}
+    metaSortKey: -1659375921333
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_a4cecb86cda44dedae0fca9c11562c41
+    parentId: fld_63a78658ba0448ab905919d5c38b4cad
+    modified: 1659386995648
+    created: 1659379878407
+    url: "{{ _.BASE_URL }}/{{ _.RESOURCE }}/2"
+    name: Index
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1659379878407
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_63a78658ba0448ab905919d5c38b4cad
+    parentId: wrk_d376f5007c3141a29644891e8c1ea9d2
+    modified: 1659379925166
+    created: 1659379876767
+    name: Tags
+    description: ""
+    environment:
+      RESOURCE: tags
+    environmentPropertyOrder:
+      "&":
+        - RESOURCE
+    metaSortKey: -1659379876767
+    _type: request_group
+  - _id: env_e1108c1245c5eac4902fa7ef8e107013dc7351e1
+    parentId: wrk_41f0f5b4ad234bd3a289904b95922c97
+    modified: 1658186365156
+    created: 1658186365156
+    name: Base Environment
+    data: {}
+    dataPropertyOrder: null
+    color: null
+    isPrivate: false
+    metaSortKey: 1658186365156
+    _type: environment
+  - _id: jar_e1108c1245c5eac4902fa7ef8e107013dc7351e1
+    parentId: wrk_41f0f5b4ad234bd3a289904b95922c97
+    modified: 1658186365160
+    created: 1658186365160
+    name: Default Jar
+    cookies: []
+    _type: cookie_jar
+  - _id: spc_931a6448da46447c8e0093e4225b9e9b
+    parentId: wrk_41f0f5b4ad234bd3a289904b95922c97
+    modified: 1660859743152
+    created: 1658186365152
+    fileName: New Document
+    contents: ""
+    contentType: yaml
+    _type: api_spec
+  - _id: uts_37e27b57e84144c189f11e4ddb5fc62a
+    parentId: wrk_41f0f5b4ad234bd3a289904b95922c97
+    modified: 1658186365165
+    created: 1658186365165
+    name: Example Test Suite
+    _type: unit_test_suite
+  - _id: env_e351b3662b49050eaeb7015d0e19b2515ebfc1a7
+    parentId: wrk_dac98822c34e4e388432f96f292fe55d
+    modified: 1660684696822
+    created: 1658186412443
+    name: Base Environment
+    data:
+      USER_TOKEN: "{% response 'body', 'req_69a464aa4ff04284abfe39fb553eed44',
+        'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+    dataPropertyOrder:
+      "&":
+        - USER_TOKEN
+    color: null
+    isPrivate: false
+    metaSortKey: 1658186412443
+    _type: environment
+  - _id: jar_e351b3662b49050eaeb7015d0e19b2515ebfc1a7
+    parentId: wrk_dac98822c34e4e388432f96f292fe55d
+    modified: 1658186412445
+    created: 1658186412445
+    name: Default Jar
+    cookies: []
+    _type: cookie_jar
+  - _id: spc_8d94fd4f204f4df8bf5abaebbae1f8cd
+    parentId: wrk_dac98822c34e4e388432f96f292fe55d
+    modified: 1658186412439
+    created: 1658186412439
+    fileName: RocketNotes
+    contents: ""
+    contentType: yaml
+    _type: api_spec
+  - _id: env_da6fd107f3d343b1a6d83ab8f3cc2569
+    parentId: env_e351b3662b49050eaeb7015d0e19b2515ebfc1a7
+    modified: 1660684695016
+    created: 1658932955697
+    name: dev
+    data:
+      BASE_URL: localhost:3333
+    dataPropertyOrder:
+      "&":
+        - BASE_URL
+    color: "#5de821"
+    isPrivate: false
+    metaSortKey: 1658932955697
+    _type: environment
+  - _id: env_221970faa4bd0ddf45d2888d4109c9550b802a7c
+    parentId: wrk_d376f5007c3141a29644891e8c1ea9d2
+    modified: 1659355174569
+    created: 1659217456179
+    name: Base Environment
+    data: {}
+    dataPropertyOrder: {}
+    color: null
+    isPrivate: false
+    metaSortKey: 1659217456179
+    _type: environment
+  - _id: jar_221970faa4bd0ddf45d2888d4109c9550b802a7c
+    parentId: wrk_d376f5007c3141a29644891e8c1ea9d2
+    modified: 1659217456181
+    created: 1659217456181
+    name: Default Jar
+    cookies: []
+    _type: cookie_jar
+  - _id: spc_40ac3e046585477da7c198e356ac8120
+    parentId: wrk_d376f5007c3141a29644891e8c1ea9d2
+    modified: 1659217456177
+    created: 1659217456177
+    fileName: RocketMovies
+    contents: ""
+    contentType: yaml
+    _type: api_spec
+  - _id: env_a260bd7dc76a403fa7315819b252a1b0
+    parentId: env_221970faa4bd0ddf45d2888d4109c9550b802a7c
+    modified: 1659355177096
+    created: 1659295275795
+    name: DEV
+    data:
+      BASE_URL: localhost:3333
+    dataPropertyOrder:
+      "&":
+        - BASE_URL
+    color: "#2bff00"
+    isPrivate: false
+    metaSortKey: 1659295275795
+    _type: environment
