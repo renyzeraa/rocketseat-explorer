@@ -7,7 +7,11 @@ exports.up = knex =>
       .references('id')
       .inTable('notes')
       .onDelete('CASCADE')
-    table.integer('user_id').references('id').inTable('users')
+    table
+      .integer('user_id')
+      .references('id')
+      .inTable('users')
+      .onDelete('CASCADE')
   })
 
 exports.down = knex => knex.schema.dropTable('tags')

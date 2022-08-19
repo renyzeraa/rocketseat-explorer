@@ -3,8 +3,11 @@ exports.up = knex =>
     table.increments('id')
     table.text('title')
     table.text('descriptions')
-    table.integer('user_id').references('id').inTable('users')
-
+    table
+      .integer('user_id')
+      .references('id')
+      .inTable('users')
+      .onDelete('CASCADE')
     table.timestamp('created_at').default(knex.fn.now())
     table.timestamp('updated_at').default(knex.fn.now())
   })
