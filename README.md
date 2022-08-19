@@ -145,7 +145,7 @@
 
 ### <a align="center" href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage10"> Stage 10 🏷 </a>&nbsp; </br>
 
-<a href="#"> ⏳ in progress . . . ⌛️ </a>&nbsp; </br>
+<a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage10/Aula01"> ⏳ in progress . . . ⌛️ </a>&nbsp; </br>
 
 <div align="center">
   
