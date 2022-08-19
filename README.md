@@ -147,9 +147,12 @@
 <a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage10/Aula01"> ⏳ in progress . . . ⌛️ </a>&nbsp; </br>
 
 <div align="center">
-  
-![loading-cat](https://user-images.githubusercontent.com/101990719/175840620-1627db7d-a201-403c-a5c5-3b3420593140.gif)
+
+![monkey-adult-swim](https://user-images.githubusercontent.com/101990719/185715608-07ed9533-8b9f-4ae1-b860-ce9ef7817f13.gif)
+
 </div>
+
+<hr>
 
 ## Contact
 
