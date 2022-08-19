@@ -70,10 +70,9 @@
 
   <br>
   <br>
-  <br>
-  
-  ### > 📦 Repositório - 🛫/🚀 Deploys
-                                           
+
+### > 📦 Repositório - 🛫/🚀 Deploys
+
 </div>
  
 ### <a  href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage01"> Stage 01 🏷 </a>&nbsp;
