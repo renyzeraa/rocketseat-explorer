@@ -4,43 +4,76 @@ import { Button } from '../../components/Button'
 import { Section } from '../../components/Section'
 import { Tag } from '../../components/Tags'
 import { ButtonText } from '../../components/ButtonText'
+import { useParams, useNavigate } from 'react-router-dom'
+import { useState, useEffect } from 'react'
+import { api } from '../../service/api'
 
 export function Details() {
+  const [data, setData] = useState(null)
+  const params = useParams()
+  const navigate = useNavigate()
+
+  function handleBack() {
+    navigate(-1)
+  }
+
+  async function handleRemove() {
+    const confirm = window.confirm('Você quer realmente remover ?')
+
+    if (confirm) {
+      await api.delete(`/notes/${params.id}`)
+      navigate(-1)
+    }
+  }
+
+  useEffect(() => {
+    async function fetchNote() {
+      const response = await api.get(`/notes/${params.id}`)
+      setData(response.data)
+    }
+    fetchNote()
+  }, [])
+
   return (
     <Container>
       <Header />
 
       <main>
-        <Content>
-          <ButtonText title="Excluir Nota"></ButtonText>
+        {data && (
+          <Content>
+            <ButtonText
+              title="Excluir Nota"
+              onClick={handleRemove}
+            ></ButtonText>
 
-          <h1>Introdução ao React</h1>
-          <p>
-            O React é uma biblioteca JavaScript de código aberto com foco em
-            criar interfaces de usuário em páginas web. É mantido pelo Facebook,
-            Instagram, outras empresas e uma comunidade de desenvolvedores
-            individuais. É utilizado nos sites da Netflix, Imgur, Feedly,
-            Airbnb, SeatGeek, HelloSign, Walmart e outros
-          </p>
+            <h1>{data.title}</h1>
+            <p>{data.descriptions}</p>
 
-          <Section title="Links Úteis">
-            <Links>
-              <li>
-                <a href="#">https://www.rocketseat.com.br/</a>
-              </li>
-              <li>
-                <a href="#">https://www.rocketseat.com.br/</a>
-              </li>
-            </Links>
-          </Section>
+            {data.links && (
+              <Section title="Links Úteis">
+                <Links>
+                  {data.links.map(link => (
+                    <li key={String(link.id)}>
+                      <a href={link.url} target="_blank">
+                        {link.url}
+                      </a>
+                    </li>
+                  ))}
+                </Links>
+              </Section>
+            )}
 
-          <Section title="Marcadores">
-            <Tag title="Node"></Tag>
-            <Tag title="React-js"></Tag>
-          </Section>
+            {data.tags && (
+              <Section title="Marcadores">
+                {data.tags.map(tag => (
+                  <Tag key={String(tag.id)} title={tag.name}></Tag>
+                ))}
+              </Section>
+            )}
 
-          <Button title="Voltar" />
-        </Content>
+            <Button title="Voltar" onClick={handleBack} />
+          </Content>
+        )}
       </main>
     </Container>
   )
