@@ -2,13 +2,18 @@ import { useState } from 'react'
 import { Container, Form, Avatar } from './styles'
 import { Button } from '../../components/Button'
 import { Input } from '../../components/Input'
-import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { useAuth } from '../../hooks/auth'
 import avatarPlaceholder from '../../assets/avatar_placeholder.svg'
 import { FiArrowLeft, FiUser, FiMail, FiLock, FiCamera } from 'react-icons/fi'
 import { api } from '../../service/api'
 
 export function Profile() {
+  const navigate = useNavigate()
+  function handleBack() {
+    navigate(-1)
+  }
+
   const { user, updateProfile } = useAuth()
 
   const [name, setName] = useState(user.name)
@@ -46,9 +51,9 @@ export function Profile() {
   return (
     <Container>
       <header>
-        <Link to="/">
+        <a onClick={handleBack}>
           <FiArrowLeft />
-        </Link>
+        </a>
       </header>
 
       <Form>
