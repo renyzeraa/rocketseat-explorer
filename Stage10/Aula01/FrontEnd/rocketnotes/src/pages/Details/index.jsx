@@ -70,7 +70,6 @@ export function Details() {
                 ))}
               </Section>
             )}
-
             <Button title="Voltar" onClick={handleBack} />
           </Content>
         )}
