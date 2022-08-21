@@ -7,7 +7,6 @@ import { Section } from '../../components/Section'
 import { NoteItem } from '../../components/NoteItem'
 import { Button } from '../../components/Button'
 import { ButtonText } from '../../components/ButtonText'
-import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
 import { api } from '../../service/api'
 
