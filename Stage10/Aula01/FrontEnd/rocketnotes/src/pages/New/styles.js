@@ -33,10 +33,5 @@ export const Form = styled.form`
     align-items: center;
 
     margin-bottom: 36px;
-
-    a {
-      color: ${({ theme }) => theme.COLORS.GRAY_100};
-      font-size: 20px;
-    }
   }
 `
