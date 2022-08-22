@@ -1,5 +1,17 @@
 # RocketNotes 📋
 
+<div align="center">
+
+### Preview 🤩
+
+<video controls="" autoplay="" name="media">
+
+<source src="https://user-images.githubusercontent.com/101990719/185828156-da91ff9e-b818-4cd6-96cf-a081061f3f58.mp4" type="video/mp4">
+
+</video>
+
+</div>
+
 Este projeto esta separado em duas partes, na qual foram feitas separadamente, sendo o Backend (API) e o Frontend feito em React.js utilizando o setup inicial do vitejs. Abaixo terá passo a passo de como rodar a aplicação, contendo as tecnologias utilizadas, licença e meu contato.
 
 ## Rodando localmente 👇
@@ -52,7 +64,7 @@ Agora inicie a aplicação
   npm run dev
 ```
 
-No propior terminal ira gerar o local host onde ira rodar a aplicação
+No próprio terminal ira gerar o local host onde ira rodar a aplicação
 
 Exemplo:
 
@@ -86,12 +98,13 @@ Cuide que ao fazer CTRL+C no terminal, você interrompe a aplicação. So inicia
 
 ### Contato
 
-<img align="left" src="https://avatars.githubusercontent.com/renyzeraa?size=100">
+<img align="left" src="https://www.github.com/renyzeraa.png?size=150">
 
-Made with ❤️ by [Renan Silva](https://github.com/renyzeraa)!
-🛠 Frontend Developer Jr.
+### [**Renan Leandro da Silva**](https://github.com/renyzeraa)
+
+🛠 `Frontend` Developer Jr.
 📍 Santa Catarina - Brazil
 
-<a href="https://www.linkedin.com/in/renyzeraa" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn Badge" height="20"></a>&nbsp;<a href="mailto:renansilvaytb@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail Badge" height="20"></a>&nbsp;<a href="#"><img src="https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white" title="renan_s#7826" alt="Discord Badge" height="20"></a>&nbsp;<a href="https://www.github.com/renyzeraa" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" alt="GitHub Badge" height="20"></a>&nbsp;
+<a href="https://www.linkedin.com/in/renyzeraa" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn Badge" height="25"></a>&nbsp;<a href="mailto:renansilvaytb@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail Badge" height="25"></a>&nbsp;<a href="#"><img src="https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white" title="renan_s#7826" alt="Discord Badge" height="25"></a>&nbsp;<a href="https://www.github.com/renyzeraa" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" alt="GitHub Badge" height="25"></a>&nbsp;
 
 <br clear="left"/>
