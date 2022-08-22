@@ -13,7 +13,7 @@ export const Container = styled.header`
 
     background: ${({ theme }) => theme.COLORS.BACKGROUND_900};
 
-    > h1 a {
+    > h1 {
       color: ${({ theme }) => theme.COLORS.PINK};
       margin-right: 32px;
     }

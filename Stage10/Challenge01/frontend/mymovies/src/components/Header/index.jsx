@@ -1,23 +1,28 @@
 import { Container } from './styles'
 import { Input } from '../../components/Input'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+import { useAuth } from '../../hooks/auth'
 
 export function Header() {
+  const { signOut } = useAuth()
+  const navigate = useNavigate()
   return (
     <Container>
       <div className="header">
-        <h1>
-          <Link to="/">RocketMovies</Link>
-        </h1>
+        <h1>RocketMovies</h1>
         <Input placeholder="Pesquisar pelo título" />
         <div className="profile">
           <div>
             <Link to="/profile">Renan Silva</Link>
-            <a href="#">sair</a>
+            <a onClick={signOut}>sair</a>
           </div>
-          <Link to="/profile">
+          <a
+            onClick={() => {
+              navigate('/profile')
+            }}
+          >
             <img src="https://github.com/renyzeraa.png" alt="User Image" />
-          </Link>
+          </a>
         </div>
       </div>
     </Container>
