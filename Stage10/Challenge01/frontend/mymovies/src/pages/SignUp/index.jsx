@@ -36,9 +36,9 @@ export function SignUp() {
   return (
     <Container>
       <Form>
-        <h1>Rocket Notes</h1>
-        <p>Aplicação para salvar e gerenciar seus links úteis.</p>
-        <h2>Crie sua conta</h2>
+        <h1>My Movies</h1>
+        <p>Aplicação para salvar seus filmes favoritos 🎬👌🏼</p>
+        <h2>Crie sua conta 😉</h2>
 
         <Input
           placeholder="Nome"
