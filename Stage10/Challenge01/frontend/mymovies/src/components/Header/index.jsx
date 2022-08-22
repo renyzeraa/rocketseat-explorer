@@ -1,6 +1,6 @@
 import { Container } from './styles'
 import { Input } from '../../components/Input'
-import { Link, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { useAuth } from '../../hooks/auth'
 
 export function Header() {
@@ -13,7 +13,13 @@ export function Header() {
         <Input placeholder="Pesquisar pelo título" />
         <div className="profile">
           <div>
-            <Link to="/profile">Renan Silva</Link>
+            <a
+              onClick={() => {
+                navigate('/profile')
+              }}
+            >
+              Renan Silva
+            </a>
             <a onClick={signOut}>sair</a>
           </div>
           <a
