@@ -4,10 +4,10 @@ const AppError = require('../utils/AppError')
 class NotesController {
   async create(request, response) {
     const { title, description, rating, tags } = request.body
-    const { user_id } = request.params
+    const user_id = request.user.id
 
     if (rating < 1 || rating > 5) {
-      throw new AppError('Rating Invalid, use from 1 to 5')
+      throw new AppError('Rating inválido, use de 1 a 5')
     }
 
     const note_id = await knex('movie_notes').insert({
@@ -47,7 +47,9 @@ class NotesController {
   }
 
   async index(request, response) {
-    const { title, user_id, tags } = request.query
+    const { title, tags } = request.query
+    const user_id = request.user.id
+
     let notes
 
     if (tags) {
