@@ -38,11 +38,12 @@ Botei a mão na massa e apliquei tudo o que foi apresentado no módulo e nos sta
 
 #### Agora explicando mais sobre o desenvolvimento.
 
-Foi feita a junção do front-end com o back-end do MyMovies. Primeiro foi implantado um fluxo de autenticação, famoso login no sistema. Nessa autenticação, tem a funcionalidade de checar se o usuário tem cadastro, checar email e senha através de uma solicitação e ao realizar essa checagem e estiver tudo certo, ira gerar um Token de autenticação (uma chave que identifica ele logado na minha aplicação).
+Foi feita a junção do front-end com o back-end do MyMovies, utilizando a biblioteca cors. Primeiro foi implantado um fluxo de autenticação, famoso login no sistema. Nessa autenticação, tem a funcionalidade de checar se o usuário tem cadastro, checar email e senha através de uma solicitação e ao realizar essa checagem e estiver tudo certo, ira gerar um Token de autenticação (uma chave que identifica ele logado na minha aplicação).
 Com ele autenticado, ira disponibilizar a navegação na aplicação, dando um destino as requisições feitas anteriormente e junto da navegação ele carregará sempre o token, pois sem ele o usuário não tera nenhuma permissão de acessar o site, onde o middleware ficara responsável por "fiscalizar" identificar isto.
 O Token que o usuário ira gerar, sera o JTW , um padrão de mercado que define ele no formato .JSON para troca de informações através das requisições HTTP. O objetivo é se trocar informações entre a aplicação, a API e o back-end. O JWT não é um mecanismo de autenticação, mas ajuda para no fluxo de autenticar o usuário. Ele gera um hash formado por letras e números (uma "criptografia") contendo (header, payload, verify signature).
 Na Home(página inicial), aparecerá as Notas de Filmes criadas, como o usuário é novo estará aparecendo nenhuma. Para criar basta clicar em Adicionar Filme. Na tela de adicionar, Será obrigatório colocar o título do filme, sua nota de mínimo 0 e máximo 5, Observação (um breve resumo feito por você), marcadores para a categoria que o filme compreende (Ação, Aventura, Suspense, Comédia, etc), e salvando, você retorna para a Home. Também tem a possibilidade de editar o perfil na parte de cima da página, clicando no nome ou na foto, irá para a pagina de perfil, poderá editar nome, senha, e trocar também a foto do perfil.
 Clicando em uma nota criada, acessara todos o detalhes da nota, vendo que criou, hora, nota, e os detalhes que foram preenchidos na hora da crianção.
+Para integrar o
 Ficou curioso em como ficou?, no próximo stage 11, a aplicação estará online e operante, aguardem 😂.
 
 ---
