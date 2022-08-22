@@ -3,4 +3,4 @@ node_modules
 database.db
 
 uploads/*.png
-*.jpg
+uploads/*.jpg
