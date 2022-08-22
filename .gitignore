@@ -2,5 +2,5 @@ node_modules
 
 database.db
 
-*png
-*jpg
+uploads/*.png
+*.jpg
