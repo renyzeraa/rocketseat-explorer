@@ -1,4 +1,36 @@
-# Finalizando o MyMovies
+# Finalizando o MyMovies 🎥🎬
+
+---
+
+#### Stacks utilizadas
+
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+---
+
+### Principais pontos que terá no projeto:
+
+**1. Autenticação**
+
+> Permitir que um usuário se autentique na aplicação utilizando um e-mail e uma senha. A autenticação foi feita utilizando JWT(Token).
+
+**2. Upload de imagens**
+
+> Permitir que o usuário consiga alterar a sua imagem de perfil ao clicar no ícone de câmera, localizada no canto inferior direito da foto
+
+![Untitled](https://user-images.githubusercontent.com/101990719/185929955-22f52e83-bfbc-49fd-8b06-335fbee60349.png)
+
+**3. Integração front-end e back-end.**
+
+> Por último e muito importante, foi revistos diversos conteúdos importantes ao fazer a integração do nossa interface (front-end feita no stage 09) com a nossa api (back-end feita no stage 08). Aqui que a mágica acontece! 💜
+
+No próximo stage 11, a aplicação estará online e operante, aguardem 😂.
+
+---
+
+#### Projeto Licenciado ⚖ [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](../../LICENSE)
+
+---
 
 # 💻 Sobre o desafio
 
@@ -6,27 +38,11 @@ Wooow, esse Stage veio recheado de conteúdo 👀. Compreendi o uso de useState 
 
 Botei a mão na massa e apliquei tudo o que foi apresentado no módulo e nos stages anteriores, na **MyMovies** 🚀
 
----
+#### Agora explicando mais sobre o desenvolvimento.
 
-### Principais pontos que serão entregues nesse desafio:
-
-**1. Autenticação**
-Permitir que um usuário se autentique na aplicação utilizando um e-mail e uma senha. A autenticação foi feita utilizando JWT(Token).
-
-**2. Upload de imagens**
-Permitir que o usuário consiga alterar a sua imagem de perfil ao clicar no ícone de câmera, localizada no canto inferior direito da foto
-
-![Untitled](https://user-images.githubusercontent.com/101990719/185929955-22f52e83-bfbc-49fd-8b06-335fbee60349.png)
-
-**3. Integração front-end e back-end.**
-Por último e muito importante, foi revistos diversos conteúdos importantes ao fazer a integração do nossa interface (front-end) com a nossa api (back-end).
-Aqui que a mágica acontece! 💜
-
-No próximo stage 11, a aplicação estará online e operante 😂.
+Foi feita a junção do front-end com o back-end do MyMovies. Primeiro foi implantado um fluxo de autenticação, famoso login no sistema. Nessa autenticação, tem a funcionalidade de checar se o usuário tem cadastro, checar email e senha através de uma solicitação e ao realizar essa checagem e estiver tudo certo, ira gerar um Token de autenticação (uma chave que identifica ele logado na minha aplicação). Com ele autenticado, ira disponibilizar a navegação na aplicação, dando um destino as requisições feitas anteriormente e junto da navegação ele carregará sempre um token, pois sem ele o usuário não tera nenhuma permissão de acessar o site, onde o middleware ficara responsável por "fiscalizar" identificar isto.
 
 ---
-
-#### Projeto Licenciado ⚖ [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](../../LICENSE)
 
 # MyMovies 🎞🎬
 
@@ -109,12 +125,6 @@ Cuide que ao fazer CTRL+C no terminal, você interrompe a aplicação. So inicia
 ```bash
   npm run dev
 ```
-
----
-
-#### Stacks utilizadas
-
-![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ---
 
