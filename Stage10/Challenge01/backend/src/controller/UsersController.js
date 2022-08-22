@@ -11,7 +11,7 @@ class UsersController {
     const checkUserExists = await knex('users').where({ email }).first()
 
     if (checkUserExists) {
-      throw new AppError('User already exists')
+      throw new AppError('Usuário ja existe !')
     }
 
     const hashedPassword = await hash(password, 8)
@@ -22,7 +22,7 @@ class UsersController {
       password: hashedPassword
     })
 
-    return response.status(201).json({ message: 'User created' })
+    return response.status(201).json({ message: 'usuário criado' })
   }
 
   async update(request, response) {
@@ -32,24 +32,24 @@ class UsersController {
     const user = await knex('users').where({ id: user_id }).first()
 
     if (!user) {
-      throw new AppError('User not found')
+      throw new AppError('Usuário não encontrado')
     }
 
     const userWhitThisEmail = await knex('users').where({ email }).first()
 
     if (userWhitThisEmail && userWhitThisEmail.id !== user.id) {
-      throw new AppError('Email already exists')
+      throw new AppError('Email ja esta em uso')
     }
 
     if (password && !old_password) {
-      throw new AppError('Old password not defined')
+      throw new AppError('Senha antiga não definida')
     }
 
     if (old_password && password) {
       const checkOldPassword = await compare(old_password, user.password)
 
       if (!checkOldPassword) {
-        throw new AppError('Passwords do not match')
+        throw new AppError('Sua senha esta errada !')
       }
 
       user.password = await hash(password, 8)
