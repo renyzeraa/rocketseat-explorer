@@ -2,13 +2,9 @@
 
 <div align="center">
 
-### Preview 🤩
+### Preview do projeto 🤩
 
-<video controls="" autoplay="" name="media">
-
-<source src="https://user-images.githubusercontent.com/101990719/185828156-da91ff9e-b818-4cd6-96cf-a081061f3f58.mp4" type="video/mp4">
-
-</video>
+[![Video Preview](https://user-images.githubusercontent.com/101990719/184451354-2016a5cd-87ec-4c0a-bc95-7b98ff34893e.png)](https://user-images.githubusercontent.com/101990719/185828156-da91ff9e-b818-4cd6-96cf-a081061f3f58.mp4)
 
 </div>
 
