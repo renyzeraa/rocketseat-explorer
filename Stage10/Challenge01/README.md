@@ -40,7 +40,10 @@ Botei a mão na massa e apliquei tudo o que foi apresentado no módulo e nos sta
 
 #### Agora explicando mais sobre o desenvolvimento.
 
-Foi feita a junção do front-end com o back-end do MyMovies. Primeiro foi implantado um fluxo de autenticação, famoso login no sistema. Nessa autenticação, tem a funcionalidade de checar se o usuário tem cadastro, checar email e senha através de uma solicitação e ao realizar essa checagem e estiver tudo certo, ira gerar um Token de autenticação (uma chave que identifica ele logado na minha aplicação). Com ele autenticado, ira disponibilizar a navegação na aplicação, dando um destino as requisições feitas anteriormente e junto da navegação ele carregará sempre um token, pois sem ele o usuário não tera nenhuma permissão de acessar o site, onde o middleware ficara responsável por "fiscalizar" identificar isto.
+Foi feita a junção do front-end com o back-end do MyMovies. Primeiro foi implantado um fluxo de autenticação, famoso login no sistema. Nessa autenticação, tem a funcionalidade de checar se o usuário tem cadastro, checar email e senha através de uma solicitação e ao realizar essa checagem e estiver tudo certo, ira gerar um Token de autenticação (uma chave que identifica ele logado na minha aplicação).
+Com ele autenticado, ira disponibilizar a navegação na aplicação, dando um destino as requisições feitas anteriormente e junto da navegação ele carregará sempre um token, pois sem ele o usuário não tera nenhuma permissão de acessar o site, onde o middleware ficara responsável por "fiscalizar" identificar isto.
+O Token que o usuário ira gerar, sera o JTW , um padrão de mercado que define ele no formato .JSON para troca de informações através das requisições HTTP.
+O objetivo é se trocar informações entre a aplicação, a API e o back-end. O JWT não é um mecanismo de autenticação, mas ajuda para na parte do fluxo de autenticar o usuário. Ele gera um hash formado por letras e números (uma "criptografia") contendo (header, payload, verify signature).
 
 ---
 
