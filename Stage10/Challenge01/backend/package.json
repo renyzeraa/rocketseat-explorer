@@ -20,7 +20,8 @@
     "knex": "^2.2.0",
     "multer": "^1.4.5-lts.1",
     "sqlite": "^4.1.2",
-    "sqlite3": "^5.0.11"
+    "sqlite3": "^5.0.11",
+    "sweetalert2": "^11.4.29"
   },
   "devDependencies": {
     "nodemon": "^2.0.19"

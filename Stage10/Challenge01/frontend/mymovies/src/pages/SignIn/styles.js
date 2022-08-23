@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import backgroundLogin from '../../assets/background_signin.png'
+import bg_login from '../../assets/bg_login.jpg'
 
 export const Container = styled.div`
   height: 100vh;
@@ -44,6 +44,6 @@ export const Form = styled.form`
 
 export const Background = styled.div`
   flex: 1;
-  background: url(${backgroundLogin}) no-repeat center center;
+  background: url(${bg_login}) no-repeat center center;
   background-size: cover;
 `

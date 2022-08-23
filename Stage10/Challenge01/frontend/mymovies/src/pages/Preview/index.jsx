@@ -11,6 +11,7 @@ import { api } from '../../service/api'
 import { useAuth } from '../../hooks/auth'
 import { Button } from '../../components/Button'
 import no_avatar from '../../assets/no_avatar.svg'
+import Swal from 'sweetalert2'
 
 export function Preview() {
   const [data, setData] = useState(null)
@@ -23,11 +24,31 @@ export function Preview() {
     : no_avatar
 
   async function handleRemove() {
-    const confirm = window.confirm('Deseja realmente remover a nota?')
-    if (confirm) {
+    async function remove() {
       await api.delete(`/notes/${params.id}`)
-      navigate(-1)
     }
+
+    Swal.fire({
+      title: 'Are you sure?',
+      text: "You won't be able to revert this!",
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonColor: '#7066e0',
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'Yes, delete it!'
+    }).then(result => {
+      if (result.isConfirmed) {
+        Swal.fire({
+          position: 'top-end',
+          icon: 'success',
+          title: 'Nota removida com sucesso!',
+          showConfirmButton: false,
+          timer: 1500
+        })
+        remove()
+        navigate(-1)
+      }
+    })
   }
 
   useEffect(() => {
@@ -59,11 +80,7 @@ export function Preview() {
               </div>
             </div>
             <div className="autor-container">
-              <a
-                onClick={() => {
-                  navigate('/profile')
-                }}
-              >
+              <a>
                 <img src={avatarUrl} alt="User Image" />
               </a>
               <p>Por {user.name}</p>

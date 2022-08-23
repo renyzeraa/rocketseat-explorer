@@ -5,6 +5,7 @@ import { Button } from '../../components/Button'
 import { useNavigate } from 'react-router-dom'
 import { api } from '../../service/api'
 import { FiMail, FiLock, FiArrowLeft, FiUser } from 'react-icons/fi'
+import Swal from 'sweetalert2'
 
 export function SignUp() {
   const [email, setEmail] = useState('')
@@ -15,7 +16,11 @@ export function SignUp() {
 
   function handleSignUp() {
     if (!name || !email || !password) {
-      return alert('Preencha todos os campos!')
+      return Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Preencha todos os campos!'
+      })
     }
 
     let regex =
@@ -23,20 +28,37 @@ export function SignUp() {
     api
 
     if (!email || regex.test(email) === false) {
-      return alert('Por favor insira um email valido !')
+      return Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Por favor insira um email valido !'
+      })
     }
 
     api
       .post('/users', { name, email, password })
       .then(() => {
-        alert('Usuário cadastrado com sucesso')
+        Swal.fire({
+          icon: 'success',
+          title: 'Usuário cadastrado com sucesso',
+          showConfirmButton: false,
+          timer: 1500
+        })
         navigate(-1)
       })
       .catch(error => {
         if (error.response) {
-          alert(error.response.data.message)
+          Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: error.response.data.message
+          })
         } else {
-          alert('Não foi possível cadastrar')
+          Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Não foi possível cadastrar'
+          })
         }
       })
   }

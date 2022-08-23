@@ -9,6 +9,7 @@ import { useNavigate } from 'react-router-dom'
 import { useState } from 'react'
 import { RiArrowLeftLine } from 'react-icons/ri'
 import { api } from '../../service/api'
+import Swal from 'sweetalert2'
 
 export function Create() {
   const navigate = useNavigate()
@@ -30,22 +31,45 @@ export function Create() {
 
   async function handleNewNote() {
     if (!title) {
-      return alert('Título obrigatório')
+      return Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Título obrigatório'
+      })
     }
     if (rating < 0 || rating > 5) {
-      return alert('Nota para o filme inválida, tente de 0 até 5')
+      return Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Nota para o filme inválida, tente de 0 até 5'
+      })
     } else if (!rating) {
-      return alert('Nota para o filme é obrigatório')
+      return Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Nota para o filme é obrigatório'
+      })
     }
     if (!description) {
-      return alert('Descrição é obrigatório')
+      return Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Descrição é obrigatório'
+      })
     }
     if (newTags) {
-      return alert(
-        'Você deixou uma tag no campo para adicionar, mas não adicionou'
-      )
-    } else if (!tags) {
-      return alert('Você não adicionou nenhum marcador')
+      return Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Você deixou uma tag no campo para adicionar, mas não adicionou'
+      })
+    }
+    if (tags.length <= 0) {
+      return Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Você não adicionou nenhum marcador'
+      })
     }
 
     await api.post('/notes', {
@@ -54,7 +78,12 @@ export function Create() {
       description,
       tags
     })
-    alert('Filme favoritado com sucesso!')
+    Swal.fire({
+      icon: 'success',
+      title: 'Filme favoritado com sucesso!',
+      showConfirmButton: false,
+      timer: 1200
+    })
     navigate(-1)
   }
 

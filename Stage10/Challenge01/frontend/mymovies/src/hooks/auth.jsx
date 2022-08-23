@@ -1,5 +1,6 @@
 import { createContext, useContext, useState, useEffect } from 'react'
 import { api } from '../service/api'
+import Swal from 'sweetalert2'
 
 export const AuthContext = createContext({})
 
@@ -19,9 +20,17 @@ function AuthProvider({ children }) {
       setData({ user, token })
     } catch (error) {
       if (error.response) {
-        alert(error.response.data.message)
+        Swal.fire({
+          icon: 'error',
+          title: 'Oops...',
+          text: error.response.data.message
+        })
       } else {
-        alert('Não foi possível entrar')
+        Swal.fire({
+          icon: 'error',
+          title: 'Oops...',
+          text: 'Não foi possível entrar'
+        })
       }
     }
   }
@@ -48,12 +57,21 @@ function AuthProvider({ children }) {
 
       setData({ user, token: data.token })
 
-      alert('Dados alterados com sucesso!')
+      Swal.fire({
+        icon: 'success',
+        title: 'Dados alterados com sucesso!',
+        showConfirmButton: false,
+        timer: 1500
+      })
     } catch (error) {
       if (error.response) {
-        alert(error.response.data.message)
+        Swal.fire(error.response.data.message)
       } else {
-        alert('Não foi possível atualizar o perfil ')
+        Swal.fire({
+          icon: 'error',
+          title: 'Oops...',
+          text: 'Não foi possível atualizar o perfil '
+        })
       }
     }
   }
