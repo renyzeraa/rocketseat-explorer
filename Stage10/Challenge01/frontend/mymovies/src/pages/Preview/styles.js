@@ -5,12 +5,15 @@ export const Container = styled.div`
   height: 100vh;
 
   main {
-    > Link {
-      background: red;
-    }
+    display: grid;
     max-width: 1120px;
     margin: 40px auto 0;
     padding: 0 60px;
+
+    > button {
+      margin: 40px auto 0;
+      width: 400px;
+    }
   }
 
   svg {
