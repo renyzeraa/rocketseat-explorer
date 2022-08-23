@@ -13,7 +13,7 @@ export function Header() {
   return (
     <Container>
       <div className="header">
-        <h1>RocketMovies</h1>
+        <h1>MyMovies</h1>
         <Input placeholder="Pesquisar pelo título" />
         <div className="profile">
           <div>
@@ -22,7 +22,7 @@ export function Header() {
                 navigate('/profile')
               }}
             >
-              Renan Silva
+              {user.name}
             </a>
             <a onClick={signOut}>sair</a>
           </div>
