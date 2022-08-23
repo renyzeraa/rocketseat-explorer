@@ -2,10 +2,14 @@ import { Container } from './styles'
 import { Input } from '../../components/Input'
 import { useNavigate } from 'react-router-dom'
 import { useAuth } from '../../hooks/auth'
+import { api } from '../../service/api'
 
 export function Header() {
-  const { signOut } = useAuth()
+  const { user, signOut } = useAuth()
   const navigate = useNavigate()
+  const avatarUrl = user.avatar
+    ? `${api.defaults.baseURL}/files/${user.avatar}`
+    : no_avatar
   return (
     <Container>
       <div className="header">
@@ -27,7 +31,7 @@ export function Header() {
               navigate('/profile')
             }}
           >
-            <img src="https://github.com/renyzeraa.png" alt="User Image" />
+            <img src={avatarUrl} alt="User Image" />
           </a>
         </div>
       </div>
