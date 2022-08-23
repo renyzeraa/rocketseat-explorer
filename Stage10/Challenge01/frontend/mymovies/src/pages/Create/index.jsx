@@ -54,7 +54,6 @@ export function Create() {
       description,
       tags
     })
-    console.log(rating)
     alert('Filme favoritado com sucesso!')
     navigate(-1)
   }

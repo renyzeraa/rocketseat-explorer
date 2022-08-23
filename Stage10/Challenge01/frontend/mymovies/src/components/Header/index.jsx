@@ -3,6 +3,7 @@ import { Input } from '../../components/Input'
 import { useNavigate } from 'react-router-dom'
 import { useAuth } from '../../hooks/auth'
 import { api } from '../../service/api'
+import no_avatar from '../../assets/no_avatar.svg'
 
 export function Header({ onChange, ...rest }) {
   const { user, signOut } = useAuth()
