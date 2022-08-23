@@ -73,4 +73,9 @@ export const Content = styled.div`
     flex-wrap: wrap;
     border-radius: 8px;
   }
+
+  > button {
+    margin: 0 auto;
+    width: 400px;
+  }
 `
