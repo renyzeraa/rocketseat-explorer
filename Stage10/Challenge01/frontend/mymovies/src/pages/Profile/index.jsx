@@ -1,7 +1,9 @@
+import { useState } from 'react'
+import { useAuth } from '../../hooks/auth'
 import { Container, Form, Avatar } from './styles'
 import { Input } from '../../components/Input'
 import { Button } from '../../components/Button'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import {
   RiArrowLeftLine,
   RiUser2Fill,
@@ -9,16 +11,27 @@ import {
   RiLock2Line
 } from 'react-icons/ri'
 import { FiCamera } from 'react-icons/fi'
-import { useState } from 'react'
-import { useAuth } from '../../hooks/auth'
 
 export function Profile() {
-  const { user } = useAuth()
+  const { user, updateProfile } = useAuth()
+
+  const navigate = useNavigate()
 
   const [name, setName] = useState(user.name)
   const [email, setEmail] = useState(user.email)
   const [passwordOld, setPasswordOld] = useState('')
   const [passwordNew, setPasswordNew] = useState('')
+
+  async function handleUpdate() {
+    const user = {
+      name,
+      email,
+      password: passwordNew,
+      old_password: passwordOld
+    }
+    await updateProfile({ user })
+    navigate(-1)
+  }
 
   return (
     <Container>
@@ -61,7 +74,7 @@ export function Profile() {
           placeholder="Nova senha"
           onChange={e => setPasswordNew(e.target.value)}
         ></Input>
-        <Button title="Salvar"></Button>
+        <Button title="Salvar" onClick={handleUpdate}></Button>
       </Form>
     </Container>
   )
