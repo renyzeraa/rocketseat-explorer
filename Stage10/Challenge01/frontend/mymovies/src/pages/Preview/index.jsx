@@ -22,6 +22,14 @@ export function Preview() {
     ? `${api.defaults.baseURL}/files/${user.avatar}`
     : no_avatar
 
+  async function handleRemove() {
+    const confirm = window.confirm('Deseja realmente remover a nota?')
+    if (confirm) {
+      await api.delete(`/notes/${params.id}`)
+      navigate(-1)
+    }
+  }
+
   useEffect(() => {
     async function fetchNote() {
       const response = await api.get(`/notes/${params.id}`)
@@ -71,7 +79,11 @@ export function Preview() {
             <p>{data.description}</p>
           </Content>
         )}
-        <Button isActive={false} title="Excluir Filme Favorito"></Button>
+        <Button
+          isActive={false}
+          title="Excluir Filme Favorito"
+          onClick={handleRemove}
+        ></Button>
       </main>
     </Container>
   )
