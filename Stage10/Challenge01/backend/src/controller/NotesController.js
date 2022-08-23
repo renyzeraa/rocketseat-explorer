@@ -75,10 +75,6 @@ class NotesController {
         .orderBy('title')
     }
 
-    if (notes.length === 0) {
-      throw new AppError(`Movie notes not found`)
-    }
-
     const userTags = await knex('movie_tags').where({ user_id })
 
     const notesWithTags = notes.map(note => {

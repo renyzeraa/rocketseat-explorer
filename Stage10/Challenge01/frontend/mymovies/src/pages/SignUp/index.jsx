@@ -18,6 +18,14 @@ export function SignUp() {
       return alert('Preencha todos os campos!')
     }
 
+    let regex =
+      /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i
+    api
+
+    if (!email || regex.test(email) === false) {
+      return alert('Por favor insira um email valido !')
+    }
+
     api
       .post('/users', { name, email, password })
       .then(() => {
