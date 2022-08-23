@@ -6,7 +6,7 @@ export function Card({ data, title, ...rest }) {
   return (
     <Container {...rest}>
       <h2>{data.title}</h2>
-      <Rating></Rating>
+      <Rating rate={data.rating}></Rating>
       <p>{data.description}</p>
       <div>
         {data.tags.map(tag => (
