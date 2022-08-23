@@ -12,8 +12,8 @@ export function Home() {
       <Header></Header>
       <main>
         <section className="content">
-          <h1>Meus Filmes</h1>
-          <a onClick={() => navigate('/profile')}>
+          <h1>Meus Filmes Favoritos ✨</h1>
+          <a onClick={() => navigate('/create')}>
             <Button title="+ Adicionar filme"></Button>
           </a>
         </section>
