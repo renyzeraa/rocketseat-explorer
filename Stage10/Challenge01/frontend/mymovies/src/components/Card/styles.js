@@ -1,7 +1,6 @@
 import styled from 'styled-components'
-import { Link } from 'react-router-dom'
 
-export const Container = styled(Link)`
+export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -11,6 +10,7 @@ export const Container = styled(Link)`
   margin-bottom: 24px;
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_600};
   border-radius: 16px;
+  cursor: pointer;
 
   > h2 {
     color: ${({ theme }) => theme.COLORS.WHITE};
@@ -27,5 +27,10 @@ export const Container = styled(Link)`
   > div {
     display: flex;
     gap: 8px;
+  }
+
+  :hover {
+    transition: 0.5s;
+    filter: brightness(1.2);
   }
 `

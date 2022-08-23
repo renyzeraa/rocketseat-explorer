@@ -2,22 +2,16 @@ import { Container } from './styles'
 import { Tag } from '../../components/Tag'
 import { Rating } from '../../components/Rating'
 
-export function Card({ title }) {
+export function Card({ data, title, ...rest }) {
   return (
-    <Container to="/preview/1">
-      <h2>{title}</h2>
+    <Container {...rest}>
+      <h2>{data.title}</h2>
       <Rating></Rating>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-        provident quaerat explicabo soluta mollitia, sunt, voluptates voluptatum
-        animi beatae blanditiis omnis similique error fuga! Magnam
-        exercitationem dolore ullam rerum laborum.
-      </p>
+      <p>{data.description}</p>
       <div>
-        <Tag title="teste"></Tag>
-        <Tag title="teste"></Tag>
-        <Tag title="teste"></Tag>
-        <Tag title="teste"></Tag>
+        {data.tags.map(tag => (
+          <Tag key={tag.id} title={tag.name}></Tag>
+        ))}
       </div>
     </Container>
   )
