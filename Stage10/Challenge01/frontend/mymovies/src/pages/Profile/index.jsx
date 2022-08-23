@@ -3,7 +3,7 @@ import { useAuth } from '../../hooks/auth'
 import { Container, Form, Avatar } from './styles'
 import { Input } from '../../components/Input'
 import { Button } from '../../components/Button'
-import { Link, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import {
   RiArrowLeftLine,
   RiUser2Fill,
@@ -11,6 +11,8 @@ import {
   RiLock2Line
 } from 'react-icons/ri'
 import { FiCamera } from 'react-icons/fi'
+import no_avatar from '../../assets/no_avatar.svg'
+import { api } from '../../service/api'
 
 export function Profile() {
   const { user, updateProfile } = useAuth()
@@ -22,6 +24,12 @@ export function Profile() {
   const [passwordOld, setPasswordOld] = useState('')
   const [passwordNew, setPasswordNew] = useState('')
 
+  const avatarUrl = user.avatar
+    ? `${api.defaults.baseURL}/files/${user.avatar}`
+    : no_avatar
+  const [avatar, setAvatar] = useState(avatarUrl)
+  const [avatarFile, setAvatarFile] = useState(null)
+
   async function handleUpdate() {
     const user = {
       name,
@@ -29,25 +37,35 @@ export function Profile() {
       password: passwordNew,
       old_password: passwordOld
     }
-    await updateProfile({ user })
+    await updateProfile({ user, avatarFile })
     navigate(-1)
+  }
+
+  function handleChangeAvatar(event) {
+    const file = event.target.files[0]
+    setAvatarFile(file)
+
+    const imagePreview = URL.createObjectURL(file)
+
+    setAvatar(imagePreview)
   }
 
   return (
     <Container>
       <header>
-        <Link to="/">
+        <a onClick={() => navigate(-1)}>
           <RiArrowLeftLine /> Voltar
-        </Link>
+        </a>
       </header>
       <Form>
         <Avatar>
-          <img src="https://github.com/renyzeraa.png" alt="Foto do usuário" />
+          <img src={avatar} alt="Foto do usuário" />
           <label htmlFor="avatar">
             <FiCamera />
-            <input id="avatar" type="file" />
+            <input id="avatar" type="file" onChange={handleChangeAvatar} />
           </label>
         </Avatar>
+
         <Input
           type="text"
           icon={RiUser2Fill}
@@ -74,6 +92,7 @@ export function Profile() {
           placeholder="Nova senha"
           onChange={e => setPasswordNew(e.target.value)}
         ></Input>
+
         <Button title="Salvar" onClick={handleUpdate}></Button>
       </Form>
     </Container>
