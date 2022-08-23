@@ -2,18 +2,20 @@ import { Container } from './styles'
 import { Header } from '../../components/Header'
 import { Button } from '../../components/Button'
 import { Card } from '../../components/Card'
-import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 export function Home() {
+  const navigate = useNavigate()
+
   return (
     <Container>
       <Header></Header>
       <main>
         <section className="content">
           <h1>Meus Filmes</h1>
-          <Link to="/create">
+          <a onClick={() => navigate('/profile')}>
             <Button title="+ Adicionar filme"></Button>
-          </Link>
+          </a>
         </section>
         <section className="cards">
           <Card title="Teste" />
