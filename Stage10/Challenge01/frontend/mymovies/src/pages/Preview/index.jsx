@@ -10,12 +10,12 @@ import { useState, useEffect } from 'react'
 import { api } from '../../service/api'
 import { useAuth } from '../../hooks/auth'
 import { Button } from '../../components/Button'
+import no_avatar from '../../assets/no_avatar.svg'
 
 export function Preview() {
+  const [data, setData] = useState(null)
   const navigate = useNavigate()
   const params = useParams()
-
-  const [data, setData] = useState(null)
 
   const { user } = useAuth()
   const avatarUrl = user.avatar
