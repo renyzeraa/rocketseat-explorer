@@ -1,3 +1,4 @@
+require('dotenv/config')
 require('express-async-errors') //import express async errors
 const uploadConfig = require('./config/upload')
 const express = require('express')
