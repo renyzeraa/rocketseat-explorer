@@ -18,7 +18,11 @@
 
 > Permitir que o usuário consiga alterar a sua imagem de perfil ao clicar no ícone de câmera, localizada no canto inferior direito da foto
 
+<div align="center">
+
 ![Untitled](https://user-images.githubusercontent.com/101990719/185929955-22f52e83-bfbc-49fd-8b06-335fbee60349.png)
+
+</div>
 
 **3. Integração front-end e back-end.**
 
