@@ -1,6 +1,6 @@
 # Spa (Single Page Aplication)
 
-# 💻 Stage 06 - Parte 1
+### 💻 Stage 06 - Parte 1
 
 🚀 Conceitos de SPA. </br>
 🚀 Alterando comportamento padrão do evento de redirecionamento. </br>
@@ -11,7 +11,7 @@
 🚀 Mais conceitos de Orientação a Objetos. </br>
 🚀 Adicionando um servidor local e simples com NodeJS. </br>
 
-# 🤔 O que aprendi após finalizar esse módulo?
+### 🤔 O que aprendi após finalizar esse módulo?
 
 - [ ] Conceitos de SPA;
 - [ ] Utilização do **Event.preventDefault()**;
@@ -23,7 +23,7 @@
 - [ ] Herança;
 - [ ] Polimorfismo;
 
-# 💻 Stage 06 - Parte 2
+### 💻 Stage 06 - Parte 2
 
 🚀 Apresentação dos conceitos e projeto desta etapa. </br>
 🚀 Construindo tabelas no HTML. </br>
@@ -38,7 +38,7 @@
 🚀 Cuidando do fluxo da aplicação com try, catch e throw. </br>
 🚀 Ajustes finais, revisão e próximos passos. </br>
 
-# 🤔 O que aprendi após finalizar esse módulo?
+### 🤔 O que aprendi após finalizar esse módulo?
 
 - [ ] Tabelas no HTML;
 - [ ] Screen Reader Only;
@@ -62,17 +62,15 @@
           
 </div>
 
-## Contact
+### Contato
 
-<img align="left" src="https://avatars.githubusercontent.com/renyzeraa?size=100">
+<img align="left" src="https://www.github.com/renyzeraa.png?size=150">
 
-Made with ❤️ by [Renan L. Silva](https://github.com/renyzeraa)! <br>
-🛠 Frontend Developer Jr. <br>
-📍 Santa Catarina - Brazil <br>
+### [**Renan Leandro da Silva**](https://github.com/renyzeraa)
 
-<a href="https://www.linkedin.com/in/renyzeraa" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn Badge" height="20"></a>&nbsp;
-<a href="mailto:renansilvaytb@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail Badge" height="20"></a>&nbsp;
-<a href="#"><img src="https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white" title="renan_s#7826" alt="Discord Badge" height="20"></a>&nbsp;
-<a href="https://www.github.com/renyzeraa" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" alt="GitHub Badge" height="20"></a>&nbsp;
+🛠 `Frontend` Developer Jr. <br>
+📍 Santa Catarina - Brazil
+
+<a href="https://www.linkedin.com/in/renyzeraa" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn Badge" height="25"></a>&nbsp;<a href="mailto:renansilvaytb@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail Badge" height="25"></a>&nbsp;<a href="#"><img src="https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white" title="renan_s#7826" alt="Discord Badge" height="25"></a>&nbsp;<a href="https://www.github.com/renyzeraa" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" alt="GitHub Badge" height="25"></a>&nbsp;
 
 <br clear="left"/>
