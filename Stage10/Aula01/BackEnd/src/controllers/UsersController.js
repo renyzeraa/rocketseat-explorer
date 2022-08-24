@@ -1,6 +1,8 @@
 const { hash, compare } = require('bcryptjs')
 const AppError = require('../utils/AppError')
 const knex = require('../database/knex')
+const Swal = require('sweetalert2')
+
 class UsersController {
   async create(request, response) {
     const { name, email, password } = request.body

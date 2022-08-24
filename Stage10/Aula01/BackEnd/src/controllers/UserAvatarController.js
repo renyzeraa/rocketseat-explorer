@@ -1,6 +1,7 @@
 const knex = require('../database/knex')
 const AppError = require('../utils/AppError')
 const DiskStorage = require('../providers/DiskStorage')
+const Swal = require('sweetalert2')
 
 class UserAvatarController {
   async update(request, response) {

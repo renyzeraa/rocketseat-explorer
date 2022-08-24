@@ -9,6 +9,7 @@ import { Button } from '../../components/Button'
 import { ButtonText } from '../../components/ButtonText'
 import { useNavigate } from 'react-router-dom'
 import { api } from '../../service/api'
+import Swal from 'sweetalert2'
 
 export function New() {
   const [title, setTitle] = useState('')
@@ -46,20 +47,45 @@ export function New() {
 
   async function handleNewNote() {
     if (!title) {
-      return alert('Coloque um título para sua Nota')
+      return Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Título obrigatório'
+      })
     }
     if (!descriptions) {
-      return alert('Coloque uma desrição')
+      return Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Descrição é obrigatório'
+      })
     }
     if (newLink) {
-      return alert('Ficou um link sem ser adicionado')
+      return Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Ficou um link sem ser adicionado'
+      })
     } else if (links.length === 0) {
-      return alert('Coloque um link pelo menos')
+      return Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Coloque um link pelo menos'
+      })
     }
     if (newTag) {
-      return alert('Ficou uma tag sem ser adicionada')
-    } else if (tags.length === 0) {
-      return alert('Coloque uma tag pelo menos')
+      return Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Ficou uma tag sem ser adicionada'
+      })
+    }
+    if (tags.length <= 0) {
+      return Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Coloque uma tag pelo menos'
+      })
     }
 
     await api.post('/notes', {
@@ -69,7 +95,12 @@ export function New() {
       links
     })
 
-    alert('Nota Criada Com Sucesso')
+    Swal.fire({
+      icon: 'success',
+      title: 'Nota Criada Com Sucesso',
+      showConfirmButton: false,
+      timer: 1200
+    })
     navigate(-1)
   }
 

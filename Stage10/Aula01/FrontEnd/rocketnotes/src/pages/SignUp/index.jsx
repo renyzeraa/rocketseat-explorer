@@ -4,8 +4,8 @@ import { Button } from '../../components/Button'
 import { Input } from '../../components/Input'
 import { Link, useNavigate } from 'react-router-dom'
 import { api } from '../../service/api'
-
 import { FiUser, FiMail, FiLock } from 'react-icons/fi'
+import Swal from 'sweetalert2'
 
 export function SignUp() {
   const [name, setName] = useState('')
@@ -16,20 +16,49 @@ export function SignUp() {
 
   function handleSignUp() {
     if (!name || !email || !password) {
-      return alert('Preencha todos o campos')
+      return Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Preencha todos os campos!'
+      })
+    }
+
+    let regex =
+      /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i
+    api
+
+    if (!email || regex.test(email) === false) {
+      return Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Por favor insira um email valido !'
+      })
     }
 
     api
       .post('/users/', { name, email, password })
       .then(() => {
-        alert('Usuario cadastrado com sucesso')
+        Swal.fire({
+          icon: 'success',
+          title: 'Usuário cadastrado com sucesso',
+          showConfirmButton: false,
+          timer: 1500
+        })
         navigate('/')
       })
       .catch(error => {
         if (error.response) {
-          alert(error.response.data.message)
+          Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: error.response.data.message
+          })
         } else {
-          alert('Não foi possivel cadastrar')
+          Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Não foi possível cadastrar'
+          })
         }
       })
   }

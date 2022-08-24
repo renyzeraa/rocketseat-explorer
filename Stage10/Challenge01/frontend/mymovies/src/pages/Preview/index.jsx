@@ -39,7 +39,6 @@ export function Preview() {
     }).then(result => {
       if (result.isConfirmed) {
         Swal.fire({
-          position: 'top-end',
           icon: 'success',
           title: 'Nota removida com sucesso!',
           showConfirmButton: false,

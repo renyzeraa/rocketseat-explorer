@@ -7,6 +7,7 @@ import { ButtonText } from '../../components/ButtonText'
 import { useParams, useNavigate } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import { api } from '../../service/api'
+import Swal from 'sweetalert2'
 
 export function Details() {
   const [data, setData] = useState(null)
@@ -18,12 +19,30 @@ export function Details() {
   }
 
   async function handleRemove() {
-    const confirm = window.confirm('Você quer realmente remover ?')
-
-    if (confirm) {
+    async function remove() {
       await api.delete(`/notes/${params.id}`)
-      navigate(-1)
     }
+
+    Swal.fire({
+      title: 'Are you sure?',
+      text: "You won't be able to revert this!",
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonColor: '#7066e0',
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'Yes, delete it!'
+    }).then(result => {
+      if (result.isConfirmed) {
+        Swal.fire({
+          icon: 'success',
+          title: 'Nota removida com sucesso!',
+          showConfirmButton: false,
+          timer: 1500
+        })
+        remove()
+        navigate(-1)
+      }
+    })
   }
 
   useEffect(() => {

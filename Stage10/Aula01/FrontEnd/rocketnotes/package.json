@@ -14,7 +14,8 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.3.0",
-    "styled-components": "^5.3.5"
+    "styled-components": "^5.3.5",
+    "sweetalert2": "^11.4.29"
   },
   "devDependencies": {
     "@types/react": "^18.0.15",
