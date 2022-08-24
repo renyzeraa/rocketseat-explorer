@@ -4,3 +4,4 @@ database.db
 *.vscode
 uploads/*.png
 uploads/*.jpg
+*.env
