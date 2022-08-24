@@ -1,6 +1,6 @@
 node_modules
 
 database.db
-.vscode
+*.vscode
 uploads/*.png
 uploads/*.jpg
