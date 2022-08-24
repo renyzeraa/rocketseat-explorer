@@ -1,22 +1,23 @@
-## Stage 11 - Deploy de Back End e Front End 📋🐱‍👤
+# Stage 11 - Deploy de Back End e Front End 📋🐱‍👤
 
 ---
 
-# Preparando o Deploy
+### Preparando o Deploy
 
 🚀 O que é Deploy </br>
 🚀 Dados sensíveis </br>
+🚀 .env </br>
 🚀 Dontenv e configuração </br>
 🚀 PM2 e Configuração
 
-## 🤔 O que aprendi após finalizar esse módulo?
+### 🤔 O que aprendi após finalizar esse módulo?
 
 - [ ] Deploy;
 - [ ] Dados sensíveis;
 - [ ] Dontenv;
 - [ ] PM2;
 
-# Deploy do Back End
+### Deploy do Back End
 
 🚀 Heroku </br>
 🚀 Criar app no Heroku </br>
@@ -27,7 +28,7 @@
 🚀 Testar o Back End </br>
 🚀 Cuidar com a inatividade do Heroku
 
-## 🤔 O que aprendi após finalizar esse módulo?
+### 🤔 O que aprendi após finalizar esse módulo?
 
 - [ ] Heroku;
 - [ ] Todas configurações necessárias para subir um app;
@@ -35,14 +36,14 @@
 - [ ] Logs;
 - [ ] Testar o Back End;
 
-# Deploy do Front End
+### Deploy do Front End
 
 🚀 Conectando com o Back end </br>
 🚀 Netlify </br>
 🚀 Deploy Web </br>
 🚀 Testar todas funcionalidades
 
-## 🤔 O que aprendi após finalizar esse módulo?
+### 🤔 O que aprendi após finalizar esse módulo?
 
 - [ ] Netlify;
 - [ ] Todas configurações necessárias para subir um app Web ;
