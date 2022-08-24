@@ -59,7 +59,7 @@ Ficou curioso em como ficou?, no próximo stage 11, a aplicação estará online
 
 ### Preview do projeto 🤩
 
-[![Video Preview](imagem preview do projeto aqui)](link.aqui)
+[![Video Preview](https://user-images.githubusercontent.com/101990719/186289394-b1b1dcb5-9700-4abd-9866-ec3f1e6e1caf.png)](https://user-images.githubusercontent.com/101990719/186289263-10fe0120-f618-4dba-b769-4b289d2cdc7c.mp4)
 
 </div>
 
