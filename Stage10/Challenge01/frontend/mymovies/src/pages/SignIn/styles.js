@@ -40,6 +40,10 @@ export const Form = styled.form`
   button {
     margin-top: 24px;
   }
+
+  @media (max-width: 580px) {
+    padding: 0 30px;
+  }
 `
 
 export const Background = styled.div`
