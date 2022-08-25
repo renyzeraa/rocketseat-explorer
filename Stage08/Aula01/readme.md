@@ -1,8 +1,6 @@
 <div align="center">
 
-# Preview do projeto 🤩
-
-https://user-images.githubusercontent.com/101990719/184451975-be09b04c-4026-4635-9c8e-4c262917b01e.mp4
+# Backend da aplicação Rocket Notes
 
 </div>
 
