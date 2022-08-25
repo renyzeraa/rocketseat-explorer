@@ -25,7 +25,6 @@
 
 ### 💻 Stage 06 - Parte 2
 
-🚀 Apresentação dos conceitos e projeto desta etapa. </br>
 🚀 Construindo tabelas no HTML. </br>
 🚀 Iniciando o CSS e definindo acessibilidade sr-only. </br>
 🚀 Finalizando o CSS. </br>

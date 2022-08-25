@@ -1,6 +1,8 @@
 <div align="center">
 
-# Preview do projeto 🤩
+## <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage06/aula2/"> 🛫 Deploy Aula 02 </a>&nbsp; </br>
+
+### Preview do projeto 🤩
 
 ![Screenshot_1](https://user-images.githubusercontent.com/101990719/184452218-98dfdc6f-6eb8-4e1d-9b2f-d9e6c0ba03f9.png)
 
