@@ -12,8 +12,7 @@
 
 </aside>
 
-Bora praticar e rever tudo o que foi ensinado na aula? **💜**
-Nesse desafio, você irá solicitar ao usuário que ele insira **dois números** e, a partir daí, calcular:
+Nesse desafio, irá solicitar ao usuário que ele insira **dois números** e, a partir daí, calcular:
 
 - [ ] A soma dos dois números;
 - [ ] A subtração dos dois números;
@@ -25,16 +24,6 @@ Fácil até aqui, né? Bora se desafiar? 👀 🧑‍🚀
 
 - [ ] Verifique se a soma dos dois números é par ~~(ou ímpar)~~;
 - [ ] Verifique se os dois números inseridos são iguais ~~(ou diferentes)~~.
-
-Lembre-se de sempre mostrar na tela o resultado de cada uma dessas operações!
-O resultado final desse desafio deve ser algo em torno de:
-
-![Peek 17-04-2022 16-28.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/878063cf-9875-4d87-b413-e566936b8297/Peek_17-04-2022_16-28.gif)
-
-E então, topa encarar esse desafio? **💜**
-Vai ser muito importante para o seu aprendizado rever e aplicar esses novos conceitos.
-
-Boa sorte e boooooora codar! **🚀**
 
 <div align="center">
 
@@ -51,17 +40,15 @@ Boa sorte e boooooora codar! **🚀**
  
 </div>
 
-## Contact
+### Contato
 
-<img align="left" src="https://avatars.githubusercontent.com/renyzeraa?size=100">
+<img align="left" src="https://www.github.com/renyzeraa.png?size=150">
 
-Made with ❤️ by [Renan L. Silva](https://github.com/renyzeraa)! <br>
-🛠 Frontend Developer Jr. <br>
-📍 Santa Catarina - Brazil <br>
+### [**Renan Leandro da Silva**](https://github.com/renyzeraa)
 
-<a href="https://www.linkedin.com/in/renyzeraa" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn Badge" height="20"></a>&nbsp;
-<a href="mailto:renansilvaytb@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail Badge" height="20"></a>&nbsp;
-<a href="#"><img src="https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white" title="renan_s#7826" alt="Discord Badge" height="20"></a>&nbsp;
-<a href="https://www.github.com/renyzeraa" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" alt="GitHub Badge" height="20"></a>&nbsp;
+🛠 `Frontend` Developer Jr. <br>
+📍 Santa Catarina - Brazil
+
+<a href="https://www.linkedin.com/in/renyzeraa" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn Badge" height="25"></a>&nbsp;<a href="mailto:renansilvaytb@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail Badge" height="25"></a>&nbsp;<a href="#"><img src="https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white" title="renan_s#7826" alt="Discord Badge" height="25"></a>&nbsp;<a href="https://www.github.com/renyzeraa" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" alt="GitHub Badge" height="25"></a>&nbsp;
 
 <br clear="left"/>
