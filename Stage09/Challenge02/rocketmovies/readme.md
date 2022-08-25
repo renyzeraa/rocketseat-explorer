@@ -1,14 +1,14 @@
-# Front-end da aplicação: Rocket.js
+# Front-end da aplicação: My Movies
 
 # 💻 Sobre o desafio
 
-Para praticar React.js, foi proposto o desafio de montar a aplicação do Rocket Movies 💜, pois no desafio do Stage 08, foi feita a parte de Back-end da aplicação (API).
+Para praticar React.js, foi proposto o desafio de montar a aplicação do My Movies 💜, pois no desafio do Stage 08, foi feita a parte de Back-end da aplicação (API).
 
-Segue o [link](https://www.figma.com/file/UObYagRzmvi5PY4HhmzEHM/RocketMovies/duplicate) do layout do figma dessa aplicação: o **RocketMovies.**
+Segue o [link](https://www.figma.com/file/UObYagRzmvi5PY4HhmzEHM/RocketMovies/duplicate) do layout do figma dessa aplicação: o **My Movies.**
 
 Agora botando a mão na massa, tive a experiencia muito daora de fazer uma aplicação com o react.js. Eu ja gostava do front-end antes, mas agora, to mais animado ainda em criar páginas interativas!. Foi muito importante para o meu aprendizado rever e aplicar esses novos conceitos vistos neste modulo 09.
 
-![Untitled](https://user-images.githubusercontent.com/101990719/183761835-5b25f316-2bda-47e8-9681-c741caa3bf1c.png)
+![Screenshot_1](https://user-images.githubusercontent.com/101990719/186695373-6d44d6a0-be9e-4448-9ce6-b83a3c207bea.png)
 
 <div align="center">
 
