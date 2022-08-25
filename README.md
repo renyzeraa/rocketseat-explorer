@@ -120,7 +120,7 @@ Repositório Licenciado ⚖ [![Licence](https://img.shields.io/github/license/Il
 
 <a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage06/aula1"> 📦 Repo Aula 01 </a>&nbsp; </br>
 <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage06/aula2/"> 🚀 Deploy Aula 02 </a>&nbsp; </br>
-<a href="https://github.com/renyzeraa/rocketseat-explorer/tree/master/Stage06/Challenge1"> 📦 Repo Desafio 01 - Spa Universe 🌌 </a>&nbsp; </br>
+<a href="https://spa-universe-app.netlify.app/"> 🚀 Deploy Desafio 01 - Spa Universe 🌌 </a>&nbsp; </br>
 <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage06/Challenge2"> 🚀 Deploy Desafio 02 - Git Favorite 🐈 </a>&nbsp; </br>
 
 ---
