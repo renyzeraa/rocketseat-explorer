@@ -48,8 +48,6 @@ O Token que o usuário irá gerar, sera o JTW , um padrão de mercado que define
 <p> Na junção do frontend com minha API, temos uma API RESTful, é um tipo de arquitetura de software, que leva em consideração diretrizes e boas recomendações onde o cliente e o servidor devem ser separados, - exemplo: aplicações em nuvem (servidores cloud) - o estado(javascript) no navegador, ficara responsável de guardar informações ate que seja necessário ser mandado para o backend. Assim o usuário apenas envia dados necessários e recebe uma resposta, não precisando saber de fato como foi implementada. </p>
 <p> Por dentro do site, a Home(página inicial), aparecerá as Notas de Filmes criadas, como o usuário é novo estará aparecendo nenhuma. Para criar basta clicar em Adicionar Filme. Na tela de adicionar, Será obrigatório colocar o título do filme, sua nota de mínimo 0 e máximo 5, Observação (um breve resumo feito por você), marcadores para a categoria que o filme compreende (Ação, Aventura, Suspense, Comédia, etc), e salvando, você retorna para a Home. Também tem a possibilidade de editar o perfil na parte de cima da página, clicando no nome ou na foto, irá para a pagina de perfil, poderá editar nome, senha, e trocar também a foto do perfil. </p>
 Clicando em uma nota criada, acessara todos o detalhes da nota, vendo que criou, hora, nota, e os detalhes que foram preenchidos na hora da crianção.
-Para integrar o
-Ficou curioso em como ficou?, no próximo stage 11, a aplicação estará online e operante, aguardem 😂.
 
 ---
 
@@ -60,6 +58,8 @@ Ficou curioso em como ficou?, no próximo stage 11, a aplicação estará online
 ### Preview do projeto 🤩
 
 [![Video Preview](https://user-images.githubusercontent.com/101990719/186289394-b1b1dcb5-9700-4abd-9866-ec3f1e6e1caf.png)](https://user-images.githubusercontent.com/101990719/186289263-10fe0120-f618-4dba-b769-4b289d2cdc7c.mp4)
+
+<a href="https://my-movies-aplication.netlify.app/" target="_blank" > <h1> **Deploy 🚀** </h1></a>
 
 </div>
 
