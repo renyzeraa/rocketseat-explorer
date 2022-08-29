@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --title-color: #0c3440;
+  --label-color: #00453a;
+  --input-text-color: #212529;
+  --input-border: #9fd0df;
+  --bg-color: #040924;
+  --bg-error-color: #f03e3e;
+  --bg-input-color: #dce2e9;
+  --button-color: #02799d;
+  --ff-text: 'Roboto', sans-serif;
+
+  font-size: 62.5%;
+}
+
+body {
+  background: #040924;
+  font-size: 1.6rem;
+  font-family: var(--ff-text);
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 0 40px;
+}
+
+.card {
+  width: 42.6rem;
+  padding: 4.8rem 6.4rem;
+  background: #ffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+
+form {
+  display: grid;
+  max-width: 300px;
+}
+
+.card h1 {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4rem;
+  color: var(--title-color);
+  margin-bottom: 3.2rem;
+}
+
+form label {
+  margin-bottom: 8px;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: var(--label-color);
+}
+
+form input {
+  margin-bottom: 3.2rem;
+  padding: 1.6rem;
+  background: var(--bg-input-color);
+  border: 1px solid var(--input-border);
+  border-radius: 4px;
+
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+form .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+
+  background: var(--button-color);
+  border-radius: 4px;
+  border: 0;
+
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
+form .button:hover {
+  transition: 0.6s;
+  filter: grayscale(1.1);
+}
+
+.modal-wrapper.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-wrapper {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  display: grid;
+  place-content: center;
+
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modal {
+  position: relative;
+  text-align: center;
+  max-width: 380px;
+}
+
+.modal h1 {
+  margin-bottom: 0;
+}
+
+.close {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 1.6rem;
+  right: 1.6rem;
+}
+
+.alert-error.open {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.alert-error {
+  background: var(--bg-error-color);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 3.6rem;
+
+  display: flex;
+  place-content: center;
+  align-items: center;
+
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: transform 0.5s;
+}
