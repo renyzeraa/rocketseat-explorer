@@ -49,11 +49,27 @@
 - [ ] Todas configurações necessárias para subir um app Web ;
 - [ ] Deploy Web;
 
+### Teste com Jest
+
+🚀 Conceito de teste </br>
+🚀 Jest Config </br>
+🚀 Executar testes </br>
+🚀 Inversão de Dependência </br>
+🚀 Jest watch </br>
+🚀 beforeEach
+
+### 🤔 O que aprendi após finalizar esse módulo?
+
+- [ ] Como funciona testes automatizados;
+- [ ] O que é Jest ;
+- [ ] Como configurar o Jest;
+- [ ] Criando testes;
+
 ---
 
 #### Stacks utilizadas
 
-![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
 
 ---
 
