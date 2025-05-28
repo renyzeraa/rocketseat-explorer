@@ -11,6 +11,8 @@ Apos visitar o **Dribbble** e o **UpLabs**, e escolhi um projeto para fazer. Par
 
 # <a href="https://renyzeraa.github.io/rocketseat-explorer/Stage09/Challenge01" > Deploy 🛫 </a>
 
+![image](https://github.com/user-attachments/assets/1b4ca238-1d8a-4257-ac5d-06ed88ab6553)
+
 ### Para fazer este projeto usei 👇
 
 <span>
